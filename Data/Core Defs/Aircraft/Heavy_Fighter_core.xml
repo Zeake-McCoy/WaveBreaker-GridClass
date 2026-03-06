@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShipCore>
+  <SubtypeId>VTOL_Fighter</SubtypeId>
+  <UniqueName>VTOL Fighter</UniqueName>
+  <ForceBroadCast>false</ForceBroadCast>
+  <ForceBroadCastRange>0</ForceBroadCastRange>
+  <MobilityType>Mobile</MobilityType>
+  <MaxBlocks>-1</MaxBlocks>
+  <MaxMass>20000</MaxMass>
+  <MaxPCU>-1</MaxPCU>
+  <MaxBackupCores>1</MaxBackupCores>
+  <MaxPerPlayer>-1</MaxPerPlayer>
+  <MinPlayers>-1</MinPlayers>
+  <MaxPerFaction>8</MaxPerFaction>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
+  <SpeedLimitType>Normal</SpeedLimitType>
+  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <Modifiers>
+    <AssemblerSpeed>1</AssemblerSpeed>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
+    <GyroEfficiency>1</GyroEfficiency>
+    <GyroForce>1</GyroForce>
+    <PowerProducersOutput>1</PowerProducersOutput>
+    <RefineEfficiency>1</RefineEfficiency>
+    <RefineSpeed>1</RefineSpeed>
+    <ThrusterEfficiency>1</ThrusterEfficiency>
+    <ThrusterForce>1</ThrusterForce>
+  </Modifiers>
+  <SpeedModifiers>
+    <MaxSpeed>0.935</MaxSpeed>
+    <MaxBoost>0.968</MaxBoost>
+    <BoostDuration>15</BoostDuration>
+    <BoostCoolDown>60</BoostCoolDown>
+    <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
+    <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
+    <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+  </SpeedModifiers>
+  <PassiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <PostShield>0</PostShield>
+    <Duration>0</Duration>
+    <Cooldown>0</Cooldown>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+  </PassiveDefenseModifiers>
+  <ActiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <PostShield>1</PostShield>
+    <Duration>0</Duration>
+    <Cooldown>0</Cooldown>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+  </ActiveDefenseModifiers>
+  <BlockLimits>
+    <Name>VTF Thrust</Name>
+    <BlockGroups>CSG_Air_Thrust</BlockGroups>
+    <MaxCount>60</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
+    <AllowedDirections>Backward</AllowedDirections>
+    <AllowedDirections>Up</AllowedDirections>
+    <AllowedDirections>Down</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF Weapon PTS</Name>
+    <BlockGroups>LF_Weapon_PTS</BlockGroups>
+    <MaxCount>28</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-NW 30mm</Name>
+    <BlockGroups>CSG_NW_30mm</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-NW 30mm RT</Name>
+    <BlockGroups>CSG_NW_30mm_RT</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-NW 30mm Turret</Name>
+    <BlockGroups>CSG_NW_30mm_Turret</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-NW 203</Name>
+    <BlockGroups>CSG_NW_203</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-NW 75mm RG</Name>
+    <BlockGroups>CSG_NW_75mm_RG</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-NW 150mm RG</Name>
+    <BlockGroups>CSG_NW_150mm_RG</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 50Cal</Name>
+    <BlockGroups>CSG_CAP_50Cal</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 20mm AC</Name>
+    <BlockGroups>CSG_CAP_20mm_AC</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 20mm RT</Name>
+    <BlockGroups>CSG_CAP_20mm_RT</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 20mm TR-6</Name>
+    <BlockGroups>CSG_CAP_20mm_TR_6</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 30mm C</Name>
+    <BlockGroups>CSG_CAP_30mm_C</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 40mm</Name>
+    <BlockGroups>CSG_CAP_40mm</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 57mm AC</Name>
+    <BlockGroups>CSG_CAP_57mm_AC</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 250lb</Name>
+    <BlockGroups>CSG_CAP_250lb</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP 1000lb</Name>
+    <BlockGroups>CSG_CAP_1000lb</BlockGroups>
+    <MaxCount>30</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Hydra</Name>
+    <BlockGroups>CSG_CAP_Hydra</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP AA Pod</Name>
+    <BlockGroups>CSG_CAP_AA_Pod</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Hellfire S</Name>
+    <BlockGroups>CSG_CAP_Hellfire_S</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Hellfire D</Name>
+    <BlockGroups>CSG_CAP_Hellfire_D</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Hellfire Q</Name>
+    <BlockGroups>CSG_CAP_Hellfire_Q</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP AGM-84</Name>
+    <BlockGroups>CSG_CAP_AGM_84</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Torp</Name>
+    <BlockGroups>CSG_CAP_Torp</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Aim-9</Name>
+    <BlockGroups>CSG_CAP_Aim_9</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Aim-7</Name>
+    <BlockGroups>CSG_CAP_Aim_7</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Aim-54</Name>
+    <BlockGroups>CSG_CAP_Aim_54</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-CAP Aim-120</Name>
+    <BlockGroups>CSG_CAP_Aim_120</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 25mm</Name>
+    <BlockGroups>CSG_ZRO_25mm</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 30mm RT</Name>
+    <BlockGroups>CSG_ZRO_30mm_RT</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 57mm AC</Name>
+    <BlockGroups>CSG_ZRO_57mm_AC</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 25mm G</Name>
+    <BlockGroups>CSG_ZRO_25mm_G</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 57mm G</Name>
+    <BlockGroups>CSG_ZRO_57mm_G</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 105mm G</Name>
+    <BlockGroups>CSG_ZRO_105mm_G</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 30mm AC-T</Name>
+    <BlockGroups>CSG_ZRO_30mm_AC_T</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO R-ATGM</Name>
+    <BlockGroups>CSG_ZRO_R_ATGM</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 500kg 1</Name>
+    <BlockGroups>CSG_ZRO_500kg_1</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 500kg 2</Name>
+    <BlockGroups>CSG_ZRO_500kg_2</BlockGroups>
+    <MaxCount>8</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 500kg 3</Name>
+    <BlockGroups>CSG_ZRO_500kg_3</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO 500kg 5</Name>
+    <BlockGroups>CSG_ZRO_500kg_5</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO Rev Bay</Name>
+    <BlockGroups>CSG_ZRO_Rev_Bay</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO CAGM-12</Name>
+    <BlockGroups>CSG_ZRO_CAGM_12</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO ASHM</Name>
+    <BlockGroups>CSG_ZRO_ASHM</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO EXSRAAM</Name>
+    <BlockGroups>CSG_ZRO_EXSRAAM</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO MRAAM 1</Name>
+    <BlockGroups>CSG_ZRO_MRAAM_1</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO MRAAM 2</Name>
+    <BlockGroups>CSG_ZRO_MRAAM_2</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO MRAAM 3</Name>
+    <BlockGroups>CSG_ZRO_MRAAM_3</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-ZRO MRAAM 5</Name>
+    <BlockGroups>CSG_ZRO_MRAAM_5</BlockGroups>
+    <MaxCount>1</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS AGL-6</Name>
+    <BlockGroups>CSG_KGS_AGL_6</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS MG-7</Name>
+    <BlockGroups>CSG_KGS_MG_7</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS MG-12</Name>
+    <BlockGroups>CSG_KGS_MG_12</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 25mm AC</Name>
+    <BlockGroups>CSG_KGS_25mm_AC</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 30mm M</Name>
+    <BlockGroups>CSG_KGS_30mm_M</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 30mm S</Name>
+    <BlockGroups>CSG_KGS_30mm_S</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 35mm</Name>
+    <BlockGroups>CSG_KGS_35mm</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 45mm</Name>
+    <BlockGroups>CSG_KGS_45mm</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 57mm</Name>
+    <BlockGroups>CSG_KGS_57mm</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 76mm F</Name>
+    <BlockGroups>CSG_KGS_76mm_F</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 75mm M</Name>
+    <BlockGroups>CSG_KGS_75mm_M</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 75mm AC</Name>
+    <BlockGroups>CSG_KGS_75mm_AC</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 88mm</Name>
+    <BlockGroups>CSG_KGS_88mm</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 100mm D10</Name>
+    <BlockGroups>CSG_KGS_100mm_D10</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 105mm L</Name>
+    <BlockGroups>CSG_KGS_105mm_L</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 105 M</Name>
+    <BlockGroups>CSG_KGS_105_M</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 120mm R</Name>
+    <BlockGroups>CSG_KGS_120mm_R</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 120mm L</Name>
+    <BlockGroups>CSG_KGS_120mm_L</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 120mm M</Name>
+    <BlockGroups>CSG_KGS_120mm_M</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 125mm</Name>
+    <BlockGroups>CSG_KGS_125mm</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 125mm A</Name>
+    <BlockGroups>CSG_KGS_125mm_A</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 130mm</Name>
+    <BlockGroups>CSG_KGS_130mm</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 140mm</Name>
+    <BlockGroups>CSG_KGS_140mm</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 152mm G</Name>
+    <BlockGroups>CSG_KGS_152mm_G</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 152mm H</Name>
+    <BlockGroups>CSG_KGS_152mm_H</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 183mm</Name>
+    <BlockGroups>CSG_KGS_183mm</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS MLRS</Name>
+    <BlockGroups>CSG_KGS_MLRS</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-KGS Kornet</Name>
+    <BlockGroups>CSG_KGS_Kornet</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS Spike</Name>
+    <BlockGroups>CSG_KGS_Spike</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS Crotale</Name>
+    <BlockGroups>CSG_KGS_Crotale</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-KGS 81mm Mortar</Name>
+    <BlockGroups>CSG_KGS_81mm_Mortar</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-73M</Name>
+    <BlockGroups>CSG_LNX_R_73M</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-73M B3</Name>
+    <BlockGroups>CSG_LNX_R_73M_B3</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX IRIS-T</Name>
+    <BlockGroups>CSG_LNX_IRIS_T</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-27ET</Name>
+    <BlockGroups>CSG_LNX_R_27ET</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-27ET IR</Name>
+    <BlockGroups>CSG_LNX_R_27ET</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX AIM-120</Name>
+    <BlockGroups>CSG_LNX_AIM_120</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-77</Name>
+    <BlockGroups>CSG_LNX_R_77</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-77 B2</Name>
+    <BlockGroups>CSG_LNX_R_77_B2</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX Meteor</Name>
+    <BlockGroups>CSG_LNX_Meteor</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-VV-AE-PD</Name>
+    <BlockGroups>CSG_LNX_R_VV_AE_PD</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX R-37M</Name>
+    <BlockGroups>CSG_LNX_R_37M</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX AIM-260</Name>
+    <BlockGroups>CSG_LNX_AIM_260</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX AGM-114</Name>
+    <BlockGroups>CSG_LNX_AGM_114</BlockGroups>
+    <MaxCount>12</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX AGM-114 C</Name>
+    <BlockGroups>CSG_LNX_AGM_114_C</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX AGM-84</Name>
+    <BlockGroups>CSG_LNX_AGM_84</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX KH-32AD</Name>
+    <BlockGroups>CSG_LNX_KH_32AD</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX KH-31PK</Name>
+    <BlockGroups>CSG_LNX_KH_31PK</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX P-270</Name>
+    <BlockGroups>CSG_LNX_P_270</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX S1-M</Name>
+    <BlockGroups>CSG_LNX_S1_M</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX FAB-500</Name>
+    <BlockGroups>CSG_LNX_FAB_500</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX KAB-500</Name>
+    <BlockGroups>CSG_LNX_KAB_500</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX KAB-1500</Name>
+    <BlockGroups>CSG_LNX_KAB_1500</BlockGroups>
+    <MaxCount>10</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX KAB-1500 B1</Name>
+    <BlockGroups>CSG_LNX_KAB_1500_B1</BlockGroups>
+    <MaxCount>5</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX GBU-43</Name>
+    <BlockGroups>CSG_LNX_GBU_43</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX S-400</Name>
+    <BlockGroups>CSG_LNX_S_400</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX 400 4M</Name>
+    <BlockGroups>CSG_LNX_400_4M</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX MK13</Name>
+    <BlockGroups>CSG_LNX_MK13</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTF-LNX MK XI</Name>
+    <BlockGroups>CSG_LNX_MK_XI</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+</ShipCore>

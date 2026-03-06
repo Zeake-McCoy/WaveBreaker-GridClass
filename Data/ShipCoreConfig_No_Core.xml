@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShipCore>
+  <SubtypeId>NO_CORE_DEFAULT</SubtypeId>
+  <UniqueName>Undefined</UniqueName>
+  <ForceBroadCast>false</ForceBroadCast>
+  <ForceBroadCastRange>2000</ForceBroadCastRange>
+  <MobilityType>Both</MobilityType>
+  <MaxBlocks>-1</MaxBlocks>
+  <MaxMass>-1</MaxMass>
+  <MaxPCU>-1</MaxPCU>
+  <MaxBackupCores>-1</MaxBackupCores>
+  <MaxPerPlayer>-1</MaxPerPlayer>
+  <MinPlayers>-1</MinPlayers>
+  <MaxPerFaction>-1</MaxPerFaction>
+  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <SpeedLimitType>Normal</SpeedLimitType>
+  <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <Modifiers>
+    <AssemblerSpeed>1</AssemblerSpeed>
+    <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
+    <GyroEfficiency>1</GyroEfficiency>
+    <GyroForce>1</GyroForce>
+    <PowerProducersOutput>1</PowerProducersOutput>
+    <RefineEfficiency>1</RefineEfficiency>
+    <RefineSpeed>1</RefineSpeed>
+    <ThrusterEfficiency>1</ThrusterEfficiency>
+    <ThrusterForce>1</ThrusterForce>
+  </Modifiers>
+  <SpeedModifiers>
+    <MaxSpeed>0.3</MaxSpeed>
+    <MaxBoost>0.5</MaxBoost>
+    <BoostDuration>10</BoostDuration>
+    <BoostCoolDown>60</BoostCoolDown>
+    <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
+    <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
+    <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
+    <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
+    <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+  </SpeedModifiers>
+  <PassiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <PostShield>1</PostShield>
+    <Duration>0</Duration>
+    <Cooldown>0</Cooldown>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+  </PassiveDefenseModifiers>
+  <ActiveDefenseModifiers>
+    <Bullet>1</Bullet>
+    <PostShield>1</PostShield>
+    <Duration>0</Duration>
+    <Cooldown>0</Cooldown>
+    <Rocket>1</Rocket>
+    <Explosion>1</Explosion>
+    <Environment>1</Environment>
+    <Energy>1</Energy>
+    <Kinetic>1</Kinetic>
+  </ActiveDefenseModifiers>
+  <BlockLimits>
+    <Name>UND Weapon PTS</Name>
+    <BlockGroups>UND_Weapon_PTS</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>UND Forbidden</Name>
+    <BlockGroups>UND_Forbidden</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>UND MultiTools</Name>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+  <BlockLimits>
+    <Name>UND Extractors</Name>
+    <BlockGroups>CLG_Extractors</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+
+  </BlockLimits>
+</ShipCore>

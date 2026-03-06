@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CoreManifest>
+  <ShipCoreFilenames>Data/Cores/Airfield_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Attack_Helicopter_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Battleship_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Carrier_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Civilian_Aircraft_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Corvette_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Destroyer_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Factory_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Firebase_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Fort_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Freighter_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Frigate_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/GunBoat_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Headquarters_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Heavy_Bomber_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Heavy_Cruiser_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Heavy_Fighter_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Infrastructure_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Light_Armored_Vehicle_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Light_Bomber_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Light_Cruiser_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Light_Fighter_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Main_Battle_Tank_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Outpost_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Rescource_Extractor_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Self_Propelled_Anti_Air_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Self_Propelled_Gun_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/ShipYard_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Submarine_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Utility_Ground_Vehicle_core.xml</ShipCoreFilenames>
+  <ShipCoreFilenames>Data/Cores/Utility_Helicopter_core.xml</ShipCoreFilenames>
+</CoreManifest>
