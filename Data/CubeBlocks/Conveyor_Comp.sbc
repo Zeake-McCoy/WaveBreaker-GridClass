@@ -4,136 +4,307 @@
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Battleship_Core</SubtypeId>
+                <SubtypeId>BB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Battleship_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="BB_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Cruiser_Core</SubtypeId>
+                <SubtypeId>CV_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Cruiser_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="CV_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Destroyer_Core</SubtypeId>
+                <SubtypeId>CA_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Destroyer_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="CA_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Fighter_Core</SubtypeId>
+                <SubtypeId>CL_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Fighter_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="CL_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Frigate_Core</SubtypeId>
+                <SubtypeId>DD_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Frigate_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="DD_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Gunship_Core</SubtypeId>
+                <SubtypeId>FF_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Gunship_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="FF_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Interceptor_Core</SubtypeId>
+                <SubtypeId>CR_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Interceptor_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="CR_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Citadel_Core</SubtypeId>
+                <SubtypeId>GB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Citadel_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="GB_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Outpost_Core</SubtypeId>
+                <SubtypeId>LS_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Outpost_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="LS_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Stronghold_Core</SubtypeId>
+                <SubtypeId>FR_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Stronghold_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="FR_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Test_Core</SubtypeId>
+                <SubtypeId>SUB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Test_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="SUB_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Courier_Core</SubtypeId>
+                <SubtypeId>HQ_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Courier_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="HQ_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Extractor_Core</SubtypeId>
+                <SubtypeId>FRT_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Extractor_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="FRT_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Harvester_Core</SubtypeId>
+                <SubtypeId>OP_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Harvester_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="OP_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
         <Container>
             <Id>
                 <TypeId>Beacon</TypeId>
-                <SubtypeId>Utility_Core</SubtypeId>
+                <SubtypeId>FB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
-                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="Utility_Core" ForceCreate="true"/>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="FB_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>ARF_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="ARF_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>FCT_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="FCT_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SY_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="SY_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>REX_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="REX_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>INF_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="INF_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>AH_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="AH_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>UH_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="UH_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LF_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="LF_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>HF_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="HF_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>VTF_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="VTF_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LB_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="LB_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>HB_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="HB_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>CIV_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="CIV_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>VTT_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="VTT_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>LAV_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="LAV_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>MBT_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="MBT_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SPG_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="SPG_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>SPAA_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="SPAA_Class" ForceCreate="true"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>Beacon</TypeId>
+                <SubtypeId>UGV_Class</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_ConveyorEndpointComponent" SubtypeId="UGV_Class" ForceCreate="true"/>
             </DefaultComponents>
         </Container>
     </EntityContainers>
@@ -141,105 +312,238 @@
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Battleship_Core</SubtypeId>
+                <SubtypeId>BB_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Cruiser_Core</SubtypeId>
+                <SubtypeId>CV_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Destroyer_Core</SubtypeId>
+                <SubtypeId>CA_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Fighter_Core</SubtypeId>
+                <SubtypeId>CL_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Frigate_Core</SubtypeId>
+                <SubtypeId>DD_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Gunship_Core</SubtypeId>
+                <SubtypeId>FF_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Interceptor_Core</SubtypeId>
+                <SubtypeId>CR_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Citadel_Core</SubtypeId>
+                <SubtypeId>GB_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Outpost_Core</SubtypeId>
+                <SubtypeId>LS_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Stronghold_Core</SubtypeId>
+                <SubtypeId>FR_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Test_Core</SubtypeId>
+                <SubtypeId>SUB_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Courier_Core</SubtypeId>
+                <SubtypeId>HQ_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Extractor_Core</SubtypeId>
+                <SubtypeId>FRT_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Harvester_Core</SubtypeId>
+                <SubtypeId>OP_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
             <Id>
                 <TypeId>ConveyorEndpointComponent</TypeId>
-                <SubtypeId>Utility_Core</SubtypeId>
+                <SubtypeId>FB_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>ARF_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>FCT_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>SY_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>REX_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>INF_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>AH_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>UH_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>LF_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>HF_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>VTF_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>LB_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>HB_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>CIV_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>VTT_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>LAV_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>MBT_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>SPG_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>SPAA_Class</SubtypeId>
+            </Id>
+            <AllowSelfPulling>true</AllowSelfPulling>
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_ConveyorEndpointComponentDefinition">
+            <Id>
+                <TypeId>ConveyorEndpointComponent</TypeId>
+                <SubtypeId>UGV_Class</SubtypeId>
             </Id>
             <AllowSelfPulling>true</AllowSelfPulling>
         </EntityComponent>

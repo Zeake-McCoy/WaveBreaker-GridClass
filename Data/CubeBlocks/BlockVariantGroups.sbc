@@ -2,45 +2,92 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <BlockVariantGroups>
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Station Cores" />
-            <Icon>Textures\LargeGridCore.png</Icon>
-            <Icon>Textures\Station_Basic.png</Icon>
-            <DisplayName>Station Cores</DisplayName>
-            <Description>Station Cores, the heart of you bases.</Description>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Naval Ship Cores" />
+            <Icon>Textures\LargeShip_Basic.png</Icon>
+            <DisplayName>Naval Ship Cores</DisplayName>
+            <Description>Naval Ship Cores, the necessary componets for the ultimate fleet.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Outpost_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Stronghold_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Citadel_Core" />
+                
+				<Block Type="MyObjectBuilder_Beacon" Subtype="BB_Class" />
+                
+				<Block Type="MyObjectBuilder_Beacon" Subtype="CV_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="CA_Class" />
+				<Block Type="MyObjectBuilder_Beacon" Subtype="CL_Class" />
+                
+				<Block Type="MyObjectBuilder_Beacon" Subtype="DD_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="FF_Class" />
+				<Block Type="MyObjectBuilder_Beacon" Subtype="CR_CLass" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="GB_Class" />
+                
+				<Block Type="MyObjectBuilder_Beacon" Subtype="LS_Class" />
+				
+				<Block Type="MyObjectBuilder_Beacon" Subtype="FR_Class" />
+				
+				<Block Type="MyObjectBuilder_Beacon" Subtype="SUB_Class" />
+				
             </Blocks>
         </BlockVariantGroup>
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Warship Cores" />
-            <Icon>Textures\LargeGridCore.png</Icon>
-            <Icon>Textures\LargeShip_Basic.png</Icon>
-            <DisplayName>Warship Cores</DisplayName>
-            <Description>Warship Cores, the necessary componets for the ultimate fleet.</Description>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ground Base Cores" />
+            <Icon>Textures\Station_Basic.png</Icon>
+            <DisplayName>Ground Base Cores</DisplayName>
+            <Description>Ground Base Cores, the heart of your factions ground bases.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Frigate_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Cruiser_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Destroyer_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Battleship_Core" />
+			
+                <Block Type="MyObjectBuilder_Beacon" Subtype="HQ_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="FRT_Class" />
                 
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Interceptor_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Fighter_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Gunship_Core" />                       
-            </Blocks>
+				<Block Type="MyObjectBuilder_Beacon" Subtype="OP_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="FB_Class" />
+                
+				<Block Type="MyObjectBuilder_Beacon" Subtype="ARF_Class" />
+                
+				<Block Type="MyObjectBuilder_Beacon" Subtype="FCT_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SY_Class" />   
+				
+				<Block Type="MyObjectBuilder_Beacon" Subtype="REX_Class" /> 
+				
+				<Block Type="MyObjectBuilder_Beacon" Subtype="INF_Class" /> 
+            
+			</Blocks>
         </BlockVariantGroup>
 
         <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Utility Cores" />
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Ground Vehicle Cores" />
             <Icon>Textures\LargeGridCore.png</Icon>
-            <DisplayName>Warship Cores</DisplayName>
-            <Description>Warship Cores, the necessary componets for the ultimate fleet.</Description>
+            <DisplayName>Ground Vehicle Cores</DisplayName>
+            <Description>Ground Vehicle Cores, the necessary componets for all your ground vehicles.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Utility_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Extractor_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Courier_Core" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="Harvester_Core" />               
+			
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LAV_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="MBT_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SPG_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="SPAA_Class" />
+				
+				<Block Type="MyObjectBuilder_Beacon" Subtype="UGV_Class" /> 
+            
+			</Blocks>
+        </BlockVariantGroup>
+		
+        <BlockVariantGroup>
+            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Aircraft Cores" />
+            <Icon>Textures\LargeGridCore.png</Icon>
+            <DisplayName>Aircraft Cores</DisplayName>
+            <Description>Aircraft Cores, the necessary componets for the various Aircraft.</Description>
+            <Blocks>
+
+                <Block Type="MyObjectBuilder_Beacon" Subtype="AH_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="UH_Class" />
+
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LF_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="HF_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="VTF_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LB_CLass" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="HB_Class" /> 
+				
+                <Block Type="MyObjectBuilder_Beacon" Subtype="CIV_Class" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="VTT_Class" />	
+				
             </Blocks>
         </BlockVariantGroup>
         
