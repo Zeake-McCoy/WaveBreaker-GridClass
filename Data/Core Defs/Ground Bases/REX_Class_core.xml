@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>UND_No_Class</SubtypeId>
-  <UniqueName>No Core</UniqueName>
+  <SubtypeId>REX_Class</SubtypeId>
+  <UniqueName>Rescource Extractor Core</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
-  <MobilityType>Both</MobilityType>
-  <MaxBlocks>-1</MaxBlocks>
+  <ForceBroadCastRange>10000</ForceBroadCastRange>
+  <MobilityType>Static</MobilityType>
+  <MaxBlocks>1200</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
-  <MaxBackupCores>-1</MaxBackupCores>
+  <MaxBackupCores>1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
-  <MaxPerFaction>-1</MaxPerFaction>
+  <MaxPerFaction>16</MaxPerFaction>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
-    <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
     <GyroEfficiency>1</GyroEfficiency>
     <GyroForce>1</GyroForce>
     <PowerProducersOutput>1</PowerProducersOutput>
-    <RefineEfficiency>1</RefineEfficiency>
-    <RefineSpeed>1</RefineSpeed>
-    <ThrusterEfficiency>1</ThrusterEfficiency>
-    <ThrusterForce>1</ThrusterForce>
+    <RefineEfficiency>1.3</RefineEfficiency>
+    <RefineSpeed>1.1</RefineSpeed>
+    <ThrusterEfficiency>0</ThrusterEfficiency>
+    <ThrusterForce>0</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.3</MaxSpeed>
-    <MaxBoost>0.5</MaxBoost>
+    <MaxSpeed>0</MaxSpeed>
+    <MaxBoost>0</MaxBoost>
     <BoostDuration>10</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
@@ -39,7 +39,7 @@
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
-    <PostShield>1</PostShield>
+    <PostShield>0</PostShield>
     <Duration>0</Duration>
     <Cooldown>0</Cooldown>
     <Rocket>1</Rocket>
@@ -59,5 +59,28 @@
     <Energy>1</Energy>
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
-
+  <BlockLimits>
+    <Name>REX Weapon PTS</Name>
+    <BlockGroups>REX_Weapon_PTS</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>REX MultiTools</Name>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>REX Extractors</Name>
+    <BlockGroups>CLG_Extractors</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>ShipYard</SubtypeId>
-  <UniqueName>ShipYard</UniqueName>
+  <SubtypeId>DD_Class</SubtypeId>
+  <UniqueName>Destroyer Core</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>10000</ForceBroadCastRange>
-  <MobilityType>Static</MobilityType>
-  <MaxBlocks>4500</MaxBlocks>
+  <ForceBroadCastRange>0</ForceBroadCastRange>
+  <MobilityType>Both</MobilityType>
+  <MaxBlocks>3400</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
-  <MaxBackupCores>1</MaxBackupCores>
+  <MaxBackupCores>2</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
-  <MaxPerFaction>3</MaxPerFaction>
-  <SpeedBoostEnabled>false</SpeedBoostEnabled>
+  <MaxPerFaction>4</MaxPerFaction>
+  <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
-    <AssemblerSpeed>1.3</AssemblerSpeed>
+    <AssemblerSpeed>0</AssemblerSpeed>
     <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
     <GyroEfficiency>1</GyroEfficiency>
     <GyroForce>1</GyroForce>
     <PowerProducersOutput>1</PowerProducersOutput>
-    <RefineEfficiency>1.3</RefineEfficiency>
-    <RefineSpeed>1.1</RefineSpeed>
-    <ThrusterEfficiency>0</ThrusterEfficiency>
-    <ThrusterForce>0</ThrusterForce>
+    <RefineEfficiency>0</RefineEfficiency>
+    <RefineSpeed>0</RefineSpeed>
+    <ThrusterEfficiency>1</ThrusterEfficiency>
+    <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0</MaxSpeed>
-    <MaxBoost>0</MaxBoost>
-    <BoostDuration>10</BoostDuration>
-    <BoostCoolDown>60</BoostCoolDown>
+    <MaxSpeed>0.29</MaxSpeed>
+    <MaxBoost>0.355</MaxBoost>
+    <BoostDuration>40</BoostDuration>
+    <BoostCoolDown>120</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
     <MaximumFrictionSpeedAbsolute>290</MaximumFrictionSpeedAbsolute>
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
@@ -60,264 +60,227 @@
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
-    <Name>SY Weapon PTS</Name>
-    <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
-    <MaxCount>24</MaxCount>
+    <Name>DD Weapon PTS</Name>
+    <BlockGroups>DD_Weapon_PTS</BlockGroups>
+    <MaxCount>44</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 500mm</Name>
+    <Name>DD-NW 500mm</Name>
     <BlockGroups>CLG_NW_500mm</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 400mm</Name>
+    <Name>DD-NW 400mm</Name>
     <BlockGroups>CLG_NW_400mm</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 300mm</Name>
+    <Name>DD-NW 300mm</Name>
     <BlockGroups>CLG_NW_300mm</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 203mm Twin</Name>
+    <Name>DD-NW 203mm Twin</Name>
     <BlockGroups>CLG_NW_203mm_Twin</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 203mm Deck</Name>
+    <Name>DD-NW 203mm Deck</Name>
     <BlockGroups>CLG_NW_203mm_Deck</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 100mm</Name>
+    <Name>DD-NW 100mm</Name>
     <BlockGroups>CLG_NW_100mm</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 30mm CIWS</Name>
+    <Name>DD-NW 30mm CIWS</Name>
     <BlockGroups>CLG_NW_30mm_CIWS</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 30mm Auto</Name>
+    <Name>DD-NW 30mm Auto</Name>
     <BlockGroups>CLG_NW_30mm_Auto</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW AMS</Name>
+    <Name>DD-NW AMS</Name>
     <BlockGroups>CLG_NW_AMS</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 75mm RG</Name>
+    <Name>DD-NW 75mm RG</Name>
     <BlockGroups>CLG_NW_75mm_RG</BlockGroups>
-    <MaxCount>3</MaxCount>
+    <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 150mm RG</Name>
+    <Name>DD-NW 150mm RG</Name>
     <BlockGroups>CLG_NW_150mm_RG</BlockGroups>
-    <MaxCount>3</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-NW 250mm RG</Name>
+    <Name>DD-NW 250mm RG</Name>
     <BlockGroups>CLG_NW_250mm_RG</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX 30mm CIWS G</Name>
+    <Name>DD-LX 30mm CIWS G</Name>
     <BlockGroups>CLG_LX_30mm_CIWS_G</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX 30mm CIWS P</Name>
+    <Name>DD-LX 30mm CIWS P</Name>
     <BlockGroups>CLG_LX_30mm_CIWS_P</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX Missile CIWS</Name>
+    <Name>DD-LX Missile CIWS</Name>
     <BlockGroups>CLG_LX_Missile_CIWS</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX 130mm S</Name>
+    <Name>DD-LX 130mm S</Name>
     <BlockGroups>CLG_LX_130mm_S</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX 130mm D</Name>
+    <Name>DD-LX 130mm D</Name>
     <BlockGroups>CLG_LX_130mm_D</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX S-400</Name>
+    <Name>DD-LX S-400</Name>
     <BlockGroups>CLG_LX_S_400</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX 3S14</Name>
+    <Name>DD-LX 3S14</Name>
     <BlockGroups>CLG_LX_3S14</BlockGroups>
     <MaxCount>3</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX P-270</Name>
+    <Name>DD-LX P-270</Name>
     <BlockGroups>CLG_LX_P_270</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX Zircon</Name>
+    <Name>DD-LX Zircon</Name>
     <BlockGroups>CLG_LX_Zircon</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX SUB VLS</Name>
+    <Name>DD-LX SUB VLS</Name>
     <BlockGroups>CLG_LX_SUB_VLS</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX RBU</Name>
+    <Name>DD-LX RBU</Name>
     <BlockGroups>CLG_LX_RBU_6000</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX MK15 T</Name>
+    <Name>DD-LX MK15 T</Name>
     <BlockGroups>CLG_LX_MK15_T</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX MK15 Q</Name>
+    <Name>DD-LX MK15 Q</Name>
     <BlockGroups>CLG_LX_MK15_Q</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY-LX MK15 S</Name>
+    <Name>DD-LX MK15 S</Name>
     <BlockGroups>CLG_LX_MK15_S</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>SY MultiTools</Name>
-    <BlockGroups>CLG_MultiTools</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>SY Extractors</Name>
-    <BlockGroups>CLG_Extractors</BlockGroups>
+    <Name>DD Forbidden</Name>
+    <BlockGroups>BA_Forbidden</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
 </ShipCore>

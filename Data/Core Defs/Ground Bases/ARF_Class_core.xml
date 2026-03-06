@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Factory</SubtypeId>
-  <UniqueName>Factory</UniqueName>
+  <SubtypeId>ARF_Class</SubtypeId>
+  <UniqueName>Airfield Core</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>10000</ForceBroadCastRange>
+  <ForceBroadCastRange>0</ForceBroadCastRange>
   <MobilityType>Static</MobilityType>
-  <MaxBlocks>3500</MaxBlocks>
+  <MaxBlocks>4000</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
-  <MaxBackupCores>1</MaxBackupCores>
+  <MaxBackupCores>2</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
-  <MaxPerFaction>6</MaxPerFaction>
+  <MaxPerFaction>8</MaxPerFaction>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
-    <AssemblerSpeed>1.8</AssemblerSpeed>
+    <AssemblerSpeed>0.3</AssemblerSpeed>
     <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
     <GyroEfficiency>1</GyroEfficiency>
     <GyroForce>1</GyroForce>
     <PowerProducersOutput>1</PowerProducersOutput>
-    <RefineEfficiency>1.5</RefineEfficiency>
-    <RefineSpeed>1.3</RefineSpeed>
-    <ThrusterEfficiency>0</ThrusterEfficiency>
-    <ThrusterForce>0</ThrusterForce>
+    <RefineEfficiency>0.2</RefineEfficiency>
+    <RefineSpeed>0.2</RefineSpeed>
+    <ThrusterEfficiency>1</ThrusterEfficiency>
+    <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
     <MaxSpeed>0</MaxSpeed>
@@ -60,264 +60,235 @@
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
-    <Name>FCT Weapon PTS</Name>
+    <Name>AF Weapon PTS</Name>
     <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
-    <MaxCount>12</MaxCount>
+    <MaxCount>16</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 500mm</Name>
+    <Name>AF-NW 500mm</Name>
     <BlockGroups>CLG_NW_500mm</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 400mm</Name>
+    <Name>AF-NW 400mm</Name>
     <BlockGroups>CLG_NW_400mm</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 300mm</Name>
+    <Name>AF-NW 300mm</Name>
     <BlockGroups>CLG_NW_300mm</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>5</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 203mm Twin</Name>
+    <Name>AF-NW 203mm Twin</Name>
     <BlockGroups>CLG_NW_203mm_Twin</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 203mm Deck</Name>
+    <Name>AF-NW 203mm Deck</Name>
     <BlockGroups>CLG_NW_203mm_Deck</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 100mm</Name>
+    <Name>AF-NW 100mm</Name>
     <BlockGroups>CLG_NW_100mm</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 30mm CIWS</Name>
+    <Name>AF-NW 30mm CIWS</Name>
     <BlockGroups>CLG_NW_30mm_CIWS</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 30mm Auto</Name>
+    <Name>AF-NW 30mm Auto</Name>
     <BlockGroups>CLG_NW_30mm_Auto</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW AMS</Name>
+    <Name>AF-NW AMS</Name>
     <BlockGroups>CLG_NW_AMS</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 75mm RG</Name>
+    <Name>AF-NW 75mm RG</Name>
     <BlockGroups>CLG_NW_75mm_RG</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>3</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 150mm RG</Name>
+    <Name>AF-NW 150mm RG</Name>
     <BlockGroups>CLG_NW_150mm_RG</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-NW 250mm RG</Name>
+    <Name>AF-NW 250mm RG</Name>
     <BlockGroups>CLG_NW_250mm_RG</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX 30mm CIWS G</Name>
+    <Name>AF-LX 30mm CIWS G</Name>
     <BlockGroups>CLG_LX_30mm_CIWS_G</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX 30mm CIWS P</Name>
+    <Name>AF-LX 30mm CIWS P</Name>
     <BlockGroups>CLG_LX_30mm_CIWS_P</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX Missile CIWS</Name>
+    <Name>AF-LX Missile CIWS</Name>
     <BlockGroups>CLG_LX_Missile_CIWS</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX 130mm S</Name>
+    <Name>AF-LX 130mm S</Name>
     <BlockGroups>CLG_LX_130mm_S</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX 130mm D</Name>
+    <Name>AF-LX 130mm D</Name>
     <BlockGroups>CLG_LX_130mm_D</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX S-400</Name>
+    <Name>AF-LX S-400</Name>
     <BlockGroups>CLG_LX_S_400</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX 3S14</Name>
+    <Name>AF-LX 3S14</Name>
     <BlockGroups>CLG_LX_3S14</BlockGroups>
     <MaxCount>3</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX P-270</Name>
+    <Name>AF-LX P-270</Name>
     <BlockGroups>CLG_LX_P_270</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX Zircon</Name>
+    <Name>AF-LX Zircon</Name>
     <BlockGroups>CLG_LX_Zircon</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX SUB VLS</Name>
+    <Name>AF-LX SUB VLS</Name>
     <BlockGroups>CLG_LX_SUB_VLS</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX RBU</Name>
+    <Name>AF-LX RBU</Name>
     <BlockGroups>CLG_LX_RBU_6000</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX MK15 T</Name>
+    <Name>AF-LX MK15 T</Name>
     <BlockGroups>CLG_LX_MK15_T</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX MK15 Q</Name>
+    <Name>AF-LX MK15 Q</Name>
     <BlockGroups>CLG_LX_MK15_Q</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT-LX MK15 S</Name>
+    <Name>AF-LX MK15 S</Name>
     <BlockGroups>CLG_LX_MK15_S</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT MultiTools</Name>
+    <Name>AF MultiTools</Name>
     <BlockGroups>CLG_MultiTools</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>FCT Extractors</Name>
+    <Name>AF Extractors</Name>
     <BlockGroups>CLG_Extractors</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
 </ShipCore>

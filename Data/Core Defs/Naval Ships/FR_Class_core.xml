@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Freighter</SubtypeId>
-  <UniqueName>Freighter</UniqueName>
+  <SubtypeId>FR_Class</SubtypeId>
+  <UniqueName>Freighter Core</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>0</ForceBroadCastRange>
   <MobilityType>Both</MobilityType>
@@ -66,7 +66,6 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
     <Name>FR MultiTools</Name>
@@ -75,7 +74,6 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
     <Name>FR Forbidden</Name>
@@ -84,6 +82,5 @@
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
 </ShipCore>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Utility_Ground_Vehicle</SubtypeId>
-  <UniqueName>Utility Ground Vehicle</UniqueName>
+  <SubtypeId>INF_Class</SubtypeId>
+  <UniqueName>Infrastructure Core</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>0</ForceBroadCastRange>
-  <MobilityType>Mobile</MobilityType>
-  <MaxBlocks>-1</MaxBlocks>
+  <MobilityType>Static</MobilityType>
+  <MaxBlocks>15000</MaxBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
-  <MaxPerFaction>12</MaxPerFaction>
+  <MaxPerFaction>24</MaxPerFaction>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
-    <AssemblerSpeed>1</AssemblerSpeed>
+    <AssemblerSpeed>0</AssemblerSpeed>
     <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
-    <GyroEfficiency>1</GyroEfficiency>
-    <GyroForce>1</GyroForce>
+    <GyroEfficiency>0</GyroEfficiency>
+    <GyroForce>0</GyroForce>
     <PowerProducersOutput>1</PowerProducersOutput>
-    <RefineEfficiency>1</RefineEfficiency>
-    <RefineSpeed>1</RefineSpeed>
-    <ThrusterEfficiency>1</ThrusterEfficiency>
-    <ThrusterForce>1</ThrusterForce>
+    <RefineEfficiency>0</RefineEfficiency>
+    <RefineSpeed>0</RefineSpeed>
+    <ThrusterEfficiency>0</ThrusterEfficiency>
+    <ThrusterForce>0</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.323</MaxSpeed>
+    <MaxSpeed>0</MaxSpeed>
     <MaxBoost>0</MaxBoost>
     <BoostDuration>10</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
@@ -59,5 +59,28 @@
     <Energy>1</Energy>
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
-
+  <BlockLimits>
+    <Name>INFRA Weapon PTS</Name>
+    <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>INFRA MultiTools</Name>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>INFRA Extractors</Name>
+    <BlockGroups>CLG_Extractors</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>Light_Fighter</SubtypeId>
-  <UniqueName>Light Fighter</UniqueName>
+  <SubtypeId>HF_Class</SubtypeId>
+  <UniqueName>Heavy Fighter Core</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>0</ForceBroadCastRange>
-  <MobilityType>Mobile</MobilityType>
+  <MobilityType>Both</MobilityType>
   <MaxBlocks>-1</MaxBlocks>
-  <MaxMass>15000</MaxMass>
+  <MaxMass>25000</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
-  <MaxPerFaction>12</MaxPerFaction>
+  <MaxPerFaction>8</MaxPerFaction>
   <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
@@ -27,8 +27,8 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.968</MaxSpeed>
-    <MaxBoost>1</MaxBoost>
+    <MaxSpeed>0.903</MaxSpeed>
+    <MaxBoost>0.952</MaxBoost>
     <BoostDuration>15</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
@@ -60,966 +60,859 @@
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
-    <Name>LF Thrust</Name>
-    <BlockGroups>CSG_Air_Thrust</BlockGroups>
+    <Name>HF Thrust</Name>
+    <BlockGroups>LF_Thrust__Light_Fighter</BlockGroups>
+    <MaxCount>60</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF Weapon PTS</Name>
+    <BlockGroups>LF_Weapon_PTS__Light_Fighter</BlockGroups>
+    <MaxCount>36</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-NW 30mm</Name>
+    <BlockGroups>LF_NW_30mm__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-NW 30mm RT</Name>
+    <BlockGroups>LF_NW_30mm_RT__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-NW 30mm Turret</Name>
+    <BlockGroups>LF_NW_30mm_Turret__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-NW 203</Name>
+    <BlockGroups>LF_NW_203__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-NW 75mm RG</Name>
+    <BlockGroups>LF_NW_75mm_RG__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-NW 150mm RG</Name>
+    <BlockGroups>LF_NW_150mm_RG__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 50Cal</Name>
+    <BlockGroups>LF_CAP_50Cal__Light_Fighter</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 20mm AC</Name>
+    <BlockGroups>LF_CAP_20mm_AC__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 20mm RT</Name>
+    <BlockGroups>LF_CAP_20mm_RT__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 20mm TR-6</Name>
+    <BlockGroups>LF_CAP_20mm_TR_6__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 30mm C</Name>
+    <BlockGroups>LF_CAP_30mm_C__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 40mm</Name>
+    <BlockGroups>LF_CAP_40mm__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 57mm AC</Name>
+    <BlockGroups>LF_CAP_57mm_AC__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 250lb</Name>
+    <BlockGroups>LF_CAP_250lb__Light_Fighter</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 1000lb</Name>
+    <BlockGroups>LF_CAP_1000lb__Light_Fighter</BlockGroups>
     <MaxCount>30</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF Weapon PTS</Name>
-    <BlockGroups>LF_Weapon_PTS</BlockGroups>
+    <Name>HF-CAP Hydra</Name>
+    <BlockGroups>LF_CAP_Hydra__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP AA Pod</Name>
+    <BlockGroups>LF_CAP_AA_Pod__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Hellfire S</Name>
+    <BlockGroups>LF_CAP_Hellfire_S__Light_Fighter</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Hellfire D</Name>
+    <BlockGroups>LF_CAP_Hellfire_D__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Hellfire Q</Name>
+    <BlockGroups>LF_CAP_Hellfire_Q__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP AGM-84</Name>
+    <BlockGroups>LF_CAP_AGM_84__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Torp</Name>
+    <BlockGroups>LF_CAP_Torp__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Aim-9</Name>
+    <BlockGroups>LF_CAP_Aim_9__Light_Fighter</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Aim-7</Name>
+    <BlockGroups>LF_CAP_Aim_7__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Aim-54</Name>
+    <BlockGroups>LF_CAP_Aim_54__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Aim-120</Name>
+    <BlockGroups>LF_CAP_Aim_120__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 25mm</Name>
+    <BlockGroups>LF_ZRO_25mm__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 30mm RT</Name>
+    <BlockGroups>LF_ZRO_30mm_RT__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 57mm AC</Name>
+    <BlockGroups>LF_ZRO_57mm_AC__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 25mm G</Name>
+    <BlockGroups>LF_ZRO_25mm_G__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 57mm G</Name>
+    <BlockGroups>LF_ZRO_57mm_G__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 105mm G</Name>
+    <BlockGroups>LF_ZRO_105mm_G__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 30mm AC-T</Name>
+    <BlockGroups>LF_ZRO_30mm_AC_T__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO R-ATGM</Name>
+    <BlockGroups>LF_ZRO_R_ATGM__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO 500kg 1</Name>
+    <BlockGroups>LF_ZRO_500kg_1__Light_Fighter</BlockGroups>
     <MaxCount>20</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-NW 30mm</Name>
-    <BlockGroups>CSG_NW_30mm</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <Name>HF-ZRO 500kg 2</Name>
+    <BlockGroups>LF_ZRO_500kg_2__Light_Fighter</BlockGroups>
+    <MaxCount>8</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-NW 30mm RT</Name>
-    <BlockGroups>CSG_NW_30mm_RT</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-NW 30mm Turret</Name>
-    <BlockGroups>CSG_NW_30mm_Turret</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-NW 203</Name>
-    <BlockGroups>CSG_NW_203</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-NW 75mm RG</Name>
-    <BlockGroups>CSG_NW_75mm_RG</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-NW 150mm RG</Name>
-    <BlockGroups>CSG_NW_150mm_RG</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 50Cal</Name>
-    <BlockGroups>CSG_CAP_50Cal</BlockGroups>
+    <Name>HF-ZRO 500kg 3</Name>
+    <BlockGroups>LF_ZRO_500kg_3__Light_Fighter</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-CAP 20mm AC</Name>
-    <BlockGroups>CSG_CAP_20mm_AC</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 20mm RT</Name>
-    <BlockGroups>CSG_CAP_20mm_RT</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 20mm TR-6</Name>
-    <BlockGroups>CSG_CAP_20mm_TR_6</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 30mm C</Name>
-    <BlockGroups>CSG_CAP_30mm_C</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 40mm</Name>
-    <BlockGroups>CSG_CAP_40mm</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 57mm AC</Name>
-    <BlockGroups>CSG_CAP_57mm_AC</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 250lb</Name>
-    <BlockGroups>CSG_CAP_250lb</BlockGroups>
-    <MaxCount>20</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP 1000lb</Name>
-    <BlockGroups>CSG_CAP_1000lb</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP Hydra</Name>
-    <BlockGroups>CSG_CAP_Hydra</BlockGroups>
+    <Name>HF-ZRO 500kg 5</Name>
+    <BlockGroups>LF_ZRO_500kg_5__Light_Fighter</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-CAP AA Pod</Name>
-    <BlockGroups>CSG_CAP_AA_Pod</BlockGroups>
+    <Name>HF-ZRO Rev Bay</Name>
+    <BlockGroups>LF_ZRO_Rev_Bay__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-CAP Hellfire S</Name>
-    <BlockGroups>CSG_CAP_Hellfire_S</BlockGroups>
+    <Name>HF-ZRO CAGM-12</Name>
+    <BlockGroups>LF_ZRO_CAGM_12__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO ASHM</Name>
+    <BlockGroups>LF_ZRO_ASHM__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-ZRO EXSRAAM</Name>
+    <BlockGroups>LF_ZRO_EXSRAAM__Light_Fighter</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-CAP Hellfire D</Name>
-    <BlockGroups>CSG_CAP_Hellfire_D</BlockGroups>
+    <Name>HF-ZRO MRAAM 1</Name>
+    <BlockGroups>LF_ZRO_MRAAM_1__Light_Fighter</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-CAP Hellfire Q</Name>
-    <BlockGroups>CSG_CAP_Hellfire_Q</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP AGM-84</Name>
-    <BlockGroups>CSG_CAP_AGM_84</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP Torp</Name>
-    <BlockGroups>CSG_CAP_Torp</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP Aim-9</Name>
-    <BlockGroups>CSG_CAP_Aim_9</BlockGroups>
-    <MaxCount>6</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP Aim-7</Name>
-    <BlockGroups>CSG_CAP_Aim_7</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP Aim-54</Name>
-    <BlockGroups>CSG_CAP_Aim_54</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-CAP Aim-120</Name>
-    <BlockGroups>CSG_CAP_Aim_120</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 25mm</Name>
-    <BlockGroups>CSG_ZRO_25mm</BlockGroups>
+    <Name>HF-ZRO MRAAM 2</Name>
+    <BlockGroups>LF_ZRO_MRAAM_2__Light_Fighter</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-ZRO 30mm RT</Name>
-    <BlockGroups>CSG_ZRO_30mm_RT</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 57mm AC</Name>
-    <BlockGroups>CSG_ZRO_57mm_AC</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 25mm G</Name>
-    <BlockGroups>CSG_ZRO_25mm_G</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 57mm G</Name>
-    <BlockGroups>CSG_ZRO_57mm_G</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 105mm G</Name>
-    <BlockGroups>CSG_ZRO_105mm_G</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 30mm AC-T</Name>
-    <BlockGroups>CSG_ZRO_30mm_AC_T</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO R-ATGM</Name>
-    <BlockGroups>CSG_ZRO_R_ATGM</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 500kg 1</Name>
-    <BlockGroups>CSG_ZRO_500kg_1</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 500kg 2</Name>
-    <BlockGroups>CSG_ZRO_500kg_2</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 500kg 3</Name>
-    <BlockGroups>CSG_ZRO_500kg_3</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO 500kg 5</Name>
-    <BlockGroups>CSG_ZRO_500kg_5</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO Rev Bay</Name>
-    <BlockGroups>CSG_ZRO_Rev_Bay</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO CAGM-12</Name>
-    <BlockGroups>CSG_ZRO_CAGM_12</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO ASHM</Name>
-    <BlockGroups>CSG_ZRO_ASHM</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO EXSRAAM</Name>
-    <BlockGroups>CSG_ZRO_EXSRAAM</BlockGroups>
-    <MaxCount>6</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO MRAAM 1</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_1</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO MRAAM 2</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_2</BlockGroups>
+    <Name>HF-ZRO MRAAM 3</Name>
+    <BlockGroups>LF_ZRO_MRAAM_3__Light_Fighter</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-ZRO MRAAM 3</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_3</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-ZRO MRAAM 5</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_5</BlockGroups>
+    <Name>HF-ZRO MRAAM 5</Name>
+    <BlockGroups>LF_ZRO_MRAAM_5__Light_Fighter</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS AGL-6</Name>
-    <BlockGroups>CSG_KGS_AGL_6</BlockGroups>
+    <Name>HF-KGS AGL-6</Name>
+    <BlockGroups>LF_KGS_AGL_6__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS MG-7</Name>
-    <BlockGroups>CSG_KGS_MG_7</BlockGroups>
+    <Name>HF-KGS MG-7</Name>
+    <BlockGroups>LF_KGS_MG_7__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS MG-12</Name>
-    <BlockGroups>CSG_KGS_MG_12</BlockGroups>
+    <Name>HF-KGS MG-12</Name>
+    <BlockGroups>LF_KGS_MG_12__Light_Fighter</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 25mm AC</Name>
-    <BlockGroups>CSG_KGS_25mm_AC</BlockGroups>
+    <Name>HF-KGS 25mm AC</Name>
+    <BlockGroups>LF_KGS_25mm_AC__Light_Fighter</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 30mm M</Name>
-    <BlockGroups>CSG_KGS_30mm_M</BlockGroups>
+    <Name>HF-KGS 30mm M</Name>
+    <BlockGroups>LF_KGS_30mm_M__Light_Fighter</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 30mm S</Name>
-    <BlockGroups>CSG_KGS_30mm_S</BlockGroups>
+    <Name>HF-KGS 30mm S</Name>
+    <BlockGroups>LF_KGS_30mm_S__Light_Fighter</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 35mm</Name>
-    <BlockGroups>CSG_KGS_35mm</BlockGroups>
+    <Name>HF-KGS 35mm</Name>
+    <BlockGroups>LF_KGS_35mm__Light_Fighter</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 45mm</Name>
-    <BlockGroups>CSG_KGS_45mm</BlockGroups>
+    <Name>HF-KGS 45mm</Name>
+    <BlockGroups>LF_KGS_45mm__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 57mm</Name>
-    <BlockGroups>CSG_KGS_57mm</BlockGroups>
+    <Name>HF-KGS 57mm</Name>
+    <BlockGroups>LF_KGS_57mm__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-KGS 76mm F</Name>
+    <BlockGroups>LF_KGS_76mm_F__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 76mm F</Name>
-    <BlockGroups>CSG_KGS_76mm_F</BlockGroups>
+    <Name>HF-KGS 75mm M</Name>
+    <BlockGroups>LF_KGS_75mm_M__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 75mm M</Name>
-    <BlockGroups>CSG_KGS_75mm_M</BlockGroups>
+    <Name>HF-KGS 75mm AC</Name>
+    <BlockGroups>LF_KGS_75mm_AC__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 75mm AC</Name>
-    <BlockGroups>CSG_KGS_75mm_AC</BlockGroups>
+    <Name>HF-KGS 88mm</Name>
+    <BlockGroups>LF_KGS_88mm__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 88mm</Name>
-    <BlockGroups>CSG_KGS_88mm</BlockGroups>
+    <Name>HF-KGS 100mm D10</Name>
+    <BlockGroups>LF_KGS_100mm_D10__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 100mm D10</Name>
-    <BlockGroups>CSG_KGS_100mm_D10</BlockGroups>
+    <Name>HF-KGS 105mm L</Name>
+    <BlockGroups>LF_KGS_105mm_L__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 105mm L</Name>
-    <BlockGroups>CSG_KGS_105mm_L</BlockGroups>
+    <Name>HF-KGS 105 M</Name>
+    <BlockGroups>LF_KGS_105_M__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 105 M</Name>
-    <BlockGroups>CSG_KGS_105_M</BlockGroups>
+    <Name>HF-KGS 120mm R</Name>
+    <BlockGroups>LF_KGS_120mm_R__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 120mm R</Name>
-    <BlockGroups>CSG_KGS_120mm_R</BlockGroups>
+    <Name>HF-KGS 120mm L</Name>
+    <BlockGroups>LF_KGS_120mm_L__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 120mm L</Name>
-    <BlockGroups>CSG_KGS_120mm_L</BlockGroups>
+    <Name>HF-KGS 120mm M</Name>
+    <BlockGroups>LF_KGS_120mm_M__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 120mm M</Name>
-    <BlockGroups>CSG_KGS_120mm_M</BlockGroups>
+    <Name>HF-KGS 125mm</Name>
+    <BlockGroups>LF_KGS_125mm__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 125mm</Name>
-    <BlockGroups>CSG_KGS_125mm</BlockGroups>
-    <MaxCount>10</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-KGS 125mm A</Name>
-    <BlockGroups>CSG_KGS_125mm_A</BlockGroups>
+    <Name>HF-KGS 125mm A</Name>
+    <BlockGroups>LF_KGS_125mm_A__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 130mm</Name>
-    <BlockGroups>CSG_KGS_130mm</BlockGroups>
+    <Name>HF-KGS 130mm</Name>
+    <BlockGroups>LF_KGS_130mm__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 140mm</Name>
-    <BlockGroups>CSG_KGS_140mm</BlockGroups>
+    <Name>HF-KGS 140mm</Name>
+    <BlockGroups>LF_KGS_140mm__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 152mm G</Name>
-    <BlockGroups>CSG_KGS_152mm_G</BlockGroups>
+    <Name>HF-KGS 152mm G</Name>
+    <BlockGroups>LF_KGS_152mm_G__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 152mm H</Name>
-    <BlockGroups>CSG_KGS_152mm_H</BlockGroups>
+    <Name>HF-KGS 152mm H</Name>
+    <BlockGroups>LF_KGS_152mm_H__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 183mm</Name>
-    <BlockGroups>CSG_KGS_183mm</BlockGroups>
+    <Name>HF-KGS 183mm</Name>
+    <BlockGroups>LF_KGS_183mm__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS MLRS</Name>
-    <BlockGroups>CSG_KGS_MLRS</BlockGroups>
+    <Name>HF-KGS MLRS</Name>
+    <BlockGroups>LF_KGS_MLRS__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS Kornet</Name>
-    <BlockGroups>CSG_KGS_Kornet</BlockGroups>
+    <Name>HF-KGS Kornet</Name>
+    <BlockGroups>LF_KGS_Kornet__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS Spike</Name>
-    <BlockGroups>CSG_KGS_Spike</BlockGroups>
+    <Name>HF-KGS Spike</Name>
+    <BlockGroups>LF_KGS_Spike__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS Crotale</Name>
-    <BlockGroups>CSG_KGS_Crotale</BlockGroups>
+    <Name>HF-KGS Crotale</Name>
+    <BlockGroups>LF_KGS_Crotale__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-KGS 81mm Mortar</Name>
-    <BlockGroups>CSG_KGS_81mm_Mortar</BlockGroups>
+    <Name>HF-KGS 81mm Mortar</Name>
+    <BlockGroups>LF_KGS_81mm_Mortar__Light_Fighter</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX R-73M</Name>
-    <BlockGroups>CSG_LNX_R_73M</BlockGroups>
+    <Name>HF-LNX R-73M</Name>
+    <BlockGroups>LF_LNX_R_73M__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX R-73M B3</Name>
+    <BlockGroups>LF_LNX_R_73M_B3__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX IRIS-T</Name>
+    <BlockGroups>LF_LNX_IRIS_T__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX R-27ET</Name>
+    <BlockGroups>LF_LNX_R_27ET__Light_Fighter</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX R-73M B3</Name>
-    <BlockGroups>CSG_LNX_R_73M_B3</BlockGroups>
+    <Name>HF-LNX R-27ET IR</Name>
+    <BlockGroups>LF_LNX_R_27ET__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX AIM-120</Name>
+    <BlockGroups>LF_LNX_AIM_120__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX R-77</Name>
+    <BlockGroups>LF_LNX_R_77__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX R-77 B2</Name>
+    <BlockGroups>LF_LNX_R_77_B2__Light_Fighter</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX IRIS-T</Name>
-    <BlockGroups>CSG_LNX_IRIS_T</BlockGroups>
+    <Name>HF-LNX Meteor</Name>
+    <BlockGroups>LF_LNX_Meteor__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX R-VV-AE-PD</Name>
+    <BlockGroups>LF_LNX_R_VV_AE_PD__Light_Fighter</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX R-27ET</Name>
-    <BlockGroups>CSG_LNX_R_27ET</BlockGroups>
+    <Name>HF-LNX R-37M</Name>
+    <BlockGroups>LF_LNX_R_37M__Light_Fighter</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX R-27ET IR</Name>
-    <BlockGroups>CSG_LNX_R_27ET</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <Name>HF-LNX AIM-260</Name>
+    <BlockGroups>LF_LNX_AIM_260__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX AIM-120</Name>
-    <BlockGroups>CSG_LNX_AIM_120</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX R-77</Name>
-    <BlockGroups>CSG_LNX_R_77</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX R-77 B2</Name>
-    <BlockGroups>CSG_LNX_R_77_B2</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX Meteor</Name>
-    <BlockGroups>CSG_LNX_Meteor</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX R-VV-AE-PD</Name>
-    <BlockGroups>CSG_LNX_R_VV_AE_PD</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX R-37M</Name>
-    <BlockGroups>CSG_LNX_R_37M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX AIM-260</Name>
-    <BlockGroups>CSG_LNX_AIM_260</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX AGM-114</Name>
-    <BlockGroups>CSG_LNX_AGM_114</BlockGroups>
+    <Name>HF-LNX AGM-114</Name>
+    <BlockGroups>LF_LNX_AGM_114__Light_Fighter</BlockGroups>
     <MaxCount>12</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX AGM-114 C</Name>
-    <BlockGroups>CSG_LNX_AGM_114_C</BlockGroups>
+    <Name>HF-LNX AGM-114 C</Name>
+    <BlockGroups>LF_LNX_AGM_114_C__Light_Fighter</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
   </BlockLimits>
   <BlockLimits>
-    <Name>LF-LNX AGM-84</Name>
-    <BlockGroups>CSG_LNX_AGM_84</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX KH-32AD</Name>
-    <BlockGroups>CSG_LNX_KH_32AD</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX KH-31PK</Name>
-    <BlockGroups>CSG_LNX_KH_31PK</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX P-270</Name>
-    <BlockGroups>CSG_LNX_P_270</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX S1-M</Name>
-    <BlockGroups>CSG_LNX_S1_M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX FAB-500</Name>
-    <BlockGroups>CSG_LNX_FAB_500</BlockGroups>
-    <MaxCount>20</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX KAB-500</Name>
-    <BlockGroups>CSG_LNX_KAB_500</BlockGroups>
-    <MaxCount>20</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX KAB-1500</Name>
-    <BlockGroups>CSG_LNX_KAB_1500</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX KAB-1500 B1</Name>
-    <BlockGroups>CSG_LNX_KAB_1500_B1</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX GBU-43</Name>
-    <BlockGroups>CSG_LNX_GBU_43</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX S-400</Name>
-    <BlockGroups>CSG_LNX_S_400</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX 400 4M</Name>
-    <BlockGroups>CSG_LNX_400_4M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX MK13</Name>
-    <BlockGroups>CSG_LNX_MK13</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LF-LNX MK XI</Name>
-    <BlockGroups>CSG_LNX_MK_XI</BlockGroups>
+    <Name>HF-LNX AGM-84</Name>
+    <BlockGroups>LF_LNX_AGM_84__Light_Fighter</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
-
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX KH-32AD</Name>
+    <BlockGroups>LF_LNX_KH_32AD__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX KH-31PK</Name>
+    <BlockGroups>LF_LNX_KH_31PK__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX P-270</Name>
+    <BlockGroups>LF_LNX_P_270__Light_Fighter</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX S1-M</Name>
+    <BlockGroups>LF_LNX_S1_M__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX FAB-500</Name>
+    <BlockGroups>LF_LNX_FAB_500__Light_Fighter</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX KAB-500</Name>
+    <BlockGroups>LF_LNX_KAB_500__Light_Fighter</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX KAB-1500</Name>
+    <BlockGroups>LF_LNX_KAB_1500__Light_Fighter</BlockGroups>
+    <MaxCount>10</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX KAB-1500 B1</Name>
+    <BlockGroups>LF_LNX_KAB_1500_B1__Light_Fighter</BlockGroups>
+    <MaxCount>5</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX GBU-43</Name>
+    <BlockGroups>LF_LNX_GBU_43__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX S-400</Name>
+    <BlockGroups>LF_LNX_S_400__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX 400 4M</Name>
+    <BlockGroups>LF_LNX_400_4M__Light_Fighter</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX MK13</Name>
+    <BlockGroups>LF_LNX_MK13__Light_Fighter</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX MK XI</Name>
+    <BlockGroups>LF_LNX_MK_XI__Light_Fighter</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
 </ShipCore>

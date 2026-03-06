@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ShipCore>
-  <SubtypeId>UND_No_Class</SubtypeId>
-  <UniqueName>No Core</UniqueName>
+  <SubtypeId>VTT_Class</SubtypeId>
+  <UniqueName>VTOL Transport Core</UniqueName>
   <ForceBroadCast>false</ForceBroadCast>
-  <ForceBroadCastRange>2000</ForceBroadCastRange>
-  <MobilityType>Both</MobilityType>
+  <ForceBroadCastRange>0</ForceBroadCastRange>
+  <MobilityType>Mobile</MobilityType>
   <MaxBlocks>-1</MaxBlocks>
-  <MaxMass>-1</MaxMass>
+  <MaxMass>80000</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
   <MinPlayers>-1</MinPlayers>
-  <MaxPerFaction>-1</MaxPerFaction>
+  <MaxPerFaction>4</MaxPerFaction>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
-    <DrillHarvestMultiplier>1</DrillHarvestMultiplier>
+    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
     <GyroEfficiency>1</GyroEfficiency>
     <GyroForce>1</GyroForce>
     <PowerProducersOutput>1</PowerProducersOutput>
@@ -27,8 +27,8 @@
     <ThrusterForce>1</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.3</MaxSpeed>
-    <MaxBoost>0.5</MaxBoost>
+    <MaxSpeed>0.919</MaxSpeed>
+    <MaxBoost>0</MaxBoost>
     <BoostDuration>10</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
     <MinimumFrictionSpeedAbsolute>100</MinimumFrictionSpeedAbsolute>
@@ -39,7 +39,7 @@
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
-    <PostShield>1</PostShield>
+    <PostShield>0</PostShield>
     <Duration>0</Duration>
     <Cooldown>0</Cooldown>
     <Rocket>1</Rocket>
@@ -59,5 +59,32 @@
     <Energy>1</Energy>
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
-
+  <BlockLimits>
+    <Name>VTT Thrust</Name>
+    <BlockGroups>CSG_Air_Thrust</BlockGroups>
+    <MaxCount>160</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
+    <AllowedDirections>Backward</AllowedDirections>
+    <AllowedDirections>Up</AllowedDirections>
+    <AllowedDirections>Down</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTT Weapon PTS</Name>
+    <BlockGroups>CIV_Weapon_PTS</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>VTT Forbidden</Name>
+    <BlockGroups>CIV_Forbidden</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>
