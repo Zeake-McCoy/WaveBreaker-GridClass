@@ -9,7 +9,7 @@
             <DisplayName>Battleship Core</DisplayName>
             <Description>BB Class Grid Core</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
-            <Icon>Textures\DestroyerFiringArc.png</Icon>
+            <Icon>Textures\CruiserFiringArc.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>

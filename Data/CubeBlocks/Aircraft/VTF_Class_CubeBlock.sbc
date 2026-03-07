@@ -8,7 +8,7 @@
             </Id>
             <DisplayName>VTOL Fighter Core</DisplayName>
             <Description>VTF Class Grid Core</Description>
-            <Icon>Textures\SmallGridCore.png</Icon>
+            <Icon>Textures\SmallShip_Basic.png</Icon>
             <Icon>Textures\FighterFiringArc.png</Icon>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
