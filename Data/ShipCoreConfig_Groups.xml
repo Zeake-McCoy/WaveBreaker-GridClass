@@ -5836,14 +5836,6 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>CSG_KGS_120mm_L</Name>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_L30A1_Challenger_Tank_Cannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
     <Name>HB_Weapon_PTS</Name>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
