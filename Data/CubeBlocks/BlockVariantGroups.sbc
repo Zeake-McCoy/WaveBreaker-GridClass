@@ -82,7 +82,7 @@
                 <Block Type="MyObjectBuilder_Beacon" Subtype="LF_Class" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="HF_Class" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="VTF_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LB_CLass" />
+                <Block Type="MyObjectBuilder_Beacon" Subtype="LB_Class" />
                 <Block Type="MyObjectBuilder_Beacon" Subtype="HB_Class" /> 
 				
                 <Block Type="MyObjectBuilder_Beacon" Subtype="CIV_Class" />
