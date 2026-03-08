@@ -6,7 +6,7 @@
   <ForceBroadCastRange>0</ForceBroadCastRange>
   <MobilityType>Both</MobilityType>
   <MaxBlocks>-1</MaxBlocks>
-  <MaxMass>100000</MaxMass>
+  <MaxMass>150000</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>

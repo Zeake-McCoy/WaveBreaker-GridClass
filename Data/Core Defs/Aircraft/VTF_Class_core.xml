@@ -514,7 +514,7 @@
   <BlockLimits>
     <Name>VTF-KGS 57mm</Name>
     <BlockGroups>CSG_KGS_57mm</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

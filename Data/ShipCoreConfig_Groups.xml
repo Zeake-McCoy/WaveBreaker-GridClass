@@ -5834,6 +5834,46 @@
       <SubtypeId>6BladeHeli</SubtypeId>
       <CountWeight>60</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LNX_SATURN_AL41F1_Thruster</SubtypeId>
+      <CountWeight>30</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LNX_SATURN_AL41F1_Thruster_2</SubtypeId>
+      <CountWeight>30</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXN_D30F6_Thruster</SubtypeId>
+      <CountWeight>40</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXN_NK32_01_Thruster</SubtypeId>
+      <CountWeight>50</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXN_IndustrialJet_Thruster</SubtypeId>
+      <CountWeight>60</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXA_GENX8_Thruster</SubtypeId>
+      <CountWeight>50</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>FunctionalBlock</TypeId>
+      <SubtypeId>GimbalJetEngine</SubtypeId>
+      <CountWeight>15</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>FunctionalBlock</TypeId>
+      <SubtypeId>GimbalJetEngine3x3</SubtypeId>
+      <CountWeight>30</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>HB_Weapon_PTS</Name>
