@@ -9,7 +9,7 @@
             <DisplayName>Light Cruiser Core</DisplayName>
             <Description>CL Class Grid Core</Description>
             <Icon>Textures\LargeGridCore.png</Icon>
-            <Icon>Textures\DestroyerFiringArc.png</Icon>
+            <Icon>Textures\IconBackup\MiniIcons\CruiserFiringArc.png</Icon>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -58,7 +58,7 @@
             </ScreenAreas>
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>200000</MaxBroadcastRadius>
+            <MaxBroadcastRadius>0</MaxBroadcastRadius>/>
             <Flare></Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
