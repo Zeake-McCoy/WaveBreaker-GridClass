@@ -58,7 +58,7 @@
             </ScreenAreas>
             <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>0</MaxBroadcastRadius>/>
+            <MaxBroadcastRadius>1</MaxBroadcastRadius>
             <Flare></Flare>
             <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
