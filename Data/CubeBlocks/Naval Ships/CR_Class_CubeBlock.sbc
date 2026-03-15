@@ -3,7 +3,7 @@
 	<CubeBlocks>
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>CR_Class</SubtypeId>
             </Id>
             <DisplayName>Corvette Core</DisplayName>
@@ -42,25 +42,19 @@
 				<Model BuildPercentUpperBound="0.67" File="Models\GridCore_Center_BS2.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\GridCore_Center_BS3.mwm"/>
 			</BuildProgressModels>
-            <BlockPairName>CR_Class</BlockPairName>
+            <BlockPairName>DD_Class</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
-
-            <!-- Beacon properties -->
             <ScreenAreas>
                 <ScreenArea Name="CockpitScreen_01" DisplayName="Left Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="CoreTypeLCDScript"/>
                 <ScreenArea Name="CockpitScreen_02" DisplayName="Right Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="CoreTypeLCDScript"/>
                 <ScreenArea Name="CockpitScreen_03" DisplayName="Left Keyboard" TextureResolution="512" ScreenWidth="5" ScreenHeight="3"/>
                 <ScreenArea Name="CockpitScreen_04" DisplayName="Right keyboard" TextureResolution="512" ScreenWidth="5" ScreenHeight="3"/>
             </ScreenAreas>
-            <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>1</MaxBroadcastRadius>
-            <Flare></Flare>
-            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
             <EmissiveColorPreset>Beacon</EmissiveColorPreset>
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>

@@ -3,7 +3,7 @@
     <EntityContainers>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>BB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -12,7 +12,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>CV_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -21,7 +21,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>CA_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -30,7 +30,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>CL_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -39,7 +39,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>DD_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -48,7 +48,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>FF_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -57,7 +57,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>CR_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -66,7 +66,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>GB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -75,7 +75,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>LS_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -84,7 +84,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>FR_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -93,7 +93,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>SUB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -102,7 +102,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>HQ_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -111,7 +111,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>FRT_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -120,7 +120,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>OP_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -129,7 +129,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>FB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -138,7 +138,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>ARF_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -147,7 +147,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>FCT_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -156,7 +156,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>SY_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -165,7 +165,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>REX_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -174,7 +174,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>INF_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -183,7 +183,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>AH_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -192,7 +192,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>UH_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -201,7 +201,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>LF_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -210,7 +210,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>HF_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -219,7 +219,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>VTF_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -228,7 +228,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>LB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -237,7 +237,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>HB_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -246,7 +246,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>CIV_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -255,7 +255,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>VTT_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -264,7 +264,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>LAV_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -273,7 +273,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>MBT_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -282,7 +282,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>SPG_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -291,7 +291,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>SPAA_Class</SubtypeId>
             </Id>
             <DefaultComponents>
@@ -300,7 +300,7 @@
         </Container>
         <Container>
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>UGV_Class</SubtypeId>
             </Id>
             <DefaultComponents>

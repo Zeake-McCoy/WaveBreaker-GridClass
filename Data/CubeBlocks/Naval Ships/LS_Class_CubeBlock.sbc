@@ -3,7 +3,7 @@
 	<CubeBlocks>
         <Definition xsi:type="MyObjectBuilder_BeaconDefinition">
             <Id>
-                <TypeId>Beacon</TypeId>
+                <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>LS_Class</SubtypeId>
             </Id>
             <DisplayName>Landing Ship Core</DisplayName>
@@ -48,19 +48,13 @@
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
             <DamagedSound>ParticleElectrical</DamagedSound>
-
-            <!-- Beacon properties -->
             <ScreenAreas>
                 <ScreenArea Name="CockpitScreen_01" DisplayName="Left Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="CoreTypeLCDScript"/>
                 <ScreenArea Name="CockpitScreen_02" DisplayName="Right Screen" TextureResolution="512" ScreenWidth="5" ScreenHeight="3" Script="CoreTypeLCDScript"/>
                 <ScreenArea Name="CockpitScreen_03" DisplayName="Left Keyboard" TextureResolution="512" ScreenWidth="5" ScreenHeight="3"/>
                 <ScreenArea Name="CockpitScreen_04" DisplayName="Right keyboard" TextureResolution="512" ScreenWidth="5" ScreenHeight="3"/>
             </ScreenAreas>
-            <!-- Antenna info-->
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
-            <MaxBroadcastRadius>1</MaxBroadcastRadius>
-            <Flare></Flare>
-            <MaxBroadcastPowerDrainkW>20</MaxBroadcastPowerDrainkW>
 
             <EmissiveColorPreset>Beacon</EmissiveColorPreset>
             <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
