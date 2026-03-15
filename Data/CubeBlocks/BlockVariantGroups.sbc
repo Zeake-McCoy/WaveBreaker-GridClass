@@ -8,22 +8,22 @@
             <Description>Naval Ship Cores, the necessary componets for the ultimate fleet.</Description>
             <Blocks>
                 
-				<Block Type="MyObjectBuilder_Beacon" Subtype="BB_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="BB_Class" />
                 
-				<Block Type="MyObjectBuilder_Beacon" Subtype="CV_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="CA_Class" />
-				<Block Type="MyObjectBuilder_Beacon" Subtype="CL_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="CV_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="CA_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="CL_Class" />
                 
-				<Block Type="MyObjectBuilder_Beacon" Subtype="DD_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="FF_Class" />
-				<Block Type="MyObjectBuilder_Beacon" Subtype="CR_CLass" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="GB_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="DD_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="FF_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="CR_CLass" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GB_Class" />
                 
-				<Block Type="MyObjectBuilder_Beacon" Subtype="LS_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LS_Class" />
 				
-				<Block Type="MyObjectBuilder_Beacon" Subtype="FR_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="FR_Class" />
 				
-				<Block Type="MyObjectBuilder_Beacon" Subtype="SUB_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="SUB_Class" />
 				
             </Blocks>
         </BlockVariantGroup>
@@ -34,20 +34,20 @@
             <Description>Ground Base Cores, the heart of your factions ground bases.</Description>
             <Blocks>
 			
-                <Block Type="MyObjectBuilder_Beacon" Subtype="HQ_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="FRT_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="HQ_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="FRT_Class" />
                 
-				<Block Type="MyObjectBuilder_Beacon" Subtype="OP_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="FB_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="OP_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="FB_Class" />
                 
-				<Block Type="MyObjectBuilder_Beacon" Subtype="ARF_Class" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="ARF_Class" />
                 
-				<Block Type="MyObjectBuilder_Beacon" Subtype="FCT_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SY_Class" />   
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="FCT_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="SY_Class" />   
 				
-				<Block Type="MyObjectBuilder_Beacon" Subtype="REX_Class" /> 
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="REX_Class" /> 
 				
-				<Block Type="MyObjectBuilder_Beacon" Subtype="INF_Class" /> 
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="INF_Class" /> 
             
 			</Blocks>
         </BlockVariantGroup>
@@ -59,12 +59,12 @@
             <Description>Ground Vehicle Cores, the necessary componets for all your ground vehicles.</Description>
             <Blocks>
 			
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LAV_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="MBT_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SPG_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="SPAA_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LAV_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="MBT_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="SPG_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="SPAA_Class" />
 				
-				<Block Type="MyObjectBuilder_Beacon" Subtype="UGV_Class" /> 
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="UGV_Class" /> 
             
 			</Blocks>
         </BlockVariantGroup>
@@ -76,17 +76,17 @@
             <Description>Aircraft Cores, the necessary componets for the various Aircraft.</Description>
             <Blocks>
 
-                <Block Type="MyObjectBuilder_Beacon" Subtype="AH_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="UH_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="AH_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="UH_Class" />
 
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LF_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="HF_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="VTF_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="LB_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="HB_Class" /> 
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LF_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="HF_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="VTF_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LB_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="HB_Class" /> 
 				
-                <Block Type="MyObjectBuilder_Beacon" Subtype="CIV_Class" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="VTT_Class" />	
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="CIV_Class" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="VTT_Class" />	
 				
             </Blocks>
         </BlockVariantGroup>
@@ -97,11 +97,11 @@
             <DisplayName>Core Upgrades</DisplayName>
             <Description>Core Upgrades, customize your grids to gain an edge.</Description>
             <Blocks>
-                <Block Type="MyObjectBuilder_Beacon" Subtype="GridCore_Module_Combat" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="GridCore_Module_Economy" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="GridCore_Module_Handling" />
-                <Block Type="MyObjectBuilder_Beacon" Subtype="GridCore_Module_Harvester" /> 
-                <Block Type="MyObjectBuilder_Beacon" Subtype="GridCore_Module_Overdrive" />              
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Combat" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Economy" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Handling" />
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Harvester" /> 
+                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Overdrive" />              
             </Blocks>
         </BlockVariantGroup>
     </BlockVariantGroups>

@@ -12,46 +12,46 @@
       <ItemIds>
 
 		<!-- Grid core Block vars -->
-		<string>Beacon/BB_Class</string>
-		<string>Beacon/HQ_Class</string>
-		<string>Beacon/LF_Class</string>
-		<string>Beacon/LAV_Class</string>
+		<string>FunctionalBlock/BB_Class</string>
+		<string>FunctionalBlock/HQ_Class</string>
+		<string>FunctionalBlock/LF_Class</string>
+		<string>FunctionalBlock/LAV_Class</string>
 
         <!-- Grid core blocks standalone
-		<string>Beacon/BB_Class</string>
-		<string>Beacon/CV_Class</string>
-		<string>Beacon/CA_Class</string>
-		<string>Beacon/CL_Class</string>
-		<string>Beacon/DD_Class</string>
-		<string>Beacon/FF_Class</string>
-		<string>Beacon/CR_Class</string>
-		<string>Beacon/GB_Class</string>
-		<string>Beacon/LS_Class</string>
-		<string>Beacon/FR_Class</string>
-		<string>Beacon/SUB_Class</string>
-		<string>Beacon/HQ_Class</string>
-		<string>Beacon/FRT_Class</string>
-		<string>Beacon/OP_Class</string>
-		<string>Beacon/FB_Class</string>
-		<string>Beacon/ARF_Class</string>
-		<string>Beacon/FCT_Class</string>
-		<string>Beacon/SY_Class</string>
-		<string>Beacon/REX_Class</string>
-		<string>Beacon/INF_Class</string>
-		<string>Beacon/AH_Class</string>
-		<string>Beacon/UH_Class</string>
-		<string>Beacon/LF_Class</string>
-		<string>Beacon/HF_Class</string>
-		<string>Beacon/VTF_Class</string>
-		<string>Beacon/LB_Class</string>
-		<string>Beacon/HB_Class</string>
-		<string>Beacon/CIV_Class</string>
-		<string>Beacon/VTT_Class</string>
-		<string>Beacon/LAV_Class</string>
-		<string>Beacon/MBT_Class</string>
-		<string>Beacon/SPG_Class</string>
-		<string>Beacon/SPAA_Class</string>
-		<string>Beacon/UGV_Class</string>
+		<string>FunctionalBlock/BB_Class</string>
+		<string>FunctionalBlock/CV_Class</string>
+		<string>FunctionalBlock/CA_Class</string>
+		<string>FunctionalBlock/CL_Class</string>
+		<string>FunctionalBlock/DD_Class</string>
+		<string>FunctionalBlock/FF_Class</string>
+		<string>FunctionalBlock/CR_Class</string>
+		<string>FunctionalBlock/GB_Class</string>
+		<string>FunctionalBlock/LS_Class</string>
+		<string>FunctionalBlock/FR_Class</string>
+		<string>FunctionalBlock/SUB_Class</string>
+		<string>FunctionalBlock/HQ_Class</string>
+		<string>FunctionalBlock/FRT_Class</string>
+		<string>FunctionalBlock/OP_Class</string>
+		<string>FunctionalBlock/FB_Class</string>
+		<string>FunctionalBlock/ARF_Class</string>
+		<string>FunctionalBlock/FCT_Class</string>
+		<string>FunctionalBlock/SY_Class</string>
+		<string>FunctionalBlock/REX_Class</string>
+		<string>FunctionalBlock/INF_Class</string>
+		<string>FunctionalBlock/AH_Class</string>
+		<string>FunctionalBlock/UH_Class</string>
+		<string>FunctionalBlock/LF_Class</string>
+		<string>FunctionalBlock/HF_Class</string>
+		<string>FunctionalBlock/VTF_Class</string>
+		<string>FunctionalBlock/LB_Class</string>
+		<string>FunctionalBlock/HB_Class</string>
+		<string>FunctionalBlock/CIV_Class</string>
+		<string>FunctionalBlock/VTT_Class</string>
+		<string>FunctionalBlock/LAV_Class</string>
+		<string>FunctionalBlock/MBT_Class</string>
+		<string>FunctionalBlock/SPG_Class</string>
+		<string>FunctionalBlock/SPAA_Class</string>
+		<string>FunctionalBlock/UGV_Class</string>
 		-->
 
       </ItemIds>
