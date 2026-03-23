@@ -6,6 +6,7 @@
   <ForceBroadCastRange>10000</ForceBroadCastRange>
   <MobilityType>Static</MobilityType>
   <MaxBlocks>6000</MaxBlocks>
+  <MinBlocks>0</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>3</MaxBackupCores>

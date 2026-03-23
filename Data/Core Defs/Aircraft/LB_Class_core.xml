@@ -6,6 +6,7 @@
   <ForceBroadCastRange>0</ForceBroadCastRange>
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>-1</MaxBlocks>
+  <MinBlocks>0</MinBlocks>
   <MaxMass>35000</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>2</MaxBackupCores>
@@ -69,7 +70,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LB Weapon PTS</Name>
-    <BlockGroups>LF_Weapon_PTS</BlockGroups>
+    <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <MaxCount>60</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -300,14 +301,6 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LB-ZRO 57mm AC</Name>
-    <BlockGroups>CSG_ZRO_57mm_AC</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LB-ZRO 25mm G</Name>
     <BlockGroups>CSG_ZRO_25mm_G</BlockGroups>
     <MaxCount>2</MaxCount>
@@ -335,110 +328,6 @@
     <Name>LB-ZRO 30mm AC-T</Name>
     <BlockGroups>CSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO R-ATGM</Name>
-    <BlockGroups>CSG_ZRO_R_ATGM</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO 500kg 1</Name>
-    <BlockGroups>CSG_ZRO_500kg_1</BlockGroups>
-    <MaxCount>20</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO 500kg 2</Name>
-    <BlockGroups>CSG_ZRO_500kg_2</BlockGroups>
-    <MaxCount>8</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO 500kg 3</Name>
-    <BlockGroups>CSG_ZRO_500kg_3</BlockGroups>
-    <MaxCount>6</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO 500kg 5</Name>
-    <BlockGroups>CSG_ZRO_500kg_5</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO Rev Bay</Name>
-    <BlockGroups>CSG_ZRO_Rev_Bay</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO CAGM-12</Name>
-    <BlockGroups>CSG_ZRO_CAGM_12</BlockGroups>
-    <MaxCount>6</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO ASHM</Name>
-    <BlockGroups>CSG_ZRO_ASHM</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO EXSRAAM</Name>
-    <BlockGroups>CSG_ZRO_EXSRAAM</BlockGroups>
-    <MaxCount>6</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO MRAAM 1</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_1</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO MRAAM 2</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_2</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO MRAAM 3</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_3</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-ZRO MRAAM 5</Name>
-    <BlockGroups>CSG_ZRO_MRAAM_5</BlockGroups>
-    <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
@@ -724,17 +613,9 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LB-LNX R-27ET IR</Name>
-    <BlockGroups>CSG_LNX_R_27ET</BlockGroups>
+    <Name>LB-LNX R-27ER</Name>
+    <BlockGroups>CSG_LNX_R_27ER</BlockGroups>
     <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-LNX AIM-120</Name>
-    <BlockGroups>CSG_LNX_AIM_120</BlockGroups>
-    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
@@ -804,16 +685,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LB-LNX AGM-84</Name>
-    <BlockGroups>CSG_LNX_AGM_84</BlockGroups>
-    <MaxCount>10</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LB-LNX KH-32AD</Name>
-    <BlockGroups>CSG_LNX_KH_32AD</BlockGroups>
+    <Name>LB-LNX KH-31AD</Name>
+    <BlockGroups>CSG_LNX_KH_31AD</BlockGroups>
     <MaxCount>8</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

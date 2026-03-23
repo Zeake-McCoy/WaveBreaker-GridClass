@@ -3483,7 +3483,7 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>LF_Weapon_PTS</Name>
+    <Name>Fighter_Weapon_PTS</Name>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>C30mmRevolver</SubtypeId>
@@ -4344,6 +4344,11 @@
       <SubtypeId>TTPYLONMKVIIDCAIR</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>KGS_Rh120_L44_Tank_Cannon</SubtypeId>
+      <CountWeight>11</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>CSG_NW_30mm</Name>
@@ -4750,19 +4755,6 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>CSG_ZRO_57mm_AC</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon_Offset</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
     <Name>CSG_ZRO_25mm_G</Name>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -4791,210 +4783,6 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>30mm_Autocannon_Turret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_R_ATGM</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Retractable_ATGM</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_500kg_1</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetRight</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetDown</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_500kg_2</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x2</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_500kg_3</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x2</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_500kg_5</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x2</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_Rev_Bay</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Revolver_Bomb_Bay</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_CAGM_12</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAGM-12</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_ASHM</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile_O</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_EXSRAAM</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror_2x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_MRAAM_1</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_MRAAM_2</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x2</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_MRAAM_3</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x2</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_ZRO_MRAAM_5</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x2</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -5141,6 +4929,11 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_Rh120_Tank_Cannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>KGS_Rh120_L44_Tank_Cannon</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -5329,10 +5122,10 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>CSG_LNX_AIM_120</Name>
+    <Name>CSG_LNX_R_27ER</Name>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AIM120_01_pylon</SubtypeId>
+      <SubtypeId>LXN_R27ER_pylon</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -5401,15 +5194,7 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>CSG_LNX_AGM_84</Name>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AGM84_pylon</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>CSG_LNX_KH_32AD</Name>
+    <Name>CSG_LNX_KH_31AD</Name>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_KH31AD_pylon</SubtypeId>
@@ -5876,16 +5661,16 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>HB_Weapon_PTS</Name>
+    <Name>Bomber_Weapon_PTS</Name>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>C30mmRevolver</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>RotaryCannon</SubtypeId>
-      <CountWeight>7</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -6020,47 +5805,47 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x1Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x2EmbeddedMirrored</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x2Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_20mm6BarrelRotary</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun_Long</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun_NoMuzzle</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_40mmAircraftCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -6100,22 +5885,22 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountSingle</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountDouble</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountQuad</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AGM84_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -6155,27 +5940,27 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM7_Mount</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM54Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM120_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM120_MountOffsetLeft</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM120_MountOffsetRight</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -6198,16 +5983,6 @@
       <CountWeight>7</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon_Offset</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>25mm_Rotary_Cannon_Gimbal</SubtypeId>
       <CountWeight>5</CountWeight>
@@ -6226,171 +6001,6 @@
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C30mmSingleTSG</SubtypeId>
       <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Retractable_ATGM</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetDown</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x1</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x2</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x1</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x2</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x1</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x2</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Revolver_Bomb_Bay</SubtypeId>
-      <CountWeight>16</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAGM-12</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile_O</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror_2x1</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x2</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x1</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x2</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x1</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x2</SubtypeId>
-      <CountWeight>15</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
@@ -6624,11 +6234,6 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AIM120_01_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_R77_pylon</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
@@ -6660,17 +6265,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_Brimstone_pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_Brimstone_pylon_cluster</SubtypeId>
-      <CountWeight>7</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AGM84_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -6685,12 +6285,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_P270MoskitJet_pylon</SubtypeId>
-      <CountWeight>12</CountWeight>
+      <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_S1M_pylon</SubtypeId>
-      <CountWeight>15</CountWeight>
+      <CountWeight>8</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -6700,17 +6300,17 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_KAB500KR_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_KAB1500SE_pylon</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_KAB1500SE_bay1</SubtypeId>
-      <CountWeight>12</CountWeight>
+      <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -6736,6 +6336,11 @@
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTPYLONMKVIIDCAIR</SubtypeId>
       <CountWeight>4</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>KGS_Rh120_L44_Tank_Cannon</SubtypeId>
+      <CountWeight>11</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -7695,16 +7300,16 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>MBT_Weapon_PTS</Name>
+    <Name>Ground_Weapon_PTS</Name>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>C30mmRevolver</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>RotaryCannon</SubtypeId>
-      <CountWeight>7</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -7839,47 +7444,47 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x1Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x2EmbeddedMirrored</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x2Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_20mm6BarrelRotary</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun_Long</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun_NoMuzzle</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_40mmAircraftCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -7919,22 +7524,22 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountSingle</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountDouble</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountQuad</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AGM84_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -7974,27 +7579,27 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM7_Mount</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM54Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM120_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM120_MountOffsetLeft</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM120_MountOffsetRight</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -8017,16 +7622,6 @@
       <CountWeight>7</CountWeight>
     </BlockTypes>
     <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon_Offset</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>25mm_Rotary_Cannon_Gimbal</SubtypeId>
       <CountWeight>5</CountWeight>
@@ -8045,171 +7640,6 @@
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C30mmSingleTSG</SubtypeId>
       <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Retractable_ATGM</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetDown</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x1</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x2</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x1</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x2</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x1</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x2</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Revolver_Bomb_Bay</SubtypeId>
-      <CountWeight>16</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAGM-12</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile_O</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror_2x1</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x2</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x1</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x2</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x1</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x2</SubtypeId>
-      <CountWeight>15</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
@@ -8443,11 +7873,6 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AIM120_01_pylon</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_R77_pylon</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
@@ -8479,17 +7904,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_Brimstone_pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_Brimstone_pylon_cluster</SubtypeId>
-      <CountWeight>7</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AGM84_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -8504,12 +7924,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_P270MoskitJet_pylon</SubtypeId>
-      <CountWeight>12</CountWeight>
+      <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_S1M_pylon</SubtypeId>
-      <CountWeight>15</CountWeight>
+      <CountWeight>8</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -8519,17 +7939,17 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_KAB500KR_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_KAB1500SE_pylon</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_KAB1500SE_bay1</SubtypeId>
-      <CountWeight>12</CountWeight>
+      <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -8556,868 +7976,10 @@
       <SubtypeId>TTPYLONMKVIIDCAIR</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
-  </BlockGroup>
-  <BlockGroup>
-    <Name>SPAA_Weapon_PTS</Name>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>C30mmRevolver</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>RotaryCannon</SubtypeId>
-      <CountWeight>7</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>C30mmSingleTSG</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>203mmHowitzer</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>Railgunx75f</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>Railgunx150f</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_50Cal</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_50CalOffset</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_20mmAircraftCannon</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_20mmAircraftCannonOffset</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingEmbedded20OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingEmbedded20Left</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingEmbedded20Offset</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingEmbedded20OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingEmbedded20</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingEmbedded20Right</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingRoundEmbedded20OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingRoundEmbedded20Left</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingRoundEmbedded20Offset</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingRoundEmbedded20OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingRoundEmbedded20</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPSlimWingRoundEmbedded20Right</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPWingEmbedded20OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPWingEmbedded20Left</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPWingEmbedded20Offset</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPWingEmbedded20OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPWingEmbedded20</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAPWingEmbedded20Right</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>20mmElectricCannon</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>20mmElectricCannon1x1Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>20mmElectricCannon1x2EmbeddedMirrored</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>20mmElectricCannon1x2Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_20mm6BarrelRotary</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_30mmChainGun</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_30mmChainGun_Long</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_30mmChainGun_NoMuzzle</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_40mmAircraftCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_57AircraftCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_250BombMount</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountBomb1000SelfDestroy</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountBomb1000</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>RocketPod19Pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>RocketPod19</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_StingerPod</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_HellfireMountSingle</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_HellfireMountDouble</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_HellfireMountQuad</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_AGM84_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_AirDropTorpedo</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountA2A</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountA2AOffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountA2AOffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountA2ASlimWing</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountA2ASlimWingOffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MountA2ASlimWingOffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_AIM7_Mount</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_AIM54Mount</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_AIM120_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_AIM120_MountOffsetLeft</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAP_AIM120_MountOffsetRight</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>25mm_Rotary_Cannon</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>25mm_Rotary_Cannon_Stealth</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>25mm_Rotary_Cannon_Stealth_1x6</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>30mm_Cannon</SubtypeId>
-      <CountWeight>7</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>57mm_Cannon_Offset</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>25mm_Rotary_Cannon_Gimbal</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>57mm_Gumbal_Turret</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>105mm_Gimbal_Turret</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>LargeMissileTurret</TypeId>
-      <SubtypeId>C30mmSingleTSG</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Retractable_ATGM</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Laser_Guided_Bomb_Rail_OffsetDown</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x1</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_2x2</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x1</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_3x2</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x1</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LGB500_Stealth_5x2</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>Revolver_Bomb_Bay</SubtypeId>
-      <CountWeight>16</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>CAGM-12</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>AntiShip_HyperVelocity_Missile_O</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>EXSRAAM_Stealth_Mirror_2x1</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetLeft</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetRight</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Rail_OffsetDown</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x1</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_2x2</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x1</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_3x2</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x1</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>MRAAM_Stealth_5x2</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_AutomatAGL</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_CoaxialMG</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>KGS_RWS_MG_Turret</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_TroikaMG</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_TroikaMG_Offset1</SubtypeId>
-      <CountWeight>1</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_M242BushmasterAC</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_MK30</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_2A42</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_GepardOerlikonGun</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_20K_45_Tank_Cannon</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_L70_BFR57MM</SubtypeId>
-      <CountWeight>0</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_F34_Tank_Cannon</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_M3_75_Tank_Cannon</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_XM274_Gun</SubtypeId>
-      <CountWeight>13</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_KWK36_88_Tank_Cannon</SubtypeId>
-      <CountWeight>9</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_D10T2S_100_Tank_Cannon</SubtypeId>
-      <CountWeight>9</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_L7A1_105_Tank_Cannon</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_M68_105_Tank_Cannon</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_Rh120_Tank_Cannon</SubtypeId>
+      <SubtypeId>KGS_Rh120_L44_Tank_Cannon</SubtypeId>
       <CountWeight>11</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_L30A1_Challenger_Tank_Cannon</SubtypeId>
-      <CountWeight>11</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_M360E1_Tank_Cannon</SubtypeId>
-      <CountWeight>12</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_A246M_T90_Tank_Cannon</SubtypeId>
-      <CountWeight>12</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_2A82_Tank_Cannon</SubtypeId>
-      <CountWeight>13</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_Rh130_Tank_Cannon</SubtypeId>
-      <CountWeight>13</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_1R85T_Enforcer_Tank_Cannon</SubtypeId>
-      <CountWeight>14</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_M162_152_Tank_Cannon</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_Howitzer_2A65</SubtypeId>
-      <CountWeight>16</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_QFL4A1_183mm_Tank_Gun</SubtypeId>
-      <CountWeight>17</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>KGS_ModularMLRS_1</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>KGS_ModularMLRS_2</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_KornetATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_SpikeATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>KGS_SAM_Crotale</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>SmallMissileLauncher</TypeId>
-      <SubtypeId>KGS_Mortar_81mm</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R73M_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R73Msmalloffset_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R73Msmalloffsetmirror_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R73M_bay1</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R73M_bay2</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R73M_bay2mirror</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R73M_bay3</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_IRIST_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_IRISTsmalloffset_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_IRISTsmalloffsetmirror_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R27ET_pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R27ER_pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AIM120_01_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R77_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R77_Bay2</SubtypeId>
-      <CountWeight>10</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_Meteor_pylon</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_RVVAEPD_pylon</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_R37M_pylon</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AIM260_pylon</SubtypeId>
-      <CountWeight>8</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_Brimstone_pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_Brimstone_pylon_cluster</SubtypeId>
-      <CountWeight>7</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_AGM84_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_KH31AD_pylon</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_KH31PK_pylon</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_P270MoskitJet_pylon</SubtypeId>
-      <CountWeight>12</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_S1M_pylon</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_FAB500_pylon</SubtypeId>
-      <CountWeight>2</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_KAB500KR_pylon</SubtypeId>
-      <CountWeight>4</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_KAB1500SE_pylon</SubtypeId>
-      <CountWeight>6</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_KAB1500SE_bay1</SubtypeId>
-      <CountWeight>12</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_MOAB_pylon</SubtypeId>
-      <CountWeight>40</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_S400_tube</SubtypeId>
-      <CountWeight>5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>LXN_S400_4x_tube</SubtypeId>
-      <CountWeight>20</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>TTPYLONMK13</SubtypeId>
-      <CountWeight>7</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>ConveyorSorter</TypeId>
-      <SubtypeId>TTPYLONMKVIIDCAIR</SubtypeId>
-      <CountWeight>4</CountWeight>
     </BlockTypes>
   </BlockGroup>
 </ArrayOfBlockGroup>

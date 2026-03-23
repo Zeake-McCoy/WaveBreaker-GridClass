@@ -91,18 +91,5 @@
             </Blocks>
         </BlockVariantGroup>
         
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="Core Upgrades" />
-            <Icon>Textures\LargeGridCore.png</Icon>
-            <DisplayName>Core Upgrades</DisplayName>
-            <Description>Core Upgrades, customize your grids to gain an edge.</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Combat" />
-                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Economy" />
-                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Handling" />
-                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Harvester" /> 
-                <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GridCore_Module_Overdrive" />              
-            </Blocks>
-        </BlockVariantGroup>
     </BlockVariantGroups>
 </Definitions>
