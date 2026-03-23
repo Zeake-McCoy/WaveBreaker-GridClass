@@ -623,7 +623,7 @@
   <BlockLimits>
     <Name>LF-LNX R-77</Name>
     <BlockGroups>CSG_LNX_R_77</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
@@ -631,7 +631,7 @@
   <BlockLimits>
     <Name>LF-LNX R-77 B2</Name>
     <BlockGroups>CSG_LNX_R_77_B2</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
