@@ -895,7 +895,7 @@
     <BlockTypes>
       <TypeId>Drill</TypeId>
       <SubtypeId>BasicStaticDrill</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>0.5</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Drill</TypeId>
