@@ -3627,47 +3627,47 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x1Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x2EmbeddedMirrored</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>20mmElectricCannon1x2Embedded</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_20mm6BarrelRotary</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun_Long</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmChainGun_NoMuzzle</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_40mmAircraftCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -3707,22 +3707,22 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountSingle</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountDouble</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_HellfireMountQuad</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AGM84_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -3762,7 +3762,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM7_Mount</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -3772,7 +3772,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_AIM120_Mount</SubtypeId>
-      <CountWeight>6</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -4127,12 +4127,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_P270MoskitJet_pylon</SubtypeId>
-      <CountWeight>12</CountWeight>
+      <CountWeight>10</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_S1M_pylon</SubtypeId>
-      <CountWeight>15</CountWeight>
+      <CountWeight>8</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
