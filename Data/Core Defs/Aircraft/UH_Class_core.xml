@@ -295,7 +295,7 @@
   <BlockLimits>
     <Name>UH-ZRO 30mm RT</Name>
     <BlockGroups>CSG_ZRO_30mm_RT</BlockGroups>
-    <MaxCount>10</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
