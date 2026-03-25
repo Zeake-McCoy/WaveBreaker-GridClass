@@ -4357,7 +4357,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -6360,7 +6360,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -8009,7 +8009,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
-      <CountWeight>5</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>

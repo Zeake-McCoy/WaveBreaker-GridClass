@@ -898,7 +898,7 @@
   <BlockLimits>
     <Name>HF-CAP 30mm RT</Name>
     <BlockGroups>GSC_CAP_30mm_RT</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
