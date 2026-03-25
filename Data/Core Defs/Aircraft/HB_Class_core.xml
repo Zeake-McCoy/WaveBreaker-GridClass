@@ -239,7 +239,7 @@
   <BlockLimits>
     <Name>HB-CAP AGM-84</Name>
     <BlockGroups>CSG_CAP_AGM_84</BlockGroups>
-    <MaxCount>8</MaxCount>
+    <MaxCount>10</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
@@ -784,6 +784,22 @@
     <Name>HB-LNX MK XI</Name>
     <BlockGroups>CSG_LNX_MK_XI</BlockGroups>
     <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HB-LNX B8M1</Name>
+    <BlockGroups>GSC_LXN_B8M1</BlockGroups>
+    <MaxCount>8</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HB-CAP 30mm RT</Name>
+    <BlockGroups>GSC_CAP_30mm_RT</BlockGroups>
+    <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

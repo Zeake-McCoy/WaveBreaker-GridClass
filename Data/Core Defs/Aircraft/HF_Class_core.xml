@@ -792,7 +792,7 @@
     <Name>HF-LNX P-270</Name>
     <BlockGroups>LF_LNX_P_270__Light_Fighter</BlockGroups>
     <BlockGroups>CSG_LNX_P_270</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
@@ -883,6 +883,22 @@
     <BlockGroups>LF_LNX_MK_XI__Light_Fighter</BlockGroups>
     <BlockGroups>CSG_LNX_MK_XI</BlockGroups>
     <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-LNX B8M1</Name>
+    <BlockGroups>GSC_LXN_B8M1</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP 30mm RT</Name>
+    <BlockGroups>GSC_CAP_30mm_RT</BlockGroups>
+    <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

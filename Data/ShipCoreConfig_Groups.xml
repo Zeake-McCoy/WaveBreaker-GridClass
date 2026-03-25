@@ -3692,17 +3692,17 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19Pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_StingerPod</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -4348,6 +4348,16 @@
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_Rh120_L44_Tank_Cannon</SubtypeId>
       <CountWeight>11</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LXN_b8m1_pod</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -5870,17 +5880,17 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19Pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_StingerPod</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -6341,6 +6351,16 @@
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_Rh120_L44_Tank_Cannon</SubtypeId>
       <CountWeight>11</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LXN_b8m1_pod</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
+      <CountWeight>5</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -7509,17 +7529,17 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19Pylon</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_StingerPod</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -7980,6 +8000,32 @@
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_Rh120_L44_Tank_Cannon</SubtypeId>
       <CountWeight>11</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LXN_b8m1_pod</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
+      <CountWeight>5</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSC_LXN_B8M1</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LXN_b8m1_pod</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSC_CAP_30mm_RT</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
 </ArrayOfBlockGroup>
