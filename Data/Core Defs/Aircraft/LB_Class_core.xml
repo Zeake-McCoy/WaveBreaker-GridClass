@@ -7,7 +7,7 @@
   <MobilityType>Mobile</MobilityType>
   <MaxBlocks>-1</MaxBlocks>
   <MinBlocks>0</MinBlocks>
-  <MaxMass>35000</MaxMass>
+  <MaxMass>50000</MaxMass>
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>2</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
