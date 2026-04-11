@@ -5482,12 +5482,12 @@
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>LXN_NK32_01_Thruster</SubtypeId>
-      <CountWeight>50</CountWeight>
+      <CountWeight>60</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>LXN_IndustrialJet_Thruster</SubtypeId>
-      <CountWeight>60</CountWeight>
+      <CountWeight>50</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
