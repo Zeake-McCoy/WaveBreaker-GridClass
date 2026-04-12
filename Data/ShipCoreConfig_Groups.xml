@@ -3842,12 +3842,12 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_CoaxialMG</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>0</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>KGS_RWS_MG_Turret</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>0</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
@@ -3987,12 +3987,12 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_KornetATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_SpikeATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -5855,12 +5855,12 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_CoaxialMG</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>0</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>KGS_RWS_MG_Turret</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>0</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
@@ -6000,12 +6000,12 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_KornetATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_SpikeATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -7504,12 +7504,12 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_CoaxialMG</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>0</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>KGS_RWS_MG_Turret</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>0</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
@@ -7649,12 +7649,12 @@
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_KornetATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>SmallMissileLauncher</TypeId>
       <SubtypeId>KGS_SpikeATGM</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
