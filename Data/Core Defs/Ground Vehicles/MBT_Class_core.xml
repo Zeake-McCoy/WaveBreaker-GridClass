@@ -11,8 +11,9 @@
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
-  <MinPlayers>-1</MinPlayers>
   <MaxPerFaction>8</MaxPerFaction>
+  <MinPlayers>-1</MinPlayers>
+  <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
@@ -792,6 +793,14 @@
     <Name>MBT-LNX B8M1</Name>
     <BlockGroups>GSC_LXN_B8M1</BlockGroups>
     <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>MBT-ZRO R ATGM</Name>
+    <BlockGroups>GSC_ZRO_R_ATGM</BlockGroups>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

@@ -11,8 +11,9 @@
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
-  <MinPlayers>-1</MinPlayers>
   <MaxPerFaction>4</MaxPerFaction>
+  <MinPlayers>-1</MinPlayers>
+  <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
@@ -83,6 +84,7 @@
   <BlockLimits>
     <Name>VTT Forbidden</Name>
     <BlockGroups>CIV_Forbidden</BlockGroups>
+    <BlockGroups>GSC_ZRO_R_ATGM</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

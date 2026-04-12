@@ -11,8 +11,9 @@
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>3</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
-  <MinPlayers>-1</MinPlayers>
   <MaxPerFaction>1</MaxPerFaction>
+  <MinPlayers>-1</MinPlayers>
+  <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>

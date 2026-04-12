@@ -4194,6 +4194,11 @@
       <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>Retractable_ATGM</SubtypeId>
+      <CountWeight>5</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>CSG_NW_30mm</Name>
@@ -6197,6 +6202,11 @@
       <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>Retractable_ATGM</SubtypeId>
+      <CountWeight>5</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>CIV_Weapon_PTS</Name>
@@ -7846,6 +7856,11 @@
       <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
       <CountWeight>4</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>Retractable_ATGM</SubtypeId>
+      <CountWeight>5</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>GSC_LXN_B8M1</Name>
@@ -7860,6 +7875,14 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>CAP_30mmRotaryCannon</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSC_ZRO_R_ATGM</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>Retractable_ATGM</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>

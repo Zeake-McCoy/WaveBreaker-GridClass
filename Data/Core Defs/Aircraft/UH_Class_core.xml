@@ -11,8 +11,9 @@
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>-1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
-  <MinPlayers>-1</MinPlayers>
   <MaxPerFaction>6</MaxPerFaction>
+  <MinPlayers>-1</MinPlayers>
+  <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
@@ -784,6 +785,14 @@
     <Name>UH-LNX MK XI</Name>
     <BlockGroups>CSG_LNX_MK_XI</BlockGroups>
     <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>UH-ZRO R ATGM</Name>
+    <BlockGroups>GSC_ZRO_R_ATGM</BlockGroups>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
