@@ -560,7 +560,7 @@
   <BlockLimits>
     <Name>SPAA-KGS Crotale</Name>
     <BlockGroups>CSG_KGS_Crotale</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>

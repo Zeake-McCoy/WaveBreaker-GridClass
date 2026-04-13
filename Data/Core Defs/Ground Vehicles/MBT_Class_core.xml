@@ -544,7 +544,7 @@
   <BlockLimits>
     <Name>MBT-KGS Kornet</Name>
     <BlockGroups>CSG_KGS_Kornet</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
@@ -552,7 +552,7 @@
   <BlockLimits>
     <Name>MBT-KGS Spike</Name>
     <BlockGroups>CSG_KGS_Spike</BlockGroups>
-    <MaxCount>1</MaxCount>
+    <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <PunishmentType>ShutOff</PunishmentType>
