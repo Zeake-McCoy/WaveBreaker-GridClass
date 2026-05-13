@@ -83,7 +83,7 @@
     <Filename>Data/Core Defs/Ground Vehicles/SPG_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/SUB_Class_core.xml</Filename>
+    <Filename>Data/Core Defs/Naval Ships/SUB_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Ground Bases/SY_Class_core.xml</Filename>

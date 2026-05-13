@@ -65,7 +65,7 @@
   <BlockLimits>
     <Name>UH Thrust</Name>
     <BlockGroups>CSG_Air_Thrust</BlockGroups>
-    <MaxCount>99</MaxCount>
+    <MaxCount>100</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
