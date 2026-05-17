@@ -2,19 +2,10 @@
 <CoreManifest>
 
   <ShipCore>
-    <Filename>Data/Core Defs/Aircraft/AH_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/ARF_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
     <Filename>Data/Core Defs/Naval Ships/BB_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Naval Ships/CA_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Aircraft/CIV_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Naval Ships/CL_Class_core.xml</Filename>
@@ -29,16 +20,7 @@
     <Filename>Data/Core Defs/Naval Ships/DD_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/FB_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/FCT_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
     <Filename>Data/Core Defs/Naval Ships/FF_CLass_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/FRT_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Naval Ships/FR_Class_core.xml</Filename>
@@ -47,34 +29,13 @@
     <Filename>Data/Core Defs/Naval Ships/GB_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
-    <Filename>Data/Core Defs/Aircraft/HB_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Aircraft/HF_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/HQ_CLass_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/INF_CLass_core.xml</Filename>
+    <Filename>Data/Core Defs/Naval Ships/SUB_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Ground Vehicles/LAV_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
-    <Filename>Data/Core Defs/Aircraft/LB_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Aircraft/LF_CLass_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
     <Filename>Data/Core Defs/Ground Vehicles/MBT_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/OP_Class_core.xml</Filename>
-  </ShipCore>
-  <ShipCore>
-    <Filename>Data/Core Defs/Ground Bases/REX_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Ground Vehicles/SPAA_Class_core.xml</Filename>
@@ -83,13 +44,55 @@
     <Filename>Data/Core Defs/Ground Vehicles/SPG_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
-    <Filename>Data/Core Defs/Naval Ships/SUB_Class_core.xml</Filename>
+    <Filename>Data/Core Defs/Ground Vehicles/UGV_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/ARF_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/FB_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/FCT_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/FRT_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/HQ_CLass_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/INF_CLass_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/OP_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Ground Bases/REX_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Naval Ships/SUB_Class_core-1.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Ground Bases/SY_Class_core.xml</Filename>
   </ShipCore>
   <ShipCore>
-    <Filename>Data/Core Defs/Ground Vehicles/UGV_Class_core.xml</Filename>
+    <Filename>Data/Core Defs/Aircraft/AH_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Aircraft/CIV_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Aircraft/HB_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Aircraft/HF_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Aircraft/LB_Class_core.xml</Filename>
+  </ShipCore>
+  <ShipCore>
+    <Filename>Data/Core Defs/Aircraft/LF_CLass_core.xml</Filename>
   </ShipCore>
   <ShipCore>
     <Filename>Data/Core Defs/Aircraft/UH_Class_core.xml</Filename>

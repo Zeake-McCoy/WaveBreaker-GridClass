@@ -5,7 +5,7 @@
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>2000</ForceBroadCastRange>
   <MobilityType>Static</MobilityType>
-  <MaxBlocks>1600</MaxBlocks>
+  <MaxBlocks>2000</MaxBlocks>
   <MinBlocks>0</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
