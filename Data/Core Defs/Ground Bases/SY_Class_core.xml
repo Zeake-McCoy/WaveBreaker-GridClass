@@ -65,7 +65,7 @@
   <BlockLimits>
     <Name>SY Weapon PTS</Name>
     <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
-    <MaxCount>24</MaxCount>
+    <MaxCount>56</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -272,7 +272,7 @@
   <BlockLimits>
     <Name>SY-LX RBU</Name>
     <BlockGroups>CLG_LX_RBU_6000</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

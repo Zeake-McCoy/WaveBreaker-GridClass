@@ -65,7 +65,7 @@
   <BlockLimits>
     <Name>FCT Weapon PTS</Name>
     <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
-    <MaxCount>12</MaxCount>
+    <MaxCount>16</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -245,7 +245,7 @@
   <BlockLimits>
     <Name>FCT-LX P-270</Name>
     <BlockGroups>CLG_LX_P_270</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -272,7 +272,7 @@
   <BlockLimits>
     <Name>FCT-LX RBU</Name>
     <BlockGroups>CLG_LX_RBU_6000</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -281,7 +281,7 @@
   <BlockLimits>
     <Name>FCT-LX MK15 T</Name>
     <BlockGroups>CLG_LX_MK15_T</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -290,7 +290,7 @@
   <BlockLimits>
     <Name>FCT-LX MK15 Q</Name>
     <BlockGroups>CLG_LX_MK15_Q</BlockGroups>
-    <MaxCount>2</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
