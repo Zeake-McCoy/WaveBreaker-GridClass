@@ -35,7 +35,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C100mmTurret</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -55,7 +55,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -544,7 +544,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -943,7 +943,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C100mmTurret</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -963,7 +963,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1111,7 +1111,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C100mmTurret</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -1131,7 +1131,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1279,7 +1279,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C100mmTurret</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -1299,7 +1299,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1467,7 +1467,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2028,7 +2028,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2196,7 +2196,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2364,7 +2364,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2532,7 +2532,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2680,7 +2680,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C100mmTurret</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -2700,7 +2700,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2848,7 +2848,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>C100mmTurret</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
@@ -2868,7 +2868,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -3369,7 +3369,7 @@
     <BlockTypes>
       <TypeId>LargeMissileTurret</TypeId>
       <SubtypeId>AMSlaser</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
