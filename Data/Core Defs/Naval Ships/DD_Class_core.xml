@@ -307,7 +307,9 @@
   </BlockLimits>
   <BlockLimits>
     <Name>DD Forbidden</Name>
-    <BlockGroups>BA_Forbidden</BlockGroups>
+    <BlockGroups>CLG_Forbidden</BlockGroups>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

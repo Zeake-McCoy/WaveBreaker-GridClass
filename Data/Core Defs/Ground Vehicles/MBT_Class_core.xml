@@ -899,4 +899,15 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
+  <BlockLimits>
+    <Name>MBT Forbidden</Name>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <BlockGroups>CSG_Forbidden</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>

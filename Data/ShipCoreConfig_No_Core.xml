@@ -63,36 +63,12 @@
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
-    <Name>UND Weapon PTS</Name>
-    <BlockGroups>UND_Weapon_PTS__Undefined</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>true</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>UND MultiTools</Name>
-    <BlockGroups>UND_MultiTools__Undefined</BlockGroups>
-    <BlockGroups>CLG_MultiTools</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>UND Forbidden</Name>
     <BlockGroups>UND_Forbidden__Undefined</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>UND Extractors</Name>
+    <BlockGroups>CLG_Forbidden</BlockGroups>
     <BlockGroups>CLG_Extractors</BlockGroups>
+    <BlockGroups>FRT_Weapon_PTS</BlockGroups>
+    <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

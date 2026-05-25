@@ -306,18 +306,11 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>FB MultiTools</Name>
+    <Name>FB Forbidden</Name>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
     <BlockGroups>CLG_MultiTools</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>FB Extractors</Name>
     <BlockGroups>CLG_Extractors</BlockGroups>
-    <MaxCount>6</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

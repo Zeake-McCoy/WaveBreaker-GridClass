@@ -873,7 +873,7 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV--CAP 30mm RT</Name>
+    <Name>LAV-CAP 30mm RT</Name>
     <BlockGroups>GSC_CAP_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
@@ -894,6 +894,17 @@
     <Name>LAV-ZRO R ATGM</Name>
     <BlockGroups>GSC_ZRO_R_ATGM</BlockGroups>
     <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>LAV Forbidden</Name>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
+    <BlockGroups>CSG_Forbidden</BlockGroups>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

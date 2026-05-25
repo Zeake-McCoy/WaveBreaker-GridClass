@@ -76,18 +76,11 @@
     <AllowedDirections>Down</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
-    <Name>VTT Weapon PTS</Name>
-    <BlockGroups>CIV_Weapon_PTS</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>VTT Forbidden</Name>
-    <BlockGroups>CIV_Forbidden</BlockGroups>
-    <BlockGroups>GSC_ZRO_R_ATGM</BlockGroups>
+    <BlockGroups>CSG_Forbidden</BlockGroups>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

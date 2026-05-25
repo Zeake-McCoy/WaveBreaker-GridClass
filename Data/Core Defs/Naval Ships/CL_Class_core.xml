@@ -297,16 +297,10 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CL-VXM MLMS</Name>
-    <MaxCount>3</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>CL Forbidden</Name>
-    <BlockGroups>BA_Forbidden</BlockGroups>
+    <BlockGroups>CLG_Forbidden</BlockGroups>
+    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

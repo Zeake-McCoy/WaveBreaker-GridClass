@@ -63,15 +63,6 @@
     <Kinetic>1</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
-    <Name>FR Weapon PTS</Name>
-    <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>FR MultiTools</Name>
     <BlockGroups>CLG_MultiTools</BlockGroups>
     <MaxCount>1</MaxCount>
@@ -82,7 +73,9 @@
   </BlockLimits>
   <BlockLimits>
     <Name>FR Forbidden</Name>
-    <BlockGroups>BA_Forbidden</BlockGroups>
+    <BlockGroups>CLG_Forbidden</BlockGroups>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
+    <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

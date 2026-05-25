@@ -308,6 +308,7 @@
   <BlockLimits>
     <Name>CV Forbidden</Name>
     <BlockGroups>CV_Forbidden</BlockGroups>
+    <BlockGroups>CSG_MultiTools</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
