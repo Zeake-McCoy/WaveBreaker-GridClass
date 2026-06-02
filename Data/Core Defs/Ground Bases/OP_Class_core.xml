@@ -17,6 +17,8 @@
   <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
+  <SpeedOverridePriority>0</SpeedOverridePriority>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
     <AssemblerSpeed>0.6</AssemblerSpeed>

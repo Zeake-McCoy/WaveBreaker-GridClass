@@ -17,12 +17,14 @@
   <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>true</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
+  <SpeedOverridePriority>0</SpeedOverridePriority>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <Modifiers>
     <AssemblerSpeed>1</AssemblerSpeed>
     <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
     <GyroEfficiency>1</GyroEfficiency>
-    <GyroForce>1</GyroForce>
+    <GyroForce>0.25</GyroForce>
     <PowerProducersOutput>1</PowerProducersOutput>
     <RefineEfficiency>1</RefineEfficiency>
     <RefineSpeed>1</RefineSpeed>
