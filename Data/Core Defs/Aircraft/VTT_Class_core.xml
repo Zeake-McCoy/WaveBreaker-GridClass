@@ -72,10 +72,6 @@
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <PunishmentType>ShutOff</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
-    <AllowedDirections>Backward</AllowedDirections>
-    <AllowedDirections>Up</AllowedDirections>
-    <AllowedDirections>Down</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>VTT Forbidden</Name>
