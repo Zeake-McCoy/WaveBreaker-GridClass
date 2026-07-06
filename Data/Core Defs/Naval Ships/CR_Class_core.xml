@@ -41,6 +41,8 @@
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
     <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
     <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+    <CruiseFrictionMultiplier>0</CruiseFrictionMultiplier>
+    <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
@@ -74,35 +76,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-NW 500mm</Name>
-    <BlockGroups>CLG_NW_500mm</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>CR-NW 400mm</Name>
-    <BlockGroups>CLG_NW_400mm</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>CR-NW 300mm</Name>
-    <BlockGroups>CLG_NW_300mm</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>CR-NW 203mm Twin</Name>
-    <BlockGroups>CLG_NW_203mm_Twin</BlockGroups>
+    <BlockGroups>GLG_NW_203mm_Twin</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -111,7 +86,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>CR-NW 203mm Deck</Name>
-    <BlockGroups>CLG_NW_203mm_Deck</BlockGroups>
+    <BlockGroups>GLG_NW_203mm_Deck</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -120,7 +95,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>CR-NW 100mm</Name>
-    <BlockGroups>CLG_NW_100mm</BlockGroups>
+    <BlockGroups>GLG_NW_100mm</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -129,7 +104,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>CR-NW 30mm CIWS</Name>
-    <BlockGroups>CLG_NW_30mm_CIWS</BlockGroups>
+    <BlockGroups>GLG_NW_30mm_CIWS</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -138,7 +113,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>CR-NW 30mm Auto</Name>
-    <BlockGroups>CLG_NW_30mm_Auto</BlockGroups>
+    <BlockGroups>GLG_NW_30mm_Auto</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -147,7 +122,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>CR-NW AMS</Name>
-    <BlockGroups>CLG_NW_AMS</BlockGroups>
+    <BlockGroups>GLG_NW_AMS</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -156,7 +131,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>CR-NW 75mm RG</Name>
-    <BlockGroups>CLG_NW_75mm_RG</BlockGroups>
+    <BlockGroups>GLG_NW_75mm_RG</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -164,26 +139,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-NW 150mm RG</Name>
-    <BlockGroups>CLG_NW_150mm_RG</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>CR-NW 250mm RG</Name>
-    <BlockGroups>CLG_NW_250mm_RG</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>CR-LX 30mm CIWS G</Name>
-    <BlockGroups>CLG_LX_30mm_CIWS_G</BlockGroups>
+    <Name>CR-LXN Groza</Name>
+    <BlockGroups>GLG_LXN_30mm_CIWS_G</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -191,8 +148,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX 30mm CIWS P</Name>
-    <BlockGroups>CLG_LX_30mm_CIWS_P</BlockGroups>
+    <Name>CR-LXN Palash</Name>
+    <BlockGroups>GLG_LXN_30mm_CIWS_P</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -200,8 +157,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX Missile CIWS</Name>
-    <BlockGroups>CLG_LX_Missile_CIWS</BlockGroups>
+    <Name>CR-LXN Strela</Name>
+    <BlockGroups>GLG_LXN_Strela</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -209,8 +166,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX 130mm S</Name>
-    <BlockGroups>CLG_LX_130mm_S</BlockGroups>
+    <Name>CR-TT OTO76</Name>
+    <BlockGroups>GLG_TT_OTO76</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -218,8 +175,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX 130mm D</Name>
-    <BlockGroups>CLG_LX_130mm_D</BlockGroups>
+    <Name>CR-TT MK45</Name>
+    <BlockGroups>GLG_TT_MK45</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -227,8 +184,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX S-400</Name>
-    <BlockGroups>CLG_LX_S_400</BlockGroups>
+    <Name>CR-LXN S-400</Name>
+    <BlockGroups>GLG_LXN_S400</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -236,8 +193,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX 3S14</Name>
-    <BlockGroups>CLG_LX_3S14</BlockGroups>
+    <Name>CR-LXN 3S14</Name>
+    <BlockGroups>GLG_LXN_3S14</BlockGroups>
     <MaxCount>3</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -245,8 +202,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX P-270</Name>
-    <BlockGroups>CLG_LX_P_270</BlockGroups>
+    <Name>CR-LXN P-270</Name>
+    <BlockGroups>GLG_LXN_P_270</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -254,8 +211,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX Zircon</Name>
-    <BlockGroups>CLG_LX_Zircon</BlockGroups>
+    <Name>CR-LXN Zircon</Name>
+    <BlockGroups>GLG_LXN_Zircon</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -263,17 +220,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX SUB VLS</Name>
-    <BlockGroups>CLG_LX_SUB_VLS</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>CR-LX RBU</Name>
-    <BlockGroups>CLG_LX_RBU_6000</BlockGroups>
+    <Name>CR-TT RBU</Name>
+    <BlockGroups>GLG_TT_RBU</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -281,8 +229,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX MK15 T</Name>
-    <BlockGroups>CLG_LX_MK15_T</BlockGroups>
+    <Name>CR-TT MK15 T</Name>
+    <BlockGroups>GLG_TT_MK15_T</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -290,18 +238,9 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>CR-LX MK15 Q</Name>
-    <BlockGroups>CLG_LX_MK15_Q</BlockGroups>
+    <Name>CR-TT MK15 Q</Name>
+    <BlockGroups>CLG_TT_MK15_Q</BlockGroups>
     <MaxCount>2</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>CR-LX MK15 S</Name>
-    <BlockGroups>CLG_LX_MK15_S</BlockGroups>
-    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -310,9 +249,54 @@
   <BlockLimits>
     <Name>CR Forbidden</Name>
     <BlockGroups>CLG_Forbidden</BlockGroups>
-    <BlockGroups>CLG_MultiTools</BlockGroups>
-    <BlockGroups>CSG_MultiTools</BlockGroups>
+    <BlockGroups>GLG_MultiTools</BlockGroups>
+    <BlockGroups>GSG_MultiTools</BlockGroups>
+    <BlockGroups>CLG_LXN_SUB_VLS</BlockGroups>
+    <BlockGroups>CLG_TT_MK15_S</BlockGroups>
+    <BlockGroups>GLG_NW_500mm</BlockGroups>
+    <BlockGroups>GLG_NW_400mm</BlockGroups>
+    <BlockGroups>GLG_NW_150mm_RG</BlockGroups>
+    <BlockGroups>GLG_NW_250mm_RG</BlockGroups>
+    <BlockGroups>GLG_NW_300mm</BlockGroups>
+    <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>CR-TT Millenium</Name>
+    <BlockGroups>GLG_TT_Millenium</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>CR-TT MK13-26</Name>
+    <BlockGroups>GLG_TT_MK13</BlockGroups>
+    <BlockGroups>GLG_TT_MK26</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>CR-TT MK141</Name>
+    <BlockGroups>GLG_TT_MK141</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>CR-TT MK112</Name>
+    <BlockGroups>GLG_TT_MK112</BlockGroups>
+    <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

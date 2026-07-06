@@ -41,6 +41,8 @@
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
     <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
     <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+    <CruiseFrictionMultiplier>0</CruiseFrictionMultiplier>
+    <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
@@ -75,7 +77,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-NW 30mm</Name>
-    <BlockGroups>CSG_NW_30mm</BlockGroups>
+    <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -83,17 +85,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-NW 30mm RT</Name>
-    <BlockGroups>CSG_NW_30mm_RT</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-NW 30mm Turret</Name>
-    <BlockGroups>CSG_NW_30mm_Turret</BlockGroups>
+    <BlockGroups>GSG_NW_30mm_Turret</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -101,35 +94,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-NW 203</Name>
-    <BlockGroups>CSG_NW_203</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-NW 75mm RG</Name>
-    <BlockGroups>CSG_NW_75mm_RG</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-NW 150mm RG</Name>
-    <BlockGroups>CSG_NW_150mm_RG</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-CAP 50Cal</Name>
-    <BlockGroups>CSG_CAP_50Cal</BlockGroups>
+    <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -138,7 +104,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP 20mm AC</Name>
-    <BlockGroups>CSG_CAP_20mm_AC</BlockGroups>
+    <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -147,7 +113,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP 20mm RT</Name>
-    <BlockGroups>CSG_CAP_20mm_RT</BlockGroups>
+    <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -156,7 +122,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP 20mm TR-6</Name>
-    <BlockGroups>CSG_CAP_20mm_TR_6</BlockGroups>
+    <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -165,7 +131,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP 30mm C</Name>
-    <BlockGroups>CSG_CAP_30mm_C</BlockGroups>
+    <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -174,7 +140,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP 40mm</Name>
-    <BlockGroups>CSG_CAP_40mm</BlockGroups>
+    <BlockGroups>GSG_CAP_40mm</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -183,7 +149,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP 57mm AC</Name>
-    <BlockGroups>CSG_CAP_57mm_AC</BlockGroups>
+    <BlockGroups>GSG_CAP_57mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -191,26 +157,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-CAP 250lb</Name>
-    <BlockGroups>CSG_CAP_250lb</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-CAP 1000lb</Name>
-    <BlockGroups>CSG_CAP_1000lb</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-CAP Hydra</Name>
-    <BlockGroups>CSG_CAP_Hydra</BlockGroups>
+    <BlockGroups>GSG_CAP_Hydra</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -219,7 +167,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP AA Pod</Name>
-    <BlockGroups>CSG_CAP_AA_Pod</BlockGroups>
+    <BlockGroups>GSG_CAP_AA_Pod</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -228,7 +176,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP Hellfire S</Name>
-    <BlockGroups>CSG_CAP_Hellfire_S</BlockGroups>
+    <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -237,7 +185,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP Hellfire D</Name>
-    <BlockGroups>CSG_CAP_Hellfire_D</BlockGroups>
+    <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -246,7 +194,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-CAP Hellfire Q</Name>
-    <BlockGroups>CSG_CAP_Hellfire_Q</BlockGroups>
+    <BlockGroups>GSG_CAP_Hellfire_Q</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -254,62 +202,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-CAP AGM-84</Name>
-    <BlockGroups>CSG_CAP_AGM_84</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-CAP Torp</Name>
-    <BlockGroups>CSG_CAP_Torp</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-CAP Aim-9</Name>
-    <BlockGroups>CSG_CAP_Aim_9</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-CAP Aim-7</Name>
-    <BlockGroups>CSG_CAP_Aim_7</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-CAP Aim-54</Name>
-    <BlockGroups>CSG_CAP_Aim_54</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-CAP Aim-120</Name>
-    <BlockGroups>CSG_CAP_Aim_120</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-ZRO 25mm</Name>
-    <BlockGroups>CSG_ZRO_25mm</BlockGroups>
+    <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -318,34 +212,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-ZRO 30mm RT</Name>
-    <BlockGroups>CSG_ZRO_30mm_RT</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-ZRO 25mm G</Name>
-    <BlockGroups>CSG_ZRO_25mm_G</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-ZRO 57mm G</Name>
-    <BlockGroups>CSG_ZRO_57mm_G</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-ZRO 105mm G</Name>
-    <BlockGroups>CSG_ZRO_105mm_G</BlockGroups>
+    <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -354,7 +221,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-ZRO 30mm AC-T</Name>
-    <BlockGroups>CSG_ZRO_30mm_AC_T</BlockGroups>
+    <BlockGroups>GSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -363,7 +230,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS AGL-6</Name>
-    <BlockGroups>CSG_KGS_AGL_6</BlockGroups>
+    <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -372,7 +239,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS MG-7</Name>
-    <BlockGroups>CSG_KGS_MG_7</BlockGroups>
+    <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -381,7 +248,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS MG-12</Name>
-    <BlockGroups>CSG_KGS_MG_12</BlockGroups>
+    <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -390,7 +257,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 25mm AC</Name>
-    <BlockGroups>CSG_KGS_25mm_AC</BlockGroups>
+    <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -399,7 +266,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 30mm M</Name>
-    <BlockGroups>CSG_KGS_30mm_M</BlockGroups>
+    <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -408,7 +275,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 30mm S</Name>
-    <BlockGroups>CSG_KGS_30mm_S</BlockGroups>
+    <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -417,7 +284,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 35mm</Name>
-    <BlockGroups>CSG_KGS_35mm</BlockGroups>
+    <BlockGroups>GSG_KGS_35mm</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -426,7 +293,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 45mm</Name>
-    <BlockGroups>CSG_KGS_45mm</BlockGroups>
+    <BlockGroups>GSG_KGS_45mm</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -435,7 +302,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 57mm</Name>
-    <BlockGroups>CSG_KGS_57mm</BlockGroups>
+    <BlockGroups>GSG_KGS_57mm</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -444,7 +311,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 76mm F</Name>
-    <BlockGroups>CSG_KGS_76mm_F</BlockGroups>
+    <BlockGroups>GSG_KGS_76mm_F</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -453,7 +320,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 75mm M</Name>
-    <BlockGroups>CSG_KGS_75mm_M</BlockGroups>
+    <BlockGroups>GSG_KGS_75mm_M</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -462,7 +329,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 75mm AC</Name>
-    <BlockGroups>CSG_KGS_75mm_AC</BlockGroups>
+    <BlockGroups>GSG_KGS_75mm_AC</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -471,7 +338,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 88mm</Name>
-    <BlockGroups>CSG_KGS_88mm</BlockGroups>
+    <BlockGroups>GSG_KGS_88mm</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -480,7 +347,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 100mm D10</Name>
-    <BlockGroups>CSG_KGS_100mm_D10</BlockGroups>
+    <BlockGroups>GSG_KGS_100mm_D10</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -489,7 +356,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 105mm L</Name>
-    <BlockGroups>CSG_KGS_105mm_L</BlockGroups>
+    <BlockGroups>GSG_KGS_105mm_L</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -498,7 +365,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 105 M</Name>
-    <BlockGroups>CSG_KGS_105_M</BlockGroups>
+    <BlockGroups>GSG_KGS_105_M</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -506,107 +373,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-KGS 120mm R</Name>
-    <BlockGroups>CSG_KGS_120mm_R</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 120mm L</Name>
-    <BlockGroups>CSG_KGS_120mm_L</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 120mm M</Name>
-    <BlockGroups>CSG_KGS_120mm_M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 125mm</Name>
-    <BlockGroups>CSG_KGS_125mm</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 125mm A</Name>
-    <BlockGroups>CSG_KGS_125mm_A</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 130mm</Name>
-    <BlockGroups>CSG_KGS_130mm</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 140mm</Name>
-    <BlockGroups>CSG_KGS_140mm</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 152mm G</Name>
-    <BlockGroups>CSG_KGS_152mm_G</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 152mm H</Name>
-    <BlockGroups>CSG_KGS_152mm_H</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS 183mm</Name>
-    <BlockGroups>CSG_KGS_183mm</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS MLRS</Name>
-    <BlockGroups>CSG_KGS_MLRS</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-KGS Kornet</Name>
-    <BlockGroups>CSG_KGS_Kornet</BlockGroups>
+    <BlockGroups>GSG_KGS_Kornet</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -615,17 +383,8 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS Spike</Name>
-    <BlockGroups>CSG_KGS_Spike</BlockGroups>
+    <BlockGroups>GSG_KGS_Spike</BlockGroups>
     <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-KGS Crotale</Name>
-    <BlockGroups>CSG_KGS_Crotale</BlockGroups>
-    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -633,7 +392,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-KGS 81mm Mortar</Name>
-    <BlockGroups>CSG_KGS_81mm_Mortar</BlockGroups>
+    <BlockGroups>GSG_KGS_81mm_Mortar</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -641,107 +400,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-LNX R-73M</Name>
-    <BlockGroups>CSG_LNX_R_73M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX R-73M B3</Name>
-    <BlockGroups>CSG_LNX_R_73M_B3</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX IRIS-T</Name>
-    <BlockGroups>CSG_LNX_IRIS_T</BlockGroups>
-    <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX R-27ET</Name>
-    <BlockGroups>CSG_LNX_R_27ET</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX R-27ER</Name>
-    <BlockGroups>CSG_LNX_R_27ER</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX R-77</Name>
-    <BlockGroups>CSG_LNX_R_77</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX R-77 B2</Name>
-    <BlockGroups>CSG_LNX_R_77_B2</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX Meteor</Name>
-    <BlockGroups>CSG_LNX_Meteor</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX R-VV-AE-PD</Name>
-    <BlockGroups>CSG_LNX_R_VV_AE_PD</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX R-37M</Name>
-    <BlockGroups>CSG_LNX_R_37M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX AIM-260</Name>
-    <BlockGroups>CSG_LNX_AIM_260</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-LNX AGM-114</Name>
-    <BlockGroups>CSG_LNX_AGM_114</BlockGroups>
+    <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -750,7 +410,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-LNX AGM-114 C</Name>
-    <BlockGroups>CSG_LNX_AGM_114_C</BlockGroups>
+    <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -758,134 +418,8 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-LNX KH-31AD</Name>
-    <BlockGroups>CSG_LNX_KH_31AD</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX KH-31PK</Name>
-    <BlockGroups>CSG_LNX_KH_31PK</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX P-270</Name>
-    <BlockGroups>CSG_LNX_P_270</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX S1-M</Name>
-    <BlockGroups>CSG_LNX_S1_M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX FAB-500</Name>
-    <BlockGroups>CSG_LNX_FAB_500</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX KAB-500</Name>
-    <BlockGroups>CSG_LNX_KAB_500</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX KAB-1500</Name>
-    <BlockGroups>CSG_LNX_KAB_1500</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX KAB-1500 B1</Name>
-    <BlockGroups>CSG_LNX_KAB_1500_B1</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX GBU-43</Name>
-    <BlockGroups>CSG_LNX_GBU_43</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX S-400</Name>
-    <BlockGroups>CSG_LNX_S_400</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX 400 4M</Name>
-    <BlockGroups>CSG_LNX_400_4M</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX MK13</Name>
-    <BlockGroups>CSG_LNX_MK13</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX MK XI</Name>
-    <BlockGroups>CSG_LNX_MK_XI</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-CAP 30mm RT</Name>
-    <BlockGroups>GSC_CAP_30mm_RT</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-LNX B8M1</Name>
-    <BlockGroups>GSC_LXN_B8M1</BlockGroups>
+    <BlockGroups>GSG_LXN_B8M1</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -894,7 +428,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV-ZRO R ATGM</Name>
-    <BlockGroups>GSC_ZRO_R_ATGM</BlockGroups>
+    <BlockGroups>GSG_ZRO_R_ATGM</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -903,9 +437,64 @@
   </BlockLimits>
   <BlockLimits>
     <Name>LAV Forbidden</Name>
-    <BlockGroups>CLG_MultiTools</BlockGroups>
-    <BlockGroups>CSG_MultiTools</BlockGroups>
-    <BlockGroups>CSG_Forbidden</BlockGroups>
+    <BlockGroups>GLG_MultiTools</BlockGroups>
+    <BlockGroups>GSG_MultiTools</BlockGroups>
+    <BlockGroups>GSG_Forbidden</BlockGroups>
+    <BlockGroups>GSG_Countermeasures</BlockGroups>
+    <BlockGroups>GSG_LXN_9M723</BlockGroups>
+    <BlockGroups>GSG_NW_30mm_RT</BlockGroups>
+    <BlockGroups>GSG_NW_203</BlockGroups>
+    <BlockGroups>GSG_NW_75mm_RG</BlockGroups>
+    <BlockGroups>GSG_NW_150mm_RG</BlockGroups>
+    <BlockGroups>GSG_TT_MK_XI</BlockGroups>
+    <BlockGroups>GSG_TT_MK13</BlockGroups>
+    <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
+    <BlockGroups>GSG_LNX_S400_4</BlockGroups>
+    <BlockGroups>GSG_LNX_KAB_1500_B1</BlockGroups>
+    <BlockGroups>GSG_LNX_P_270</BlockGroups>
+    <BlockGroups>GSG_LNX_KH_31PK</BlockGroups>
+    <BlockGroups>GSG_LNX_KAB_1500</BlockGroups>
+    <BlockGroups>GSG_LNX_KAB_500</BlockGroups>
+    <BlockGroups>GSG_LNX_KH_31AD</BlockGroups>
+    <BlockGroups>GSG_LNX_FAB_500</BlockGroups>
+    <BlockGroups>GSG_LNX_S_400</BlockGroups>
+    <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
+    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_LNX_S1_M</BlockGroups>
+    <BlockGroups>GSG_LNX_R_77_B2</BlockGroups>
+    <BlockGroups>GSG_LNX_R_73M_B3</BlockGroups>
+    <BlockGroups>GSG_LNX_IRIS_T</BlockGroups>
+    <BlockGroups>GSG_LNX_Meteor</BlockGroups>
+    <BlockGroups>GSG_LNX_R_VV_AE_PD</BlockGroups>
+    <BlockGroups>GSG_LNX_R_27ET</BlockGroups>
+    <BlockGroups>GSG_LNX_R_27ER</BlockGroups>
+    <BlockGroups>GSG_LNX_R_37M</BlockGroups>
+    <BlockGroups>GSG_LNX_AIM_260</BlockGroups>
+    <BlockGroups>GSG_LNX_R_77</BlockGroups>
+    <BlockGroups>GSG_LNX_R_73M</BlockGroups>
+    <BlockGroups>GSG_KGS_MLRS</BlockGroups>
+    <BlockGroups>GSG_KGS_183mm</BlockGroups>
+    <BlockGroups>GSG_KGS_Crotale</BlockGroups>
+    <BlockGroups>GSG_KGS_152mm_H</BlockGroups>
+    <BlockGroups>GSG_KGS_152mm_G</BlockGroups>
+    <BlockGroups>GSG_KGS_140mm</BlockGroups>
+    <BlockGroups>GSG_KGS_120mm_L</BlockGroups>
+    <BlockGroups>GSG_KGS_120mm_M</BlockGroups>
+    <BlockGroups>GSG_KGS_125mm</BlockGroups>
+    <BlockGroups>GSG_KGS_125mm_A</BlockGroups>
+    <BlockGroups>GSG_KGS_130mm</BlockGroups>
+    <BlockGroups>GSG_KGS_120mm_R</BlockGroups>
+    <BlockGroups>GSG_CAP_Aim_9</BlockGroups>
+    <BlockGroups>GSG_CAP_Aim_7</BlockGroups>
+    <BlockGroups>GSG_CAP_Torp</BlockGroups>
+    <BlockGroups>GSG_CAP_Aim_54</BlockGroups>
+    <BlockGroups>GSG_CAP_Aim_120</BlockGroups>
+    <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
+    <BlockGroups>GSG_ZRO_25mm_G</BlockGroups>
+    <BlockGroups>GSG_ZRO_57mm_G</BlockGroups>
+    <BlockGroups>GSG_ZRO_105mm_G</BlockGroups>
+    <BlockGroups>GSG_CAP_1000lb</BlockGroups>
+    <BlockGroups>GSG_CAP_250lb</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

@@ -41,6 +41,8 @@
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
     <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
     <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+    <CruiseFrictionMultiplier>0</CruiseFrictionMultiplier>
+    <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
@@ -66,7 +68,7 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>FR MultiTools</Name>
-    <BlockGroups>CLG_MultiTools</BlockGroups>
+    <BlockGroups>GLG_MultiTools</BlockGroups>
     <MaxCount>1</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -76,8 +78,9 @@
   <BlockLimits>
     <Name>FR Forbidden</Name>
     <BlockGroups>CLG_Forbidden</BlockGroups>
-    <BlockGroups>CSG_MultiTools</BlockGroups>
+    <BlockGroups>GSG_MultiTools</BlockGroups>
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
+    <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

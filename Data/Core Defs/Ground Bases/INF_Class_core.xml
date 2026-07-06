@@ -41,6 +41,8 @@
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
     <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
     <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+    <CruiseFrictionMultiplier>0</CruiseFrictionMultiplier>
+    <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
@@ -66,9 +68,9 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>INFRA Forbidden</Name>
-    <BlockGroups>CLG_MultiTools</BlockGroups>
-    <BlockGroups>CSG_MultiTools</BlockGroups>
-    <BlockGroups>CLG_Extractors</BlockGroups>
+    <BlockGroups>GLG_MultiTools</BlockGroups>
+    <BlockGroups>GSG_MultiTools</BlockGroups>
+    <BlockGroups>GLG_Extractors</BlockGroups>
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>

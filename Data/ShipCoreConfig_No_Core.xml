@@ -41,6 +41,8 @@
     <MinimumFrictionSpeedModifier>0.3</MinimumFrictionSpeedModifier>
     <MaximumFrictionSpeedModifier>0.8</MaximumFrictionSpeedModifier>
     <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
+    <CruiseFrictionMultiplier>0</CruiseFrictionMultiplier>
+    <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>2</Bullet>
@@ -66,11 +68,10 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>UND Forbidden</Name>
-    <BlockGroups>UND_Forbidden__Undefined</BlockGroups>
     <BlockGroups>CLG_Forbidden</BlockGroups>
-    <BlockGroups>CLG_Extractors</BlockGroups>
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
+    <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
