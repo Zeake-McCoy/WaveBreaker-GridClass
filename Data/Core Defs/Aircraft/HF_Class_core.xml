@@ -559,7 +559,7 @@
   <BlockLimits>
     <Name>HF Countermeasures</Name>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
-    <MaxCount>19.9</MaxCount>
+    <MaxCount>20</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
