@@ -416,7 +416,7 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>CLG_TT_MK15_Q</Name>
+    <Name>GLG_TT_MK15_Q</Name>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK15</SubtypeId>
@@ -6855,7 +6855,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_FlareLauncher_02</SubtypeId>
-      <CountWeight>4.1</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>

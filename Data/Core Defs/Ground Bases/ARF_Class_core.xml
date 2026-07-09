@@ -210,7 +210,7 @@
     <BlockGroups>CLG_LXN_SUB_VLS</BlockGroups>
     <BlockGroups>CLG_TT_MK15_S</BlockGroups>
     <BlockGroups>GLG_LXN_P_270</BlockGroups>
-    <BlockGroups>CLG_TT_MK15_Q</BlockGroups>
+    <BlockGroups>GLG_TT_MK15_Q</BlockGroups>
     <BlockGroups>GLG_TT_MK15_T</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>

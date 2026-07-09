@@ -257,7 +257,7 @@
   </BlockLimits>
   <BlockLimits>
     <Name>CL-TT MK15 Q</Name>
-    <BlockGroups>CLG_TT_MK15_Q</BlockGroups>
+    <BlockGroups>GLG_TT_MK15_Q</BlockGroups>
     <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

@@ -238,7 +238,7 @@
     <BlockGroups>GLG_NW_300mm</BlockGroups>
     <BlockGroups>GLG_NW_203mm_Twin</BlockGroups>
     <BlockGroups>GLG_TT_MK112</BlockGroups>
-    <BlockGroups>CLG_TT_MK15_Q</BlockGroups>
+    <BlockGroups>GLG_TT_MK15_Q</BlockGroups>
     <BlockGroups>GLG_TT_MK15_T</BlockGroups>
     <BlockGroups>GLG_TT_RBU</BlockGroups>
     <BlockGroups>GLG_LXN_Zircon</BlockGroups>
