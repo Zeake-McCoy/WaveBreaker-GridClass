@@ -72,6 +72,8 @@
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
+    <BlockGroups>GSG_MultiTools</BlockGroups>
+    <BlockGroups>GLG_MultiTools</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
