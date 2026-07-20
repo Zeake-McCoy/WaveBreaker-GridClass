@@ -5,7 +5,7 @@
   <ForceBroadCast>false</ForceBroadCast>
   <ForceBroadCastRange>0</ForceBroadCastRange>
   <MobilityType>Static</MobilityType>
-  <MaxBlocks>4000</MaxBlocks>
+  <MaxBlocks>5000</MaxBlocks>
   <MinBlocks>0</MinBlocks>
   <MaxMass>-1</MaxMass>
   <MaxPCU>-1</MaxPCU>
@@ -20,6 +20,11 @@
   <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
   <SpeedOverridePriority>0</SpeedOverridePriority>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <PowerOverclockEnabled>false</PowerOverclockEnabled>
+  <PowerOverclockMultiplier>0</PowerOverclockMultiplier>
+  <PowerOverclockDuration>0</PowerOverclockDuration>
+  <PowerOverclockCooldown>0</PowerOverclockCooldown>
+  <PowerOverclockDamagePerSecond>0</PowerOverclockDamagePerSecond>
   <Modifiers>
     <AssemblerSpeed>0.3</AssemblerSpeed>
     <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
@@ -69,7 +74,7 @@
   <BlockLimits>
     <Name>ARF Weapon PTS</Name>
     <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
-    <MaxCount>20</MaxCount>
+    <MaxCount>24</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -212,6 +217,7 @@
     <BlockGroups>GLG_LXN_P_270</BlockGroups>
     <BlockGroups>GLG_TT_MK15_Q</BlockGroups>
     <BlockGroups>GLG_TT_MK15_T</BlockGroups>
+    <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

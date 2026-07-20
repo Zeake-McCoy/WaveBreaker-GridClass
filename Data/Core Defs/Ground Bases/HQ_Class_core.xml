@@ -20,6 +20,11 @@
   <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
   <SpeedOverridePriority>0</SpeedOverridePriority>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
+  <PowerOverclockEnabled>false</PowerOverclockEnabled>
+  <PowerOverclockMultiplier>0</PowerOverclockMultiplier>
+  <PowerOverclockDuration>0</PowerOverclockDuration>
+  <PowerOverclockCooldown>0</PowerOverclockCooldown>
+  <PowerOverclockDamagePerSecond>0</PowerOverclockDamagePerSecond>
   <Modifiers>
     <AssemblerSpeed>0.9</AssemblerSpeed>
     <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
@@ -292,6 +297,7 @@
     <BlockGroups>GLG_TT_MK112</BlockGroups>
     <BlockGroups>GLG_NW_250mm_RG</BlockGroups>
     <BlockGroups>GLG_NW_500mm</BlockGroups>
+    <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

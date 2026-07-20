@@ -6906,4 +6906,32 @@
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
+  <BlockGroup>
+    <Name>GSG_Radars</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_Radar_WC</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LXN_GravestoneRadar_01</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LXN_JetRadar_Zaslon_1</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>LXN_SideByelkaRadar_01</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>ZSP_Helicopter_Radar</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
 </ArrayOfBlockGroup>
