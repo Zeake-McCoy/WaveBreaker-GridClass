@@ -38,6 +38,7 @@
   </Modifiers>
   <SpeedModifiers>
     <MaxSpeed>0.274</MaxSpeed>
+    <MaxAngularVelocity>0</MaxAngularVelocity>
     <MaxBoost>0</MaxBoost>
     <BoostDuration>10</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
@@ -311,7 +312,7 @@
   <BlockLimits>
     <Name>CL-TT MK141</Name>
     <BlockGroups>GLG_TT_MK141</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <MaxCount>6</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

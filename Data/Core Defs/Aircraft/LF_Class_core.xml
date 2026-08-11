@@ -38,6 +38,7 @@
   </Modifiers>
   <SpeedModifiers>
     <MaxSpeed>0.968</MaxSpeed>
+    <MaxAngularVelocity>0</MaxAngularVelocity>
     <MaxBoost>1</MaxBoost>
     <BoostDuration>15</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>

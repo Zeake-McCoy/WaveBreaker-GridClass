@@ -201,12 +201,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -644,12 +644,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -852,12 +852,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1060,12 +1060,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1656,7 +1656,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -1859,17 +1859,17 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK45Mod4</SubtypeId>
-      <CountWeight>3.9</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2072,12 +2072,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2280,12 +2280,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2488,12 +2488,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -2691,17 +2691,17 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK13</SubtypeId>
-      <CountWeight>4</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK26</SubtypeId>
-      <CountWeight>1</CountWeight>
+      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>TTMK141</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>4</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>

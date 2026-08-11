@@ -38,6 +38,7 @@
   </Modifiers>
   <SpeedModifiers>
     <MaxSpeed>0.274</MaxSpeed>
+    <MaxAngularVelocity>0</MaxAngularVelocity>
     <MaxBoost>0.323</MaxBoost>
     <BoostDuration>20</BoostDuration>
     <BoostCoolDown>60</BoostCoolDown>
@@ -248,19 +249,11 @@
     <BlockGroups>GLG_TT_RBU</BlockGroups>
     <BlockGroups>GLG_LXN_Zircon</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
-	<BlockGroups>GSG_Radars</BlockGroups>
+    <BlockGroups>GSG_Radars</BlockGroups>
     <BlockGroups>GLG_TT_MK26</BlockGroups>
     <BlockGroups>GLG_TT_MK13</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>SS-TT MK141</Name>
     <BlockGroups>GLG_TT_MK141</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

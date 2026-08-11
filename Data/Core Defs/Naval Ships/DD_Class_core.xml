@@ -38,6 +38,7 @@
   </Modifiers>
   <SpeedModifiers>
     <MaxSpeed>0.29</MaxSpeed>
+    <MaxAngularVelocity>0</MaxAngularVelocity>
     <MaxBoost>0.355</MaxBoost>
     <BoostDuration>40</BoostDuration>
     <BoostCoolDown>120</BoostCoolDown>
@@ -182,7 +183,7 @@
   <BlockLimits>
     <Name>DD-TT MK45</Name>
     <BlockGroups>GLG_TT_MK45</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <MaxCount>5</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
