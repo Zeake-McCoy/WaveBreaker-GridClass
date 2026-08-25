@@ -76,6 +76,7 @@
     <Name>AH Thrust</Name>
     <BlockGroups>GSG_Air_Thrust</BlockGroups>
     <MaxCount>70</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -87,6 +88,7 @@
     <Name>AH Weapon PTS</Name>
     <BlockGroups>Fighter_Weapon_PTS</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -96,6 +98,7 @@
     <Name>AH-NW 30mm</Name>
     <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -105,6 +108,7 @@
     <Name>AH-CAP 50Cal</Name>
     <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -114,6 +118,7 @@
     <Name>AH-CAP 20mm AC</Name>
     <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -123,6 +128,7 @@
     <Name>AH-CAP 20mm RT</Name>
     <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -132,6 +138,7 @@
     <Name>AH-CAP 20mm TR-6</Name>
     <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -141,6 +148,7 @@
     <Name>AH-CAP 30mm C</Name>
     <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -150,6 +158,7 @@
     <Name>AH-CAP 40mm</Name>
     <BlockGroups>GSG_CAP_40mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -159,6 +168,7 @@
     <Name>AH-CAP 57mm AC</Name>
     <BlockGroups>GSG_CAP_57mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -168,6 +178,7 @@
     <Name>AH-CAP 250lb</Name>
     <BlockGroups>GSG_CAP_250lb</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -177,6 +188,7 @@
     <Name>AH-CAP Hydra</Name>
     <BlockGroups>GSG_CAP_Hydra</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,6 +198,7 @@
     <Name>AH-CAP AA Pod</Name>
     <BlockGroups>GSG_CAP_AA_Pod</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -195,6 +208,7 @@
     <Name>AH-CAP Hellfire S</Name>
     <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -204,6 +218,7 @@
     <Name>AH-CAP Hellfire D</Name>
     <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -213,6 +228,7 @@
     <Name>AH-CAP Hellfire Q</Name>
     <BlockGroups>GSG_CAP_Hellfire_Q</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -222,6 +238,7 @@
     <Name>AH-CAP AGM-84</Name>
     <BlockGroups>GSG_CAP_AGM_84</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -231,6 +248,7 @@
     <Name>AH-CAP Aim-9</Name>
     <BlockGroups>GSG_CAP_Aim_9</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -240,6 +258,7 @@
     <Name>AH-CAP Aim-7</Name>
     <BlockGroups>GSG_CAP_Aim_7</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -249,6 +268,7 @@
     <Name>AH-ZRO 25mm</Name>
     <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -258,6 +278,7 @@
     <Name>AH-ZRO 30mm AC-T</Name>
     <BlockGroups>GSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -267,6 +288,7 @@
     <Name>AH-KGS AGL-6</Name>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -276,6 +298,7 @@
     <Name>AH-KGS MG-7</Name>
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -285,6 +308,7 @@
     <Name>AH-KGS MG-12</Name>
     <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -294,6 +318,7 @@
     <Name>AH-KGS 25mm AC</Name>
     <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -303,6 +328,7 @@
     <Name>AH-KGS 30mm M</Name>
     <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -312,6 +338,7 @@
     <Name>AH-KGS 30mm S</Name>
     <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -321,6 +348,7 @@
     <Name>AH-KGS 35mm</Name>
     <BlockGroups>GSG_KGS_35mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -330,6 +358,7 @@
     <Name>AH-KGS 57mm</Name>
     <BlockGroups>GSG_KGS_57mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -339,6 +368,7 @@
     <Name>AH-LNX R-73M</Name>
     <BlockGroups>GSG_LNX_R_73M</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -348,6 +378,7 @@
     <Name>AH-LNX R-73M B3</Name>
     <BlockGroups>GSG_LNX_R_73M_B3</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -357,6 +388,7 @@
     <Name>AH-LNX IRIS-T</Name>
     <BlockGroups>GSG_LNX_IRIS_T</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -366,6 +398,7 @@
     <Name>AH-LNX R-27ET</Name>
     <BlockGroups>GSG_LNX_R_27ET</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -375,6 +408,7 @@
     <Name>AH-LNX R-27ER</Name>
     <BlockGroups>GSG_LNX_R_27ER</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -384,6 +418,7 @@
     <Name>AH-LNX AGM-114</Name>
     <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>12</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -393,6 +428,7 @@
     <Name>AH-LNX AGM-114 C</Name>
     <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -402,6 +438,7 @@
     <Name>AH-LNX KH-31AD</Name>
     <BlockGroups>GSG_LNX_KH_31AD</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -411,6 +448,7 @@
     <Name>AH-LNX KH-31PK</Name>
     <BlockGroups>GSG_LNX_KH_31PK</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -420,6 +458,7 @@
     <Name>AH-LNX FAB-500</Name>
     <BlockGroups>GSG_LNX_FAB_500</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -429,6 +468,7 @@
     <Name>AH-LNX KAB-500</Name>
     <BlockGroups>GSG_LNX_KAB_500</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -438,6 +478,7 @@
     <Name>AH-LNX MK13</Name>
     <BlockGroups>GSG_TT_MK13</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -447,6 +488,7 @@
     <Name>AH-LNX MK XI</Name>
     <BlockGroups>GSG_TT_MK_XI</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -511,6 +553,7 @@
     <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -520,6 +563,7 @@
     <Name>AH Countermeasures</Name>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

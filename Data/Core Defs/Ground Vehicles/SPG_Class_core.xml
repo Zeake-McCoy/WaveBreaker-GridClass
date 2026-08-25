@@ -76,6 +76,7 @@
     <Name>SPG Weapon PTS</Name>
     <BlockGroups>Ground_Weapon_PTS</BlockGroups>
     <MaxCount>24</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -85,6 +86,7 @@
     <Name>SPG-NW 30mm</Name>
     <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -94,6 +96,7 @@
     <Name>SPG-NW 203</Name>
     <BlockGroups>GSG_NW_203</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -103,6 +106,7 @@
     <Name>SPG-NW 75mm RG</Name>
     <BlockGroups>GSG_NW_75mm_RG</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -112,6 +116,7 @@
     <Name>SPG-NW 150mm RG</Name>
     <BlockGroups>GSG_NW_150mm_RG</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -121,6 +126,7 @@
     <Name>SPG-CAP 50Cal</Name>
     <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -130,6 +136,7 @@
     <Name>SPG-CAP 20mm AC</Name>
     <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -139,6 +146,7 @@
     <Name>SPG-CAP 20mm RT</Name>
     <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -148,6 +156,7 @@
     <Name>SPG-CAP 20mm TR-6</Name>
     <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -157,6 +166,7 @@
     <Name>SPG-CAP 30mm C</Name>
     <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,6 +176,7 @@
     <Name>SPG-CAP 40mm</Name>
     <BlockGroups>GSG_CAP_40mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -175,6 +186,7 @@
     <Name>SPG-CAP 57mm AC</Name>
     <BlockGroups>GSG_CAP_57mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -184,6 +196,7 @@
     <Name>SPG-CAP Hellfire S</Name>
     <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -193,6 +206,7 @@
     <Name>SPG-CAP Hellfire D</Name>
     <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -202,6 +216,7 @@
     <Name>SPG-CAP Hellfire Q</Name>
     <BlockGroups>GSG_CAP_Hellfire_Q</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -211,6 +226,7 @@
     <Name>SPG-CAP AGM-84</Name>
     <BlockGroups>GSG_CAP_AGM_84</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -220,6 +236,7 @@
     <Name>SPG-ZRO 25mm</Name>
     <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -229,6 +246,7 @@
     <Name>SPG-ZRO 30mm RT</Name>
     <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -238,6 +256,7 @@
     <Name>SPG-ZRO 30mm AC-T</Name>
     <BlockGroups>GSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -247,6 +266,7 @@
     <Name>SPG-KGS AGL-6</Name>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -256,6 +276,7 @@
     <Name>SPG-KGS MG-7</Name>
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -265,6 +286,7 @@
     <Name>SPG-KGS MG-12</Name>
     <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -274,6 +296,7 @@
     <Name>SPG-KGS 25mm AC</Name>
     <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -283,6 +306,7 @@
     <Name>SPG-KGS 30mm M</Name>
     <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -292,6 +316,7 @@
     <Name>SPG-KGS 30mm S</Name>
     <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -301,6 +326,7 @@
     <Name>SPG-KGS 152mm G</Name>
     <BlockGroups>GSG_KGS_152mm_G</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -310,6 +336,7 @@
     <Name>SPG-KGS 152mm H</Name>
     <BlockGroups>GSG_KGS_152mm_H</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -319,6 +346,7 @@
     <Name>SPG-KGS 183mm</Name>
     <BlockGroups>GSG_KGS_183mm</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -328,6 +356,7 @@
     <Name>SPG-KGS MLRS</Name>
     <BlockGroups>GSG_KGS_MLRS</BlockGroups>
     <MaxCount>12</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -337,6 +366,7 @@
     <Name>SPG-KGS 81mm Mortar</Name>
     <BlockGroups>GSG_KGS_81mm_Mortar</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -346,6 +376,7 @@
     <Name>SPG-LNX AGM-114</Name>
     <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -355,6 +386,7 @@
     <Name>SPG-LNX AGM-114 C</Name>
     <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -364,6 +396,7 @@
     <Name>SPG-ZRO R ATGM</Name>
     <BlockGroups>GSG_ZRO_R_ATGM</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -432,6 +465,7 @@
     <BlockGroups>GSG_LNX_KH_31PK</BlockGroups>
     <BlockGroups>GSG_LNX_R_37M</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -441,6 +475,7 @@
     <Name>SPG-LXN 9M723</Name>
     <BlockGroups>GSG_LXN_9M723</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

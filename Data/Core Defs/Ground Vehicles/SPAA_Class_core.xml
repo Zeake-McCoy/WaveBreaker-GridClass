@@ -76,6 +76,7 @@
     <Name>SPAA Weapon PTS</Name>
     <BlockGroups>Ground_Weapon_PTS</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -85,6 +86,7 @@
     <Name>SPAA-NW 30mm</Name>
     <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -94,6 +96,7 @@
     <Name>SPAA-NW 30mm RT</Name>
     <BlockGroups>GSG_NW_30mm_RT</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -103,6 +106,7 @@
     <Name>SPAA-NW 30mm Turret</Name>
     <BlockGroups>GSG_NW_30mm_Turret</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -112,6 +116,7 @@
     <Name>SPAA-CAP 50Cal</Name>
     <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -121,6 +126,7 @@
     <Name>SPAA-CAP 20mm AC</Name>
     <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -130,6 +136,7 @@
     <Name>SPAA-CAP 20mm RT</Name>
     <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -139,6 +146,7 @@
     <Name>SPAA-CAP 20mm TR-6</Name>
     <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -148,6 +156,7 @@
     <Name>SPAA-CAP 30mm C</Name>
     <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -157,6 +166,7 @@
     <Name>SPAA-CAP 40mm</Name>
     <BlockGroups>GSG_CAP_40mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,6 +176,7 @@
     <Name>SPAA-CAP 57mm AC</Name>
     <BlockGroups>GSG_CAP_57mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -175,6 +186,7 @@
     <Name>SPAA-CAP Hydra</Name>
     <BlockGroups>GSG_CAP_Hydra</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -184,6 +196,7 @@
     <Name>SPAA-CAP AA Pod</Name>
     <BlockGroups>GSG_CAP_AA_Pod</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -193,6 +206,7 @@
     <Name>SPAA-CAP Hellfire S</Name>
     <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -202,6 +216,7 @@
     <Name>SPAA-CAP Hellfire D</Name>
     <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -211,6 +226,7 @@
     <Name>SPAA-CAP Hellfire Q</Name>
     <BlockGroups>GSG_CAP_Hellfire_Q</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -220,6 +236,7 @@
     <Name>SPAA-CAP Aim-9</Name>
     <BlockGroups>GSG_CAP_Aim_9</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -229,6 +246,7 @@
     <Name>SPAA-CAP Aim-7</Name>
     <BlockGroups>GSG_CAP_Aim_7</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -238,6 +256,7 @@
     <Name>SPAA-CAP Aim-54</Name>
     <BlockGroups>GSG_CAP_Aim_54</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -247,6 +266,7 @@
     <Name>SPAA-CAP Aim-120</Name>
     <BlockGroups>GSG_CAP_Aim_120</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -256,6 +276,7 @@
     <Name>SPAA-ZRO 25mm</Name>
     <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -265,6 +286,7 @@
     <Name>SPAA-ZRO 30mm RT</Name>
     <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -274,6 +296,7 @@
     <Name>SPAA-ZRO 30mm AC-T</Name>
     <BlockGroups>GSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -283,6 +306,7 @@
     <Name>SPAA-KGS AGL-6</Name>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -292,6 +316,7 @@
     <Name>SPAA-KGS MG-7</Name>
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -301,6 +326,7 @@
     <Name>SPAA-KGS MG-12</Name>
     <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -310,6 +336,7 @@
     <Name>SPAA-KGS 25mm AC</Name>
     <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -319,6 +346,7 @@
     <Name>SPAA-KGS 30mm M</Name>
     <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -328,6 +356,7 @@
     <Name>SPAA-KGS 30mm S</Name>
     <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -337,6 +366,7 @@
     <Name>SPAA-KGS 35mm</Name>
     <BlockGroups>GSG_KGS_35mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -346,6 +376,7 @@
     <Name>SPAA-KGS 57mm</Name>
     <BlockGroups>GSG_KGS_57mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -355,6 +386,7 @@
     <Name>SPAA-KGS Crotale</Name>
     <BlockGroups>GSG_KGS_Crotale</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -364,6 +396,7 @@
     <Name>SPAA-LNX IRIS-T</Name>
     <BlockGroups>GSG_LNX_IRIS_T</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -373,6 +406,7 @@
     <Name>SPAA-LNX AGM-114</Name>
     <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -382,6 +416,7 @@
     <Name>SPAA-LNX AGM-114 C</Name>
     <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -391,6 +426,7 @@
     <Name>SPAA-LNX S-400</Name>
     <BlockGroups>GSG_LNX_S_400</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -400,6 +436,7 @@
     <Name>SPAA-LNX S400-4</Name>
     <BlockGroups>GSG_LNX_S400_4</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -409,6 +446,7 @@
     <Name>SPAA Forbidden</Name>
     <BlockGroups>GSG_Forbidden</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -418,6 +456,7 @@
     <Name>SPAA-CAP 30mm RT</Name>
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -427,6 +466,7 @@
     <Name>SPAA-LNX B8M1</Name>
     <BlockGroups>GSG_LXN_B8M1</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -496,6 +536,7 @@
     <BlockGroups>GSG_CAP_Torp</BlockGroups>
     <BlockGroups>GSG_CAP_AGM_84</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
