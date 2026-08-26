@@ -76,7 +76,7 @@
     <Name>UH Thrust</Name>
     <BlockGroups>GSG_Air_Thrust</BlockGroups>
     <MaxCount>100</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -86,7 +86,7 @@
     <Name>UH Weapon PTS</Name>
     <BlockGroups>Fighter_Weapon_PTS</BlockGroups>
     <MaxCount>10</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -96,7 +96,7 @@
     <Name>UH-NW 30mm</Name>
     <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -106,7 +106,7 @@
     <Name>UH-CAP 50Cal</Name>
     <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -116,7 +116,7 @@
     <Name>UH-CAP 20mm AC</Name>
     <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -126,7 +126,7 @@
     <Name>UH-CAP 20mm RT</Name>
     <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -136,7 +136,7 @@
     <Name>UH-CAP 20mm TR-6</Name>
     <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -146,7 +146,7 @@
     <Name>UH-CAP 30mm C</Name>
     <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -156,7 +156,7 @@
     <Name>UH-CAP Hydra</Name>
     <BlockGroups>GSG_CAP_Hydra</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,7 +166,7 @@
     <Name>UH-CAP AA Pod</Name>
     <BlockGroups>GSG_CAP_AA_Pod</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -176,7 +176,7 @@
     <Name>UH-ZRO 25mm</Name>
     <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,7 +186,7 @@
     <Name>UH-KGS AGL-6</Name>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -196,7 +196,7 @@
     <Name>UH-KGS MG-7</Name>
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -206,7 +206,7 @@
     <Name>UH-KGS MG-12</Name>
     <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -216,7 +216,7 @@
     <Name>UH-KGS 25mm AC</Name>
     <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -226,7 +226,7 @@
     <Name>UH-KGS 30mm M</Name>
     <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -236,7 +236,7 @@
     <Name>UH-KGS 30mm S</Name>
     <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -246,7 +246,7 @@
     <Name>UH-LNX IRIS-T</Name>
     <BlockGroups>GSG_LNX_IRIS_T</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -256,7 +256,7 @@
     <Name>UH-LNX AGM-114</Name>
     <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>12</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -266,7 +266,7 @@
     <Name>UH-LNX AGM-114 C</Name>
     <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -276,7 +276,7 @@
     <Name>UH-LNX MK13</Name>
     <BlockGroups>GSG_TT_MK13</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -286,7 +286,7 @@
     <Name>UH-LNX MK XI</Name>
     <BlockGroups>GSG_TT_MK_XI</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -373,7 +373,7 @@
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <BlockGroups>GSG_LNX_KH_31AD</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -383,7 +383,7 @@
     <Name>UH Countermeasures</Name>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>14</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

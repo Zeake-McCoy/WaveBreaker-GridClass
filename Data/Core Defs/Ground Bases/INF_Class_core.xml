@@ -79,7 +79,7 @@
     <BlockGroups>GLG_Extractors</BlockGroups>
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
