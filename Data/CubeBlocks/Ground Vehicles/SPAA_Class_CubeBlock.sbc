@@ -6,7 +6,7 @@
                 <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>SPAA_Class</SubtypeId>
             </Id>
-            <DisplayName>Self Propelled Aint Air</DisplayName>
+            <DisplayName>Self Propelled Anti Air Core</DisplayName>
             <Description>SPAA Class Grid Core</Description>
             <Icon>Textures\SmallGridCore.png</Icon>
             <Icon>Textures\FighterFiringArc.png</Icon>

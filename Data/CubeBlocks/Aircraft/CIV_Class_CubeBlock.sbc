@@ -6,7 +6,7 @@
                 <TypeId>FunctionalBlock</TypeId>
                 <SubtypeId>CIV_Class</SubtypeId>
             </Id>
-            <DisplayName>Civilain Aircraft</DisplayName>
+            <DisplayName>Civilain Aircraft Core</DisplayName>
             <Description>Civ Class Grid Core</Description>
             <Icon>Textures\SmallShip_Basic.png</Icon>
             <Icon>Textures\FighterFiringArc.png</Icon>

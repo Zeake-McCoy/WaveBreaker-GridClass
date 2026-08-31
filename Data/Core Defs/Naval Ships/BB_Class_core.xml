@@ -354,8 +354,8 @@
   <BlockLimits>
     <Name>BB-TT MK141</Name>
     <BlockGroups>GLG_TT_MK141</BlockGroups>
-    <MaxCount>8</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
+    <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

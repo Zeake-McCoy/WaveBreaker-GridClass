@@ -294,6 +294,8 @@
     <BlockGroups>CLG_TT_MK15_S</BlockGroups>
     <BlockGroups>GLG_NW_250mm_RG</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
+    <BlockGroups>GLG_TT_MK112</BlockGroups>
+    <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
     <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
