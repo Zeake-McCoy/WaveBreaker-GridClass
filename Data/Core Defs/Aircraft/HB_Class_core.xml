@@ -76,490 +76,490 @@
     <Name>HB Thrust</Name>
     <BlockGroups>GSG_Air_Thrust</BlockGroups>
     <MaxCount>200</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB Weapon PTS</Name>
     <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <MaxCount>90</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-NW 30mm</Name>
     <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-NW 30mm RT</Name>
     <BlockGroups>GSG_NW_30mm_RT</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-NW 30mm Turret</Name>
     <BlockGroups>GSG_NW_30mm_Turret</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 50Cal</Name>
     <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 20mm AC</Name>
     <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 20mm RT</Name>
     <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 20mm TR-6</Name>
     <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 30mm C</Name>
     <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 40mm</Name>
     <BlockGroups>GSG_CAP_40mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 57mm AC</Name>
     <BlockGroups>GSG_CAP_57mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 250lb</Name>
     <BlockGroups>GSG_CAP_250lb</BlockGroups>
     <MaxCount>20</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 1000lb</Name>
     <BlockGroups>GSG_CAP_1000lb</BlockGroups>
     <MaxCount>30</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP Hydra</Name>
     <BlockGroups>GSG_CAP_Hydra</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP Hellfire S</Name>
     <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP Hellfire D</Name>
     <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP Hellfire Q</Name>
     <BlockGroups>GSG_CAP_Hellfire_Q</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP AGM-84</Name>
     <BlockGroups>GSG_CAP_AGM_84</BlockGroups>
     <MaxCount>10</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP Torp</Name>
     <BlockGroups>GSG_CAP_Torp</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP Aim-9</Name>
     <BlockGroups>GSG_CAP_Aim_9</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP Aim-7</Name>
     <BlockGroups>GSG_CAP_Aim_7</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-ZRO 25mm</Name>
     <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-ZRO 30mm RT</Name>
     <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-ZRO 25mm G</Name>
     <BlockGroups>GSG_ZRO_25mm_G</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-ZRO 57mm G</Name>
     <BlockGroups>GSG_ZRO_57mm_G</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-ZRO 105mm G</Name>
     <BlockGroups>GSG_ZRO_105mm_G</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-ZRO 30mm AC-T</Name>
     <BlockGroups>GSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-KGS MG-12</Name>
     <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-KGS 25mm AC</Name>
     <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-KGS 30mm M</Name>
     <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-KGS 30mm S</Name>
     <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-KGS 35mm</Name>
     <BlockGroups>GSG_KGS_35mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-KGS 57mm</Name>
     <BlockGroups>GSG_KGS_57mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX AGM-114</Name>
     <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>12</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX AGM-114 C</Name>
     <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX KH-31AD</Name>
     <BlockGroups>GSG_LNX_KH_31AD</BlockGroups>
     <MaxCount>8</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX KH-31PK</Name>
     <BlockGroups>GSG_LNX_KH_31PK</BlockGroups>
     <MaxCount>8</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX P-270</Name>
     <BlockGroups>GSG_LNX_P_270</BlockGroups>
     <MaxCount>8</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX S1-M</Name>
     <BlockGroups>GSG_LNX_S1_M</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX FAB-500</Name>
     <BlockGroups>GSG_LNX_FAB_500</BlockGroups>
     <MaxCount>20</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX KAB-500</Name>
     <BlockGroups>GSG_LNX_KAB_500</BlockGroups>
     <MaxCount>20</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX KAB-1500</Name>
     <BlockGroups>GSG_LNX_KAB_1500</BlockGroups>
     <MaxCount>10</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX KAB-1500 B1</Name>
     <BlockGroups>GSG_LNX_KAB_1500_B1</BlockGroups>
     <MaxCount>5</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX GBU-43</Name>
     <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX MK13</Name>
     <BlockGroups>GSG_TT_MK13</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX MK XI</Name>
     <BlockGroups>GSG_TT_MK_XI</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-LNX B8M1</Name>
     <BlockGroups>GSG_LXN_B8M1</BlockGroups>
     <MaxCount>8</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB-CAP 30mm RT</Name>
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
@@ -615,20 +615,20 @@
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
     <Name>HB Countermeasures</Name>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>32</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
 </ShipCore>

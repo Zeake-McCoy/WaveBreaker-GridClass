@@ -76,10 +76,10 @@
     <Name>REX Extractors</Name>
     <BlockGroups>GLG_Extractors</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
@@ -89,10 +89,10 @@
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
 </ShipCore>

@@ -17,7 +17,7 @@
   <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
   <SpeedLimitType>Normal</SpeedLimitType>
-  <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
+  <SpeedOverrideMode>None</SpeedOverrideMode>
   <SpeedOverridePriority>0</SpeedOverridePriority>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
   <PowerOverclockEnabled>false</PowerOverclockEnabled>
@@ -26,18 +26,18 @@
   <PowerOverclockCooldown>0</PowerOverclockCooldown>
   <PowerOverclockDamagePerSecond>0</PowerOverclockDamagePerSecond>
   <Modifiers>
-    <AssemblerSpeed>0.1</AssemblerSpeed>
-    <DrillHarvestMultiplier>0</DrillHarvestMultiplier>
-    <GyroEfficiency>0.5</GyroEfficiency>
-    <GyroForce>0.8</GyroForce>
-    <PowerProducersOutput>0.51</PowerProducersOutput>
-    <RefineEfficiency>0.1</RefineEfficiency>
-    <RefineSpeed>0.1</RefineSpeed>
-    <ThrusterEfficiency>0.5</ThrusterEfficiency>
-    <ThrusterForce>0.7</ThrusterForce>
+    <AssemblerSpeed>0.01</AssemblerSpeed>
+    <DrillHarvestMultiplier>0.01</DrillHarvestMultiplier>
+    <GyroEfficiency>0.01</GyroEfficiency>
+    <GyroForce>0.01</GyroForce>
+    <PowerProducersOutput>0.01</PowerProducersOutput>
+    <RefineEfficiency>0.01</RefineEfficiency>
+    <RefineSpeed>0.01</RefineSpeed>
+    <ThrusterEfficiency>0.01</ThrusterEfficiency>
+    <ThrusterForce>0.01</ThrusterForce>
   </Modifiers>
   <SpeedModifiers>
-    <MaxSpeed>0.323</MaxSpeed>
+    <MaxSpeed>0.01</MaxSpeed>
     <MaxAngularVelocity>0</MaxAngularVelocity>
     <MaxBoost>0</MaxBoost>
     <BoostDuration>10</BoostDuration>
@@ -51,41 +51,37 @@
     <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
-    <Bullet>2</Bullet>
+    <Bullet>0</Bullet>
     <PostShield>0</PostShield>
     <Duration>0</Duration>
     <Cooldown>0</Cooldown>
-    <Rocket>2</Rocket>
-    <Explosion>2</Explosion>
-    <Environment>2</Environment>
-    <Energy>2</Energy>
-    <Kinetic>2.5</Kinetic>
+    <Rocket>0</Rocket>
+    <Explosion>0</Explosion>
+    <Environment>0</Environment>
+    <Energy>0</Energy>
+    <Kinetic>0</Kinetic>
   </PassiveDefenseModifiers>
   <ActiveDefenseModifiers>
-    <Bullet>1</Bullet>
-    <PostShield>1</PostShield>
+    <Bullet>0</Bullet>
+    <PostShield>0</PostShield>
     <Duration>0</Duration>
     <Cooldown>0</Cooldown>
-    <Rocket>1</Rocket>
-    <Explosion>1</Explosion>
-    <Environment>1</Environment>
-    <Energy>1</Energy>
-    <Kinetic>1</Kinetic>
+    <Rocket>0</Rocket>
+    <Explosion>0</Explosion>
+    <Environment>0</Environment>
+    <Energy>0</Energy>
+    <Kinetic>0</Kinetic>
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>UND Forbidden</Name>
     <BlockGroups>CLG_Forbidden</BlockGroups>
-    <BlockGroups>FRT_Weapon_PTS</BlockGroups>
-    <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
-    <BlockGroups>GSG_Countermeasures</BlockGroups>
     <BlockGroups>GSG_MultiTools</BlockGroups>
     <BlockGroups>GLG_MultiTools</BlockGroups>
-    <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>0</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
 </ShipCore>
