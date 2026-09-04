@@ -86,6 +86,7 @@
     <Name>BB-NW 500mm</Name>
     <BlockGroups>GLG_NW_500mm</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -96,6 +97,7 @@
     <Name>BB-NW 400mm</Name>
     <BlockGroups>GLG_NW_400mm</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -106,6 +108,7 @@
     <Name>BB-NW 300mm</Name>
     <BlockGroups>GLG_NW_300mm</BlockGroups>
     <MaxCount>5</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -116,6 +119,7 @@
     <Name>BB-NW 203mm Twin</Name>
     <BlockGroups>GLG_NW_203mm_Twin</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -126,6 +130,7 @@
     <Name>BB-NW 203mm Deck</Name>
     <BlockGroups>GLG_NW_203mm_Deck</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -136,6 +141,7 @@
     <Name>BB-NW 100mm</Name>
     <BlockGroups>GLG_NW_100mm</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -146,6 +152,7 @@
     <Name>BB-NW 30mm CIWS</Name>
     <BlockGroups>GLG_NW_30mm_CIWS</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -156,6 +163,7 @@
     <Name>BB-NW 30mm Auto</Name>
     <BlockGroups>GLG_NW_30mm_Auto</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,6 +174,7 @@
     <Name>BB-NW AMS</Name>
     <BlockGroups>GLG_NW_AMS</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -176,6 +185,7 @@
     <Name>BB-NW 75mm RG</Name>
     <BlockGroups>GLG_NW_75mm_RG</BlockGroups>
     <MaxCount>3</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,6 +196,7 @@
     <Name>BB-NW 150mm RG</Name>
     <BlockGroups>GLG_NW_150mm_RG</BlockGroups>
     <MaxCount>3</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -196,6 +207,7 @@
     <Name>BB-NW 250mm RG</Name>
     <BlockGroups>GLG_NW_250mm_RG</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -206,6 +218,7 @@
     <Name>BB-LXN Groza</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_G</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -216,6 +229,7 @@
     <Name>BB-LXN Palash</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_P</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -226,6 +240,7 @@
     <Name>BB-LXN Strela</Name>
     <BlockGroups>GLG_LXN_Strela</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -236,6 +251,7 @@
     <Name>BB-TT OTO76</Name>
     <BlockGroups>GLG_TT_OTO76</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -246,6 +262,7 @@
     <Name>BB-TT MK45</Name>
     <BlockGroups>GLG_TT_MK45</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -256,6 +273,7 @@
     <Name>BB-LXN S-400</Name>
     <BlockGroups>GLG_LXN_S400</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -266,6 +284,7 @@
     <Name>BB-LXN 3S14</Name>
     <BlockGroups>GLG_LXN_3S14</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -276,6 +295,7 @@
     <Name>BB-LXN P-270</Name>
     <BlockGroups>GLG_LXN_P_270</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -286,6 +306,7 @@
     <Name>BB-TT RBU</Name>
     <BlockGroups>GLG_TT_RBU</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -296,6 +317,7 @@
     <Name>BB-TT MK15 T</Name>
     <BlockGroups>GLG_TT_MK15_T</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -306,6 +328,7 @@
     <Name>BB-TT MK15 Q</Name>
     <BlockGroups>GLG_TT_MK15_Q</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -324,6 +347,7 @@
     <BlockGroups>CLG_TT_MK15_S</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -334,6 +358,7 @@
     <Name>BB-TT Millenium</Name>
     <BlockGroups>GLG_TT_Millenium</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -345,6 +370,7 @@
     <BlockGroups>GLG_TT_MK13</BlockGroups>
     <BlockGroups>GLG_TT_MK26</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -355,6 +381,7 @@
     <Name>BB-TT MK141</Name>
     <BlockGroups>GLG_TT_MK141</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

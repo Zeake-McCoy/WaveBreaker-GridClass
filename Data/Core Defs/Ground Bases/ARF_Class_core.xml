@@ -76,6 +76,7 @@
     <Name>ARF Weapon PTS</Name>
     <BlockGroups>FCT/ARF_Weapon_PTS</BlockGroups>
     <MaxCount>24</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -86,6 +87,7 @@
     <Name>ARF-NW 203mm Twin</Name>
     <BlockGroups>GLG_NW_203mm_Twin</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -96,6 +98,7 @@
     <Name>ARF-NW 203mm Deck</Name>
     <BlockGroups>GLG_NW_203mm_Deck</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -106,6 +109,7 @@
     <Name>ARF-NW 100mm</Name>
     <BlockGroups>GLG_NW_100mm</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -116,6 +120,7 @@
     <Name>ARF-NW 30mm CIWS</Name>
     <BlockGroups>GLG_NW_30mm_CIWS</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -126,6 +131,7 @@
     <Name>ARF-NW 30mm Auto</Name>
     <BlockGroups>GLG_NW_30mm_Auto</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -136,6 +142,7 @@
     <Name>ARF-NW AMS</Name>
     <BlockGroups>GLG_NW_AMS</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -146,6 +153,7 @@
     <Name>ARF-LXN Groza</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_G</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -156,6 +164,7 @@
     <Name>ARF-LXN Palash</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_P</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,6 +175,7 @@
     <Name>ARF-LXN Strela</Name>
     <BlockGroups>GLG_LXN_Strela</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -176,6 +186,7 @@
     <Name>ARF-TT OTO76</Name>
     <BlockGroups>GLG_TT_OTO76</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,6 +197,7 @@
     <Name>ARF-TT MK45</Name>
     <BlockGroups>GLG_TT_MK45</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -196,6 +208,7 @@
     <Name>ARF-LXN S-400</Name>
     <BlockGroups>GLG_LXN_S400</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -206,6 +219,7 @@
     <Name>ARF-LXN 3S14</Name>
     <BlockGroups>GLG_LXN_3S14</BlockGroups>
     <MaxCount>3</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -234,6 +248,7 @@
     <BlockGroups>GLG_TT_MK15_T</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -244,6 +259,7 @@
     <Name>ARF-TT Millenium</Name>
     <BlockGroups>GLG_TT_Millenium</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -255,6 +271,7 @@
     <BlockGroups>GLG_TT_MK13</BlockGroups>
     <BlockGroups>GLG_TT_MK26</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

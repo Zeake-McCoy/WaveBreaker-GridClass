@@ -76,6 +76,7 @@
     <Name>FF Weapon PTS</Name>
     <BlockGroups>FF_Weapon_PTS</BlockGroups>
     <MaxCount>30</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -86,6 +87,7 @@
     <Name>FF-NW 203mm Twin</Name>
     <BlockGroups>GLG_NW_203mm_Twin</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -96,6 +98,7 @@
     <Name>FF-NW 203mm Deck</Name>
     <BlockGroups>GLG_NW_203mm_Deck</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -106,6 +109,7 @@
     <Name>FF-NW 100mm</Name>
     <BlockGroups>GLG_NW_100mm</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -116,6 +120,7 @@
     <Name>FF-NW 30mm CIWS</Name>
     <BlockGroups>GLG_NW_30mm_CIWS</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -126,6 +131,7 @@
     <Name>FF-NW 30mm Auto</Name>
     <BlockGroups>GLG_NW_30mm_Auto</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -136,6 +142,7 @@
     <Name>FF-NW AMS</Name>
     <BlockGroups>GLG_NW_AMS</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -146,6 +153,7 @@
     <Name>FF-NW 75mm RG</Name>
     <BlockGroups>GLG_NW_75mm_RG</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -156,6 +164,7 @@
     <Name>FF-LXN Groza</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_G</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,6 +175,7 @@
     <Name>FF-LXN Palash</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_P</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -176,6 +186,7 @@
     <Name>FF-LXN Strela</Name>
     <BlockGroups>GLG_LXN_Strela</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,6 +197,7 @@
     <Name>FF-TT OTO76</Name>
     <BlockGroups>GLG_TT_OTO76</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -196,6 +208,7 @@
     <Name>FF-TT MK45</Name>
     <BlockGroups>GLG_TT_MK45</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -206,6 +219,7 @@
     <Name>FF-LXN S-400</Name>
     <BlockGroups>GLG_LXN_S400</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -216,6 +230,7 @@
     <Name>FF-LXN 3S14</Name>
     <BlockGroups>GLG_LXN_3S14</BlockGroups>
     <MaxCount>3</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -226,6 +241,7 @@
     <Name>FF-LXN P-270</Name>
     <BlockGroups>GLG_LXN_P_270</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -236,6 +252,7 @@
     <Name>FF-LXN Zircon</Name>
     <BlockGroups>GLG_LXN_Zircon</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -246,6 +263,7 @@
     <Name>FF-TT RBU</Name>
     <BlockGroups>GLG_TT_RBU</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -256,6 +274,7 @@
     <Name>FF-TT MK15 T</Name>
     <BlockGroups>GLG_TT_MK15_T</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -266,6 +285,7 @@
     <Name>FF-TT MK15 Q</Name>
     <BlockGroups>GLG_TT_MK15_Q</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -287,6 +307,7 @@
     <BlockGroups>GLG_NW_250mm_RG</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -297,6 +318,7 @@
     <Name>FF-TT Millenium</Name>
     <BlockGroups>GLG_TT_Millenium</BlockGroups>
     <MaxCount>3.9</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -308,6 +330,7 @@
     <BlockGroups>GLG_TT_MK13</BlockGroups>
     <BlockGroups>GLG_TT_MK26</BlockGroups>
     <MaxCount>3.9</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -318,6 +341,7 @@
     <Name>FF-TT MK141</Name>
     <BlockGroups>GLG_TT_MK141</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -328,6 +352,7 @@
     <Name>FF-TT MK112</Name>
     <BlockGroups>GLG_TT_MK112</BlockGroups>
     <MaxCount>1</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

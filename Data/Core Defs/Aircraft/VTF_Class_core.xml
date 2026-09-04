@@ -76,6 +76,7 @@
     <Name>VTF Thrust</Name>
     <BlockGroups>GSG_Air_Thrust</BlockGroups>
     <MaxCount>60</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -86,6 +87,7 @@
     <Name>VTF Weapon PTS</Name>
     <BlockGroups>Fighter_Weapon_PTS</BlockGroups>
     <MaxCount>28</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -96,6 +98,7 @@
     <Name>VTF-NW 30mm</Name>
     <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -106,6 +109,7 @@
     <Name>VTF-NW 30mm RT</Name>
     <BlockGroups>GSG_NW_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -116,6 +120,7 @@
     <Name>VTF-NW 30mm Turret</Name>
     <BlockGroups>GSG_NW_30mm_Turret</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -126,6 +131,7 @@
     <Name>VTF-NW 203</Name>
     <BlockGroups>GSG_NW_203</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -136,6 +142,7 @@
     <Name>VTF-NW 75mm RG</Name>
     <BlockGroups>GSG_NW_75mm_RG</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -146,6 +153,7 @@
     <Name>VTF-NW 150mm RG</Name>
     <BlockGroups>GSG_NW_150mm_RG</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -156,6 +164,7 @@
     <Name>VTF-CAP 50Cal</Name>
     <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,6 +175,7 @@
     <Name>VTF-CAP 20mm AC</Name>
     <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -176,6 +186,7 @@
     <Name>VTF-CAP 20mm RT</Name>
     <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,6 +197,7 @@
     <Name>VTF-CAP 20mm TR-6</Name>
     <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -196,6 +208,7 @@
     <Name>VTF-CAP 30mm C</Name>
     <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -206,6 +219,7 @@
     <Name>VTF-CAP 40mm</Name>
     <BlockGroups>GSG_CAP_40mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -216,6 +230,7 @@
     <Name>VTF-CAP 57mm AC</Name>
     <BlockGroups>GSG_CAP_57mm_AC</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -226,6 +241,7 @@
     <Name>VTF-CAP 250lb</Name>
     <BlockGroups>GSG_CAP_250lb</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -236,6 +252,7 @@
     <Name>VTF-CAP 1000lb</Name>
     <BlockGroups>GSG_CAP_1000lb</BlockGroups>
     <MaxCount>30</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -246,6 +263,7 @@
     <Name>VTF-CAP Hydra</Name>
     <BlockGroups>GSG_CAP_Hydra</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -256,6 +274,7 @@
     <Name>VTF-CAP AA Pod</Name>
     <BlockGroups>GSG_CAP_AA_Pod</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -266,6 +285,7 @@
     <Name>VTF-CAP Hellfire S</Name>
     <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -276,6 +296,7 @@
     <Name>VTF-CAP Hellfire D</Name>
     <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -286,6 +307,7 @@
     <Name>VTF-CAP Hellfire Q</Name>
     <BlockGroups>GSG_CAP_Hellfire_Q</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -296,6 +318,7 @@
     <Name>VTF-CAP AGM-84</Name>
     <BlockGroups>GSG_CAP_AGM_84</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -306,6 +329,7 @@
     <Name>VTF-CAP Torp</Name>
     <BlockGroups>GSG_CAP_Torp</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -316,6 +340,7 @@
     <Name>VTF-CAP Aim-9</Name>
     <BlockGroups>GSG_CAP_Aim_9</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -326,6 +351,7 @@
     <Name>VTF-CAP Aim-7</Name>
     <BlockGroups>GSG_CAP_Aim_7</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -336,6 +362,7 @@
     <Name>VTF-CAP Aim-54</Name>
     <BlockGroups>GSG_CAP_Aim_54</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -346,6 +373,7 @@
     <Name>VTF-CAP Aim-120</Name>
     <BlockGroups>GSG_CAP_Aim_120</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -356,6 +384,7 @@
     <Name>VTF-ZRO 25mm</Name>
     <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -366,6 +395,7 @@
     <Name>VTF-ZRO 30mm RT</Name>
     <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -376,6 +406,7 @@
     <Name>VTF-ZRO 25mm G</Name>
     <BlockGroups>GSG_ZRO_25mm_G</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -386,6 +417,7 @@
     <Name>VTF-ZRO 57mm G</Name>
     <BlockGroups>GSG_ZRO_57mm_G</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -396,6 +428,7 @@
     <Name>VTF-ZRO 105mm G</Name>
     <BlockGroups>GSG_ZRO_105mm_G</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -406,6 +439,7 @@
     <Name>VTF-ZRO 30mm AC-T</Name>
     <BlockGroups>GSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -416,6 +450,7 @@
     <Name>VTF-KGS AGL-6</Name>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -426,6 +461,7 @@
     <Name>VTF-KGS MG-7</Name>
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -436,6 +472,7 @@
     <Name>VTF-KGS MG-12</Name>
     <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -446,6 +483,7 @@
     <Name>VTF-KGS 25mm AC</Name>
     <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -456,6 +494,7 @@
     <Name>VTF-KGS 30mm M</Name>
     <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -466,6 +505,7 @@
     <Name>VTF-KGS 30mm S</Name>
     <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -476,6 +516,7 @@
     <Name>VTF-KGS 35mm</Name>
     <BlockGroups>GSG_KGS_35mm</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -486,6 +527,7 @@
     <Name>VTF-KGS 45mm</Name>
     <BlockGroups>GSG_KGS_45mm</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -496,6 +538,7 @@
     <Name>VTF-KGS 57mm</Name>
     <BlockGroups>GSG_KGS_57mm</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -506,6 +549,7 @@
     <Name>VTF-KGS 76mm F</Name>
     <BlockGroups>GSG_KGS_76mm_F</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -516,6 +560,7 @@
     <Name>VTF-KGS 75mm M</Name>
     <BlockGroups>GSG_KGS_75mm_M</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -526,6 +571,7 @@
     <Name>VTF-KGS 75mm AC</Name>
     <BlockGroups>GSG_KGS_75mm_AC</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -536,6 +582,7 @@
     <Name>VTF-KGS 88mm</Name>
     <BlockGroups>GSG_KGS_88mm</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -546,6 +593,7 @@
     <Name>VTF-KGS 100mm D10</Name>
     <BlockGroups>GSG_KGS_100mm_D10</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -556,6 +604,7 @@
     <Name>VTF-KGS 105mm L</Name>
     <BlockGroups>GSG_KGS_105mm_L</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -566,6 +615,7 @@
     <Name>VTF-KGS 105 M</Name>
     <BlockGroups>GSG_KGS_105_M</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -576,6 +626,7 @@
     <Name>VTF-KGS 120mm R</Name>
     <BlockGroups>GSG_KGS_120mm_R</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -586,6 +637,7 @@
     <Name>VTF-KGS 120mm L</Name>
     <BlockGroups>GSG_KGS_120mm_L</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -596,6 +648,7 @@
     <Name>VTF-KGS 120mm M</Name>
     <BlockGroups>GSG_KGS_120mm_M</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -606,6 +659,7 @@
     <Name>VTF-KGS 125mm</Name>
     <BlockGroups>GSG_KGS_125mm</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -616,6 +670,7 @@
     <Name>VTF-KGS 125mm A</Name>
     <BlockGroups>GSG_KGS_125mm_A</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -626,6 +681,7 @@
     <Name>VTF-KGS 130mm</Name>
     <BlockGroups>GSG_KGS_130mm</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -636,6 +692,7 @@
     <Name>VTF-KGS 140mm</Name>
     <BlockGroups>GSG_KGS_140mm</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -646,6 +703,7 @@
     <Name>VTF-KGS 152mm G</Name>
     <BlockGroups>GSG_KGS_152mm_G</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -656,6 +714,7 @@
     <Name>VTF-KGS 152mm H</Name>
     <BlockGroups>GSG_KGS_152mm_H</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -666,6 +725,7 @@
     <Name>VTF-KGS 183mm</Name>
     <BlockGroups>GSG_KGS_183mm</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -676,6 +736,7 @@
     <Name>VTF-KGS MLRS</Name>
     <BlockGroups>GSG_KGS_MLRS</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -686,6 +747,7 @@
     <Name>HF-KGS Kornet</Name>
     <BlockGroups>GSG_KGS_Kornet</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -696,6 +758,7 @@
     <Name>VTF-KGS Spike</Name>
     <BlockGroups>GSG_KGS_Spike</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -706,6 +769,7 @@
     <Name>VTF-KGS Crotale</Name>
     <BlockGroups>GSG_KGS_Crotale</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -716,6 +780,7 @@
     <Name>VTF-KGS 81mm Mortar</Name>
     <BlockGroups>GSG_KGS_81mm_Mortar</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -726,6 +791,7 @@
     <Name>VTF-LNX R-73M</Name>
     <BlockGroups>GSG_LNX_R_73M</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -736,6 +802,7 @@
     <Name>VTF-LNX R-73M B3</Name>
     <BlockGroups>GSG_LNX_R_73M_B3</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -746,6 +813,7 @@
     <Name>VTF-LNX IRIS-T</Name>
     <BlockGroups>GSG_LNX_IRIS_T</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -756,6 +824,7 @@
     <Name>VTF-LNX R-27ET</Name>
     <BlockGroups>GSG_LNX_R_27ET</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -766,6 +835,7 @@
     <Name>VTF-LNX R-27ER</Name>
     <BlockGroups>GSG_LNX_R_27ER</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -776,6 +846,7 @@
     <Name>VTF-LNX R-77</Name>
     <BlockGroups>GSG_LNX_R_77</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -786,6 +857,7 @@
     <Name>VTF-LNX R-77 B2</Name>
     <BlockGroups>GSG_LNX_R_77_B2</BlockGroups>
     <MaxCount>2</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -796,6 +868,7 @@
     <Name>VTF-LNX Meteor</Name>
     <BlockGroups>GSG_LNX_Meteor</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -806,6 +879,7 @@
     <Name>VTF-LNX R-VV-AE-PD</Name>
     <BlockGroups>GSG_LNX_R_VV_AE_PD</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -816,6 +890,7 @@
     <Name>VTF-LNX R-37M</Name>
     <BlockGroups>GSG_LNX_R_37M</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -826,6 +901,7 @@
     <Name>VTF-LNX AIM-260</Name>
     <BlockGroups>GSG_LNX_AIM_260</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -836,6 +912,7 @@
     <Name>VTF-LNX AGM-114</Name>
     <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>12</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -846,6 +923,7 @@
     <Name>VTF-LNX AGM-114 C</Name>
     <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -856,6 +934,7 @@
     <Name>VTF-LNX KH-31AD</Name>
     <BlockGroups>GSG_LNX_KH_31AD</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -866,6 +945,7 @@
     <Name>VTF-LNX KH-31PK</Name>
     <BlockGroups>GSG_LNX_KH_31PK</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -876,6 +956,7 @@
     <Name>VTF-LNX P-270</Name>
     <BlockGroups>GSG_LNX_P_270</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -886,6 +967,7 @@
     <Name>VTF-LNX S1-M</Name>
     <BlockGroups>GSG_LNX_S1_M</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -896,6 +978,7 @@
     <Name>VTF-LNX FAB-500</Name>
     <BlockGroups>GSG_LNX_FAB_500</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -906,6 +989,7 @@
     <Name>VTF-LNX KAB-500</Name>
     <BlockGroups>GSG_LNX_KAB_500</BlockGroups>
     <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -916,6 +1000,7 @@
     <Name>VTF-LNX KAB-1500</Name>
     <BlockGroups>GSG_LNX_KAB_1500</BlockGroups>
     <MaxCount>10</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -926,6 +1011,7 @@
     <Name>VTF-LNX KAB-1500 B1</Name>
     <BlockGroups>GSG_LNX_KAB_1500_B1</BlockGroups>
     <MaxCount>5</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -936,6 +1022,7 @@
     <Name>VTF-LNX GBU-43</Name>
     <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -946,6 +1033,7 @@
     <Name>VTF-LNX S-400</Name>
     <BlockGroups>GSG_LNX_S_400</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -956,6 +1044,7 @@
     <Name>VTF-LNX 400 4M</Name>
     <BlockGroups>GSG_LNX_S400_4</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -966,6 +1055,7 @@
     <Name>VTF-LNX MK13</Name>
     <BlockGroups>GSG_TT_MK13</BlockGroups>
     <MaxCount>4</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -976,6 +1066,7 @@
     <Name>VTF-LNX MK XI</Name>
     <BlockGroups>GSG_TT_MK_XI</BlockGroups>
     <MaxCount>6</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -986,6 +1077,7 @@
     <Name>VTF-ZRO R ATGM</Name>
     <BlockGroups>GSG_ZRO_R_ATGM</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -1000,6 +1092,7 @@
     <BlockGroups>GSG_LXN_9M723</BlockGroups>
     <BlockGroups>GSG_LXN_INT_ECM</BlockGroups>
     <MaxCount>0</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -1010,6 +1103,7 @@
     <Name>VTF Countermeasures</Name>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>18</MaxCount>
+    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
