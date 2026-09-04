@@ -42,7 +42,7 @@
 				<Model BuildPercentUpperBound="0.67" File="Models\GridCore_Center_BS2.mwm"/>
 				<Model BuildPercentUpperBound="1.00" File="Models\GridCore_Center_BS3.mwm"/>
 			</BuildProgressModels>
-            <BlockPairName>DD_Class</BlockPairName>
+            <BlockPairName>CR_Class</BlockPairName>
             <EdgeType>Light</EdgeType>
             <MirroringY>Z</MirroringY>
             <BuildTimeSeconds>40</BuildTimeSeconds>

@@ -16,7 +16,7 @@
                 
 				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="DD_Class" />
                 <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="FF_Class" />
-				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="CR_CLass" />
+				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="CR_Class" />
                 <Block Type="MyObjectBuilder_FunctionalBlock" Subtype="GB_Class" />
                 
 				<Block Type="MyObjectBuilder_FunctionalBlock" Subtype="LS_Class" />
