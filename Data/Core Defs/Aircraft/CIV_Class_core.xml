@@ -76,7 +76,6 @@
     <Name>CIV Thrust</Name>
     <BlockGroups>GSG_Air_Thrust</BlockGroups>
     <MaxCount>200</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -91,7 +90,6 @@
     <BlockGroups>GLG_MultiTools</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

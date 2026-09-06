@@ -76,7 +76,6 @@
     <Name>MBT Weapon PTS</Name>
     <BlockGroups>Ground_Weapon_PTS</BlockGroups>
     <MaxCount>24</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -87,7 +86,6 @@
     <Name>MBT-NW 30mm</Name>
     <BlockGroups>GSG_NW_30mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -98,7 +96,6 @@
     <Name>MBT-CAP 50Cal</Name>
     <BlockGroups>GSG_CAP_50Cal</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -109,7 +106,6 @@
     <Name>MBT-CAP 20mm AC</Name>
     <BlockGroups>GSG_CAP_20mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -120,7 +116,6 @@
     <Name>MBT-CAP 20mm RT</Name>
     <BlockGroups>GSG_CAP_20mm_RT</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -131,7 +126,6 @@
     <Name>MBT-CAP 20mm TR-6</Name>
     <BlockGroups>GSG_CAP_20mm_TR_6</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -142,7 +136,6 @@
     <Name>MBT-CAP 30mm C</Name>
     <BlockGroups>GSG_CAP_30mm_C</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -153,7 +146,6 @@
     <Name>MBT-CAP 40mm</Name>
     <BlockGroups>GSG_CAP_40mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -164,7 +156,6 @@
     <Name>MBT-CAP 57mm AC</Name>
     <BlockGroups>GSG_CAP_57mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -175,7 +166,6 @@
     <Name>MBT-CAP Hellfire S</Name>
     <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,7 +176,6 @@
     <Name>MBT-CAP Hellfire D</Name>
     <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -197,7 +186,6 @@
     <Name>MBT-CAP Hellfire Q</Name>
     <BlockGroups>GSG_CAP_Hellfire_Q</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -208,7 +196,6 @@
     <Name>MBT-ZRO 25mm</Name>
     <BlockGroups>GSG_ZRO_25mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -219,7 +206,6 @@
     <Name>MBT-ZRO 30mm RT</Name>
     <BlockGroups>GSG_ZRO_30mm_RT</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -230,7 +216,6 @@
     <Name>MBT-ZRO 30mm AC-T</Name>
     <BlockGroups>GSG_ZRO_30mm_AC_T</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -241,7 +226,6 @@
     <Name>MBT-KGS AGL-6</Name>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -252,7 +236,6 @@
     <Name>MBT-KGS MG-7</Name>
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -263,7 +246,6 @@
     <Name>MBT-KGS MG-12</Name>
     <BlockGroups>GSG_KGS_MG_12</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -274,7 +256,6 @@
     <Name>MBT-KGS 25mm AC</Name>
     <BlockGroups>GSG_KGS_25mm_AC</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -285,7 +266,6 @@
     <Name>MBT-KGS 30mm M</Name>
     <BlockGroups>GSG_KGS_30mm_M</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -296,7 +276,6 @@
     <Name>MBT-KGS 30mm S</Name>
     <BlockGroups>GSG_KGS_30mm_S</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -307,7 +286,6 @@
     <Name>MBT-KGS 35mm</Name>
     <BlockGroups>GSG_KGS_35mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -318,7 +296,6 @@
     <Name>MBT-KGS 45mm</Name>
     <BlockGroups>GSG_KGS_45mm</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -329,7 +306,6 @@
     <Name>MBT-KGS 57mm</Name>
     <BlockGroups>GSG_KGS_57mm</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -340,7 +316,6 @@
     <Name>MBT-KGS 76mm F</Name>
     <BlockGroups>GSG_KGS_76mm_F</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -351,7 +326,6 @@
     <Name>MBT-KGS 75mm M</Name>
     <BlockGroups>GSG_KGS_75mm_M</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -362,7 +336,6 @@
     <Name>MBT-KGS 75mm AC</Name>
     <BlockGroups>GSG_KGS_75mm_AC</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -373,7 +346,6 @@
     <Name>MBT-KGS 88mm</Name>
     <BlockGroups>GSG_KGS_88mm</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -384,7 +356,6 @@
     <Name>MBT-KGS 100mm D10</Name>
     <BlockGroups>GSG_KGS_100mm_D10</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -395,7 +366,6 @@
     <Name>MBT-KGS 105mm L</Name>
     <BlockGroups>GSG_KGS_105mm_L</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -406,7 +376,6 @@
     <Name>MBT-KGS 105 M</Name>
     <BlockGroups>GSG_KGS_105_M</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -417,7 +386,6 @@
     <Name>MBT-KGS 120mm R</Name>
     <BlockGroups>GSG_KGS_120mm_R</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -428,7 +396,6 @@
     <Name>MBT-KGS 120mm L</Name>
     <BlockGroups>GSG_KGS_120mm_L</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -439,7 +406,6 @@
     <Name>MBT-KGS 120mm M</Name>
     <BlockGroups>GSG_KGS_120mm_M</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -450,7 +416,6 @@
     <Name>MBT-KGS 125mm</Name>
     <BlockGroups>GSG_KGS_125mm</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -461,7 +426,6 @@
     <Name>MBT-KGS 125mm A</Name>
     <BlockGroups>GSG_KGS_125mm_A</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -472,7 +436,6 @@
     <Name>MBT-KGS 130mm</Name>
     <BlockGroups>GSG_KGS_130mm</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -483,7 +446,6 @@
     <Name>MBT-KGS 140mm</Name>
     <BlockGroups>GSG_KGS_140mm</BlockGroups>
     <MaxCount>1</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -494,7 +456,6 @@
     <Name>MBT-KGS Kornet</Name>
     <BlockGroups>GSG_KGS_Kornet</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -505,7 +466,6 @@
     <Name>MBT-KGS Spike</Name>
     <BlockGroups>GSG_KGS_Spike</BlockGroups>
     <MaxCount>4</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -516,7 +476,6 @@
     <Name>MBT-LNX AGM-114</Name>
     <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>6</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -527,7 +486,6 @@
     <Name>MBT-LNX AGM-114 C</Name>
     <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -538,7 +496,6 @@
     <Name>MBT-ZRO R ATGM</Name>
     <BlockGroups>GSG_ZRO_R_ATGM</BlockGroups>
     <MaxCount>2</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -605,7 +562,6 @@
     <BlockGroups>GSG_KGS_81mm_Mortar</BlockGroups>
     <BlockGroups>GSG_LXN_B8M1</BlockGroups>
     <MaxCount>0</MaxCount>
-    <MaxCountPerDirection>-1</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

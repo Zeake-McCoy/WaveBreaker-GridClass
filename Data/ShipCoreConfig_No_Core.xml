@@ -77,6 +77,7 @@
     <BlockGroups>CLG_Forbidden</BlockGroups>
     <BlockGroups>GSG_MultiTools</BlockGroups>
     <BlockGroups>GLG_MultiTools</BlockGroups>
+    <BlockGroups>GSG_Forbidden</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

@@ -1470,6 +1470,16 @@
       <SubtypeId>LargeBlockSmallThrustSciFi</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>LargeBlockDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>LargeBlockDrillType2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>GB_Weapon_PTS</Name>
@@ -5951,87 +5961,97 @@
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeAtmosphericThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeFlatAtmosphericThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeFlatAtmosphericThrustDShape</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallAtmosphericThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallFlatAtmosphericThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallFlatAtmosphericThrustDShape</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeHydrogenThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallHydrogenThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeModularThruster</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockLargeThrustSciFi</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallModularThruster</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallThrust</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>SmallBlockSmallThrustSciFi</SubtypeId>
-      <CountWeight>0</CountWeight>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>SmallBlockDrill</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Drill</TypeId>
+      <SubtypeId>SmallBlockDrillType2</SubtypeId>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
