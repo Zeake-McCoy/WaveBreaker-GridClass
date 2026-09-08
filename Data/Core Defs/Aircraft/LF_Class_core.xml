@@ -81,6 +81,7 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>LF Weapon PTS</Name>

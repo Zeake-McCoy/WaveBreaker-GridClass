@@ -343,4 +343,39 @@
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
+  <BlockLimits>
+    <Name>DD Thrust FW</Name>
+    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
+    <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>DD Thrust RV</Name>
+    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Backward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>DD Thrust PS</Name>
+    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
+    <MaxCount>-1</MaxCount>
+    <MaxCountPerDirection>3</MaxCountPerDirection>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Left</AllowedDirections>
+    <AllowedDirections>Right</AllowedDirections>
+  </BlockLimits>
 </ShipCore>
