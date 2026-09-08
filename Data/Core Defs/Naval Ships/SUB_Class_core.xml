@@ -281,7 +281,8 @@
   <BlockLimits>
     <Name>SUB Thrust FW</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>6</MaxCount>
+    <MaxCount>13</MaxCount>
+    <MaxCountPerDirection>6</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -292,7 +293,8 @@
   <BlockLimits>
     <Name>SUB Thrust RV</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <MaxCount>13</MaxCount>
+    <MaxCountPerDirection>4</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -303,7 +305,7 @@
   <BlockLimits>
     <Name>SUB Thrust PS</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>-1</MaxCount>
+    <MaxCount>13</MaxCount>
     <MaxCountPerDirection>3</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

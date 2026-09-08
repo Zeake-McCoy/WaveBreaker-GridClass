@@ -95,4 +95,30 @@
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
+  <BlockLimits>
+    <Name>FR Thrust FW</Name>
+    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>10</MaxCountPerDirection>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Forward</AllowedDirections>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>FR Thrust RV-PS</Name>
+    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
+    <MaxCount>20</MaxCount>
+    <MaxCountPerDirection>5</MaxCountPerDirection>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Backward</AllowedDirections>
+    <AllowedDirections>Left</AllowedDirections>
+    <AllowedDirections>Right</AllowedDirections>
+  </BlockLimits>
 </ShipCore>

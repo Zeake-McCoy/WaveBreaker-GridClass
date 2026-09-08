@@ -328,7 +328,8 @@
   <BlockLimits>
     <Name>CV Thrust FW</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>9</MaxCount>
+    <MaxCount>21</MaxCount>
+    <MaxCountPerDirection>9</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -339,7 +340,7 @@
   <BlockLimits>
     <Name>CV Thrust RV-PS</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>-1</MaxCount>
+    <MaxCount>21</MaxCount>
     <MaxCountPerDirection>6</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

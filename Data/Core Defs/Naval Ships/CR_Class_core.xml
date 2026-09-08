@@ -337,7 +337,8 @@
   <BlockLimits>
     <Name>CR Thrust FW</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>4</MaxCount>
+    <MaxCount>9</MaxCount>
+    <MaxCountPerDirection>4</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -348,7 +349,8 @@
   <BlockLimits>
     <Name>CR Thrust RV</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>3</MaxCount>
+    <MaxCount>9</MaxCount>
+    <MaxCountPerDirection>3</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -359,7 +361,7 @@
   <BlockLimits>
     <Name>CR Thrust PS</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>-1</MaxCount>
+    <MaxCount>9</MaxCount>
     <MaxCountPerDirection>2</MaxCountPerDirection>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
