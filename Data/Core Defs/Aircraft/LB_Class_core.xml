@@ -81,7 +81,7 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
+    <AllowedDirections>Backward</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>LB Weapon PTS</Name>
@@ -633,7 +633,7 @@
     <BlockGroups>GSG_LNX_R_VV_AE_PD</BlockGroups>
     <BlockGroups>GSG_LNX_R_37M</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

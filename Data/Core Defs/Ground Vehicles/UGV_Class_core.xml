@@ -89,7 +89,7 @@
     <BlockGroups>GSG_Forbidden</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

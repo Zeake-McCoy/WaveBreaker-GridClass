@@ -562,7 +562,7 @@
     <BlockGroups>GSG_KGS_81mm_Mortar</BlockGroups>
     <BlockGroups>GSG_LXN_B8M1</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

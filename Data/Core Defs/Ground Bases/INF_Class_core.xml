@@ -78,8 +78,10 @@
     <BlockGroups>GSG_MultiTools</BlockGroups>
     <BlockGroups>GLG_Extractors</BlockGroups>
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
+    <BlockGroups>GSG_Countermeasures</BlockGroups>
+    <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

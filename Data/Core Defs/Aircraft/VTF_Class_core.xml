@@ -81,6 +81,8 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Backward</AllowedDirections>
+    <AllowedDirections>Up</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>VTF Weapon PTS</Name>
@@ -683,7 +685,7 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>HF-KGS Kornet</Name>
+    <Name>VTF-KGS Kornet</Name>
     <BlockGroups>GSG_KGS_Kornet</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>

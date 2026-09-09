@@ -374,7 +374,7 @@
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <BlockGroups>GSG_LNX_KH_31AD</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

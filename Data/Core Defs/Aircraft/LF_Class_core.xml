@@ -81,7 +81,7 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
+    <AllowedDirections>Backward</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>LF Weapon PTS</Name>
@@ -508,7 +508,7 @@
     <BlockGroups>GSG_LNX_KAB_1500_B1</BlockGroups>
     <BlockGroups>GSG_LNX_KAB_1500</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

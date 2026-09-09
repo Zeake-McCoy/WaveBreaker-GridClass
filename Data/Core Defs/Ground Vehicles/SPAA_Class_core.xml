@@ -443,16 +443,6 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>SPAA Forbidden</Name>
-    <BlockGroups>GSG_Forbidden</BlockGroups>
-    <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <IgnoredByNpc>false</IgnoredByNpc>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>SPAA-CAP 30mm RT</Name>
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <MaxCount>1</MaxCount>
@@ -536,7 +526,7 @@
     <BlockGroups>GSG_CAP_Torp</BlockGroups>
     <BlockGroups>GSG_CAP_AGM_84</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

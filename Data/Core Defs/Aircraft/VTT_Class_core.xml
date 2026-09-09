@@ -81,6 +81,8 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
+    <AllowedDirections>Backward</AllowedDirections>
+    <AllowedDirections>Up</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>VTT Forbidden</Name>
@@ -90,7 +92,7 @@
     <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

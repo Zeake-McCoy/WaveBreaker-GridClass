@@ -324,7 +324,7 @@
     <BlockGroups>CLG_TT_MK15_S</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
@@ -362,27 +362,21 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>BB Thrust FW</Name>
+    <Name>BB Thrust</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>30</MaxCount>
-    <MaxCountPerDirection>12</MaxCountPerDirection>
+    <MaxCount>39</MaxCount>
+    <DirectionBudgets>
+      <DirectionBudget Direction="Backward" MaxCount="12" />
+      <DirectionBudget Direction="Forward" MaxCount="9" />
+      <DirectionBudget Direction="Left" MaxCount="9" />
+      <DirectionBudget Direction="Right" MaxCount="9" />
+    </DirectionBudgets>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
     <AllowedDirections>Forward</AllowedDirections>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>BB Thrust RV-PS</Name>
-    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>30</MaxCount>
-    <MaxCountPerDirection>9</MaxCountPerDirection>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <IgnoredByNpc>false</IgnoredByNpc>
-    <PunishmentType>ShutOff</PunishmentType>
     <AllowedDirections>Backward</AllowedDirections>
     <AllowedDirections>Left</AllowedDirections>
     <AllowedDirections>Right</AllowedDirections>

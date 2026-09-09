@@ -81,7 +81,7 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
-    <AllowedDirections>Forward</AllowedDirections>
+    <AllowedDirections>Backward</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>HF Weapon PTS</Name>
@@ -606,7 +606,7 @@
     <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
     <BlockGroups>GSG_LNX_S1_M</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

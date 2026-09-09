@@ -287,7 +287,7 @@
     <BlockGroups>GLG_NW_250mm_RG</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
@@ -335,39 +335,22 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>FF Thrust FW</Name>
+    <Name>FF Thrust</Name>
     <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>12</MaxCount>
-    <MaxCountPerDirection>6</MaxCountPerDirection>
+    <MaxCount>14</MaxCount>
+    <DirectionBudgets>
+      <DirectionBudget Direction="Backward" MaxCount="6" />
+      <DirectionBudget Direction="Forward" MaxCount="4" />
+      <DirectionBudget Direction="Left" MaxCount="2" />
+      <DirectionBudget Direction="Right" MaxCount="2" />
+    </DirectionBudgets>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
     <AllowedDirections>Forward</AllowedDirections>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>FF Thrust RV</Name>
-    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>12</MaxCount>
-    <MaxCountPerDirection>4</MaxCountPerDirection>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <IgnoredByNpc>false</IgnoredByNpc>
-    <PunishmentType>ShutOff</PunishmentType>
     <AllowedDirections>Backward</AllowedDirections>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>FF Thrust PS</Name>
-    <BlockGroups>GLG_Ship_Thrust</BlockGroups>
-    <MaxCount>12</MaxCount>
-    <MaxCountPerDirection>2</MaxCountPerDirection>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <IgnoredByNpc>false</IgnoredByNpc>
-    <PunishmentType>ShutOff</PunishmentType>
     <AllowedDirections>Left</AllowedDirections>
     <AllowedDirections>Right</AllowedDirections>
   </BlockLimits>
