@@ -86,7 +86,7 @@
   <BlockLimits>
     <Name>AH Weapon PTS</Name>
     <BlockGroups>Fighter_Weapon_PTS</BlockGroups>
-    <MaxCount>20</MaxCount>
+    <MaxCount>26</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -456,7 +456,7 @@
   <BlockLimits>
     <Name>AH-LNX FAB-500</Name>
     <BlockGroups>GSG_LNX_FAB_500</BlockGroups>
-    <MaxCount>20</MaxCount>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -466,7 +466,7 @@
   <BlockLimits>
     <Name>AH-LNX KAB-500</Name>
     <BlockGroups>GSG_LNX_KAB_500</BlockGroups>
-    <MaxCount>20</MaxCount>
+    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

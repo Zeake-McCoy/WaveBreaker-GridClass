@@ -390,4 +390,24 @@
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
+  <BlockLimits>
+    <Name>UH-CAP Hellfire S</Name>
+    <BlockGroups>GSG_CAP_Hellfire_S</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>UH-CAP Hellfire D</Name>
+    <BlockGroups>GSG_CAP_Hellfire_D</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>
