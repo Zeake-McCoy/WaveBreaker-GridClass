@@ -88,6 +88,9 @@
     <BlockGroups>Ground_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Forbidden</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

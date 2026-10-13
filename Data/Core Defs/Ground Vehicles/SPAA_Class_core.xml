@@ -480,7 +480,7 @@
     <BlockGroups>GSG_ZRO_R_ATGM</BlockGroups>
     <BlockGroups>GSG_LNX_FAB_500</BlockGroups>
     <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
-    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
     <BlockGroups>GSG_LNX_S1_M</BlockGroups>
     <BlockGroups>GSG_LNX_R_77_B2</BlockGroups>
     <BlockGroups>GSG_LNX_R_73M_B3</BlockGroups>
@@ -525,6 +525,8 @@
     <BlockGroups>GSG_CAP_250lb</BlockGroups>
     <BlockGroups>GSG_CAP_Torp</BlockGroups>
     <BlockGroups>GSG_CAP_AGM_84</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

@@ -4891,7 +4891,7 @@
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
-    <Name>GSG_Air_Thrust</Name>
+    <Name>GSG_Plane_Thrust</Name>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>CAPJetThrusterOxygen2p5</SubtypeId>
@@ -4989,11 +4989,6 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
-      <SubtypeId>3_Bearing_Swivel_Nozzle</SubtypeId>
-      <CountWeight>22</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
       <SubtypeId>Reliable_Jet_Engine</SubtypeId>
       <CountWeight>15</CountWeight>
     </BlockTypes>
@@ -5001,21 +4996,6 @@
       <TypeId>Thrust</TypeId>
       <SubtypeId>Bomber_Engine</SubtypeId>
       <CountWeight>30</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>Vertical_Lift_Thruster</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>Vertical_Lift_Stabalizer_Thruster_15</SubtypeId>
-      <CountWeight>1.5</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>Vertical_Lift_Stabalizer_Thruster_30</SubtypeId>
-      <CountWeight>3</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
@@ -5084,16 +5064,6 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
-      <SubtypeId>Tiltrotor_Blades_Emissive</SubtypeId>
-      <CountWeight>22</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>Tiltrotor_Blades</SubtypeId>
-      <CountWeight>22</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
       <SubtypeId>3BladePlanePropellerHalf</SubtypeId>
       <CountWeight>7.5</CountWeight>
     </BlockTypes>
@@ -5139,6 +5109,79 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
+      <SubtypeId>LNX_SATURN_AL41F1_Thruster</SubtypeId>
+      <CountWeight>30</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LNX_SATURN_AL41F1_Thruster_2</SubtypeId>
+      <CountWeight>30</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXN_D30F6_Thruster</SubtypeId>
+      <CountWeight>40</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXN_NK32_01_Thruster</SubtypeId>
+      <CountWeight>60</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXN_IndustrialJet_Thruster</SubtypeId>
+      <CountWeight>50</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>LXA_GENX8_Thruster</SubtypeId>
+      <CountWeight>50</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>FunctionalBlock</TypeId>
+      <SubtypeId>GimbalJetEngine</SubtypeId>
+      <CountWeight>15</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>FunctionalBlock</TypeId>
+      <SubtypeId>GimbalJetEngine3x3</SubtypeId>
+      <CountWeight>30</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSG_VTOL_Thrust</Name>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>3_Bearing_Swivel_Nozzle</SubtypeId>
+      <CountWeight>22</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>Vertical_Lift_Thruster</SubtypeId>
+      <CountWeight>15</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>Vertical_Lift_Stabalizer_Thruster_15</SubtypeId>
+      <CountWeight>1.5</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>Vertical_Lift_Stabalizer_Thruster_30</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>Tiltrotor_Blades_Emissive</SubtypeId>
+      <CountWeight>22</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>Tiltrotor_Blades</SubtypeId>
+      <CountWeight>22</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
       <SubtypeId>3BladeThick</SubtypeId>
       <CountWeight>20</CountWeight>
     </BlockTypes>
@@ -5152,6 +5195,9 @@
       <SubtypeId>3BladeThickHuge</SubtypeId>
       <CountWeight>40</CountWeight>
     </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSG_Helo_Thrust</Name>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>CAP_HeloProp_2Blade</SubtypeId>
@@ -5211,46 +5257,6 @@
       <TypeId>Thrust</TypeId>
       <SubtypeId>6BladeHeli</SubtypeId>
       <CountWeight>60</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>LNX_SATURN_AL41F1_Thruster</SubtypeId>
-      <CountWeight>30</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>LNX_SATURN_AL41F1_Thruster_2</SubtypeId>
-      <CountWeight>30</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>LXN_D30F6_Thruster</SubtypeId>
-      <CountWeight>40</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>LXN_NK32_01_Thruster</SubtypeId>
-      <CountWeight>60</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>LXN_IndustrialJet_Thruster</SubtypeId>
-      <CountWeight>50</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>Thrust</TypeId>
-      <SubtypeId>LXA_GENX8_Thruster</SubtypeId>
-      <CountWeight>50</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>FunctionalBlock</TypeId>
-      <SubtypeId>GimbalJetEngine</SubtypeId>
-      <CountWeight>15</CountWeight>
-    </BlockTypes>
-    <BlockTypes>
-      <TypeId>FunctionalBlock</TypeId>
-      <SubtypeId>GimbalJetEngine3x3</SubtypeId>
-      <CountWeight>30</CountWeight>
     </BlockTypes>
   </BlockGroup>
   <BlockGroup>
@@ -6973,7 +6979,7 @@
     </BlockTypes>
     <BlockTypes>
       <TypeId>Thrust</TypeId>
-      <SubtypeId>BoatProp3BladeYellow</SubtypeId>
+      <SubtypeId>BoatProp3BladeYellowPower</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
@@ -7010,6 +7016,11 @@
       <TypeId>Thrust</TypeId>
       <SubtypeId>LXN_ShipProp_01</SubtypeId>
       <CountWeight>5</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>Thrust</TypeId>
+      <SubtypeId>BoatPropellor3x3HugeDualEven</SubtypeId>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>
 </ArrayOfBlockGroup>

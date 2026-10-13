@@ -74,14 +74,14 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>VTF Thrust</Name>
-    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <MaxCount>60</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
-    <AllowedDirections>Backward</AllowedDirections>
     <AllowedDirections>Down</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
@@ -1001,6 +1001,7 @@
     <BlockGroups>GSG_Forbidden</BlockGroups>
     <BlockGroups>GSG_LXN_9M723</BlockGroups>
     <BlockGroups>GSG_LXN_INT_ECM</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

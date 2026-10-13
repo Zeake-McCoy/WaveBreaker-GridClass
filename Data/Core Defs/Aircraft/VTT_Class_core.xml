@@ -16,7 +16,7 @@
   <MinPlayers>-1</MinPlayers>
   <MaxPlayers>0</MaxPlayers>
   <SpeedBoostEnabled>false</SpeedBoostEnabled>
-  <SpeedLimitType>Normal</SpeedLimitType>
+  <SpeedLimitType>Friction</SpeedLimitType>
   <SpeedOverrideMode>OnlyIfHeavier</SpeedOverrideMode>
   <SpeedOverridePriority>0</SpeedOverridePriority>
   <EnableActiveDefenseModifiers>false</EnableActiveDefenseModifiers>
@@ -49,6 +49,12 @@
     <MaximumFrictionDeceleration>1</MaximumFrictionDeceleration>
     <CruiseFrictionMultiplier>0</CruiseFrictionMultiplier>
     <CruiseAccelerationThreshold>0</CruiseAccelerationThreshold>
+    <AtmosphericFriction>
+      <Enabled>true</Enabled>
+      <CruiseFrictionMultiplier>1</CruiseFrictionMultiplier>
+      <CruiseAccelerationThreshold>0.05</CruiseAccelerationThreshold>
+      <AirDensityThreshold>0.05</AirDensityThreshold>
+    </AtmosphericFriction>
   </SpeedModifiers>
   <PassiveDefenseModifiers>
     <Bullet>1</Bullet>
@@ -74,14 +80,14 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>VTT Thrust</Name>
-    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <MaxCount>160</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
-    <AllowedDirections>Backward</AllowedDirections>
     <AllowedDirections>Down</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
@@ -91,6 +97,7 @@
     <BlockGroups>GLG_MultiTools</BlockGroups>
     <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

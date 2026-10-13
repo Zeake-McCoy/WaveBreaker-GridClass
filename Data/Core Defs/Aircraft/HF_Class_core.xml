@@ -74,7 +74,7 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>HF Thrust</Name>
-    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
     <MaxCount>60</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -414,19 +414,10 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>HF-LNX R-37M</Name>
+    <Name>HF-LNX AIM-260 &amp; R-37</Name>
+    <BlockGroups>GSG_LNX_AIM_260</BlockGroups>
     <BlockGroups>GSG_LNX_R_37M</BlockGroups>
     <MaxCount>4</MaxCount>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <IgnoredByNpc>false</IgnoredByNpc>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>HF-LNX AIM-260</Name>
-    <BlockGroups>GSG_LNX_AIM_260</BlockGroups>
-    <MaxCount>2</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -605,6 +596,8 @@
     <BlockGroups>GSG_LNX_S_400</BlockGroups>
     <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
     <BlockGroups>GSG_LNX_S1_M</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

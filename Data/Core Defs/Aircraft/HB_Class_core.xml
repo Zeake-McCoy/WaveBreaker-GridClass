@@ -74,7 +74,7 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>HB Thrust</Name>
-    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
     <MaxCount>200</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -615,6 +615,8 @@
     <BlockGroups>GSG_KGS_35mm</BlockGroups>
     <BlockGroups>GSG_KGS_MG_7</BlockGroups>
     <BlockGroups>GSG_KGS_AGL_6</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

@@ -74,7 +74,7 @@
   </ActiveDefenseModifiers>
   <BlockLimits>
     <Name>LB Thrust</Name>
-    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
     <MaxCount>100</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -434,8 +434,9 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LB-LNX AIM-260</Name>
+    <Name>LB-LNX AIM-260 &amp; R-37</Name>
     <BlockGroups>GSG_LNX_AIM_260</BlockGroups>
+    <BlockGroups>GSG_LNX_R_37M</BlockGroups>
     <MaxCount>4</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -632,6 +633,8 @@
     <BlockGroups>GSG_LNX_Meteor</BlockGroups>
     <BlockGroups>GSG_LNX_R_VV_AE_PD</BlockGroups>
     <BlockGroups>GSG_LNX_R_37M</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

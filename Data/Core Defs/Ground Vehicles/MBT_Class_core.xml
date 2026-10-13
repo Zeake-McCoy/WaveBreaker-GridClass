@@ -534,7 +534,7 @@
     <BlockGroups>GSG_LNX_S400_4</BlockGroups>
     <BlockGroups>GSG_LNX_S_400</BlockGroups>
     <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
-    <BlockGroups>GSG_Air_Thrust</BlockGroups>
+    <BlockGroups>GSG_Plane_Thrust</BlockGroups>
     <BlockGroups>GSG_LNX_S1_M</BlockGroups>
     <BlockGroups>GSG_LNX_R_77_B2</BlockGroups>
     <BlockGroups>GSG_LNX_R_73M_B3</BlockGroups>
@@ -561,6 +561,8 @@
     <BlockGroups>GSG_KGS_Crotale</BlockGroups>
     <BlockGroups>GSG_KGS_81mm_Mortar</BlockGroups>
     <BlockGroups>GSG_LXN_B8M1</BlockGroups>
+    <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
+    <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
