@@ -632,7 +632,6 @@
     <BlockGroups>GSG_LNX_R_77_B2</BlockGroups>
     <BlockGroups>GSG_LNX_Meteor</BlockGroups>
     <BlockGroups>GSG_LNX_R_VV_AE_PD</BlockGroups>
-    <BlockGroups>GSG_LNX_R_37M</BlockGroups>
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <MaxCount>0</MaxCount>
