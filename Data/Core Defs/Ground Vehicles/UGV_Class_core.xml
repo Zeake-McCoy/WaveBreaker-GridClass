@@ -91,7 +91,8 @@
     <BlockGroups>GSG_Plane_Thrust</BlockGroups>
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>0.1</MaxCount>
+    <LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -99,7 +100,7 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>UGV APS Launchers</Name>
+    <Name>UGV APS</Name>
     <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>3</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>

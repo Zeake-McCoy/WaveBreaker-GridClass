@@ -80,7 +80,8 @@
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>0.1</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

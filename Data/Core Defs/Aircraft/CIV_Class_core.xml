@@ -93,7 +93,8 @@
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <BlockGroups>GSG_APS_Launchers</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>0.1</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

@@ -86,6 +86,7 @@
     <Name>FCT-NW 203mm Twin</Name>
     <BlockGroups>GLG_NW_203mm_Twin</BlockGroups>
     <MaxCount>0</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -96,6 +97,7 @@
     <Name>FCT-NW 203mm Deck</Name>
     <BlockGroups>GLG_NW_203mm_Deck</BlockGroups>
     <MaxCount>0</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -106,6 +108,7 @@
     <Name>FCT-NW 100mm</Name>
     <BlockGroups>GLG_NW_100mm</BlockGroups>
     <MaxCount>2</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -116,6 +119,7 @@
     <Name>FCT-NW 30mm CIWS</Name>
     <BlockGroups>GLG_NW_30mm_CIWS</BlockGroups>
     <MaxCount>4</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -126,6 +130,7 @@
     <Name>FCT-NW 30mm Auto</Name>
     <BlockGroups>GLG_NW_30mm_Auto</BlockGroups>
     <MaxCount>6</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -136,6 +141,7 @@
     <Name>FCT-NW AMS</Name>
     <BlockGroups>GLG_NW_AMS</BlockGroups>
     <MaxCount>2</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -146,6 +152,7 @@
     <Name>FCT-LXN Groza</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_G</BlockGroups>
     <MaxCount>4</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -156,6 +163,7 @@
     <Name>FCT-LXN Palash</Name>
     <BlockGroups>GLG_LXN_30mm_CIWS_P</BlockGroups>
     <MaxCount>2</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -166,6 +174,7 @@
     <Name>FCT-LXN Strela</Name>
     <BlockGroups>GLG_LXN_Strela</BlockGroups>
     <MaxCount>2</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -176,6 +185,7 @@
     <Name>FCT-TT OTO76</Name>
     <BlockGroups>GLG_TT_OTO76</BlockGroups>
     <MaxCount>4</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -186,6 +196,7 @@
     <Name>FCT-TT MK45</Name>
     <BlockGroups>GLG_TT_MK45</BlockGroups>
     <MaxCount>4</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -196,6 +207,7 @@
     <Name>FCT-LXN S-400</Name>
     <BlockGroups>GLG_LXN_S400</BlockGroups>
     <MaxCount>2</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -206,6 +218,7 @@
     <Name>FCT-LXN 3S14</Name>
     <BlockGroups>GLG_LXN_3S14</BlockGroups>
     <MaxCount>3</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -252,7 +265,8 @@
     <BlockGroups>GLG_TT_MK141</BlockGroups>
     <BlockGroups>GLG_TT_MK112</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <MaxCount>0.1</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -263,6 +277,7 @@
     <Name>FCT-TT Millenium</Name>
     <BlockGroups>GLG_TT_Millenium</BlockGroups>
     <MaxCount>3.9</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
@@ -274,6 +289,7 @@
     <BlockGroups>GLG_TT_MK13</BlockGroups>
     <BlockGroups>GLG_TT_MK26</BlockGroups>
     <MaxCount>0</MaxCount>
+	<LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
