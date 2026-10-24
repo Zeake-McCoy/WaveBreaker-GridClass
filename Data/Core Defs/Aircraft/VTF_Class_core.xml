@@ -1002,6 +1002,7 @@
     <BlockGroups>GSG_LXN_9M723</BlockGroups>
     <BlockGroups>GSG_LXN_INT_ECM</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

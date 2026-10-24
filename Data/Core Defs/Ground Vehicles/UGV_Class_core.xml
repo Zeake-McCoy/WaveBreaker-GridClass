@@ -98,4 +98,14 @@
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
+  <BlockLimits>
+    <Name>UGV APS Launchers</Name>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
+    <MaxCount>3</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>

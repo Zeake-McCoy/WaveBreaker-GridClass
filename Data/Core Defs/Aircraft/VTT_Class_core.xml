@@ -98,6 +98,7 @@
     <BlockGroups>Bomber_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

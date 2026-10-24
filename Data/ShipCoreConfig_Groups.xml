@@ -6059,6 +6059,11 @@
       <SubtypeId>SmallBlockDrillType2</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>Decoy</TypeId>
+      <SubtypeId>SmallDecoy</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>Ground_Weapon_PTS</Name>
@@ -7020,6 +7025,34 @@
     <BlockTypes>
       <TypeId>Thrust</TypeId>
       <SubtypeId>BoatPropellor3x3HugeDualEven</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSG_APS_Launchers</Name>
+    <BlockTypes>
+      <TypeId>SmallMissileLauncher</TypeId>
+      <SubtypeId>KGS_IronFistAPS</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>KGS_ArenaAPS_1</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>KGS_ArenaAPS_2</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>KGS_ArenaAPS_2_Mirror</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>KGS_ArenaAPS_3</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>

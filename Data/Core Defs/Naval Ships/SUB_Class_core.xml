@@ -271,6 +271,7 @@
     <BlockGroups>GLG_TT_MK26</BlockGroups>
     <BlockGroups>GLG_TT_MK13</BlockGroups>
     <BlockGroups>GLG_TT_MK141</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

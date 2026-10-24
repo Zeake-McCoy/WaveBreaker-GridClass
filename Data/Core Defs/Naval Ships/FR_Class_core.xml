@@ -88,6 +88,7 @@
     <BlockGroups>GSG_MultiTools</BlockGroups>
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

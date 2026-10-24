@@ -277,8 +277,9 @@
     <BlockGroups>GLG_TT_MK112</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
-    <CrossConnectorPunishment>true</CrossConnectorPunishment>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>

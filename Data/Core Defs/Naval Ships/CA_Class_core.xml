@@ -323,6 +323,7 @@
     <BlockGroups>CLG_TT_MK15_S</BlockGroups>
     <BlockGroups>GLG_LXN_Zircon</BlockGroups>
     <BlockGroups>GSG_Radars</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

@@ -78,6 +78,7 @@
     <BlockGroups>GSG_MultiTools</BlockGroups>
     <BlockGroups>GLG_MultiTools</BlockGroups>
     <BlockGroups>GSG_Forbidden</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

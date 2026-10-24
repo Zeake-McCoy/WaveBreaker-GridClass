@@ -92,6 +92,7 @@
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>

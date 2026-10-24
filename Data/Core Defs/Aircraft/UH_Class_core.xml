@@ -375,6 +375,7 @@
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <BlockGroups>GSG_LNX_KH_31AD</BlockGroups>
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
+    <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>0</MaxCount>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
