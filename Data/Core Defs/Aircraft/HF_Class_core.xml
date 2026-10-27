@@ -630,7 +630,6 @@
     <BlockGroups>GSG_LNX_S400_4</BlockGroups>
     <BlockGroups>GSG_LNX_S_400</BlockGroups>
     <BlockGroups>GSG_LNX_GBU_43</BlockGroups>
-    <BlockGroups>GSG_LNX_S1_M</BlockGroups>
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
     <BlockGroups>GSG_APS_Launchers</BlockGroups>
