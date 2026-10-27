@@ -11,6 +11,7 @@
   <MaxPCU>-1</MaxPCU>
   <MaxBackupCores>1</MaxBackupCores>
   <MaxPerPlayer>-1</MaxPerPlayer>
+  <MinPerFaction>0</MinPerFaction>
   <MaxPerFaction>16</MaxPerFaction>
   <FactionPlayersNeededPerCore>0</FactionPlayersNeededPerCore>
   <MinPlayers>-1</MinPlayers>
@@ -89,7 +90,7 @@
     <BlockGroups>FRT_Weapon_PTS</BlockGroups>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>0.1</MaxCount>
-	<LimitVisibility>NearLimit</LimitVisibility>
+    <LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
