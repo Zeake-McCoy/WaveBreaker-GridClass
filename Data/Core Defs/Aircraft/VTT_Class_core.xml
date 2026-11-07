@@ -89,7 +89,6 @@
     <IsCriticalLimit>false</IsCriticalLimit>
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
-    <AllowedDirections>Down</AllowedDirections>
   </BlockLimits>
   <BlockLimits>
     <Name>VTT Forbidden</Name>
