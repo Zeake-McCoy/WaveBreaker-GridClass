@@ -594,7 +594,8 @@
     <BlockGroups>GSG_CAP_30mm_RT</BlockGroups>
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <BlockGroups>GSG_APS_Launchers</BlockGroups>
-    <MaxCount>0</MaxCount>
+    <BlockGroups>GSG_CAP_AGM_65_T</BlockGroups>
+    <MaxCount>0.1</MaxCount>
     <LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
@@ -606,6 +607,28 @@
     <Name>AH Countermeasures</Name>
     <BlockGroups>GSG_Countermeasures</BlockGroups>
     <MaxCount>20</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>AH-CAP Zuni</Name>
+    <BlockGroups>GSG_CAP_Zuni</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <LimitVisibility>NearLimit</LimitVisibility>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>AH-CAP AGM-65 SD</Name>
+    <BlockGroups>GSG_CAP_AGM_65_SD</BlockGroups>
+    <MaxCount>2</MaxCount>
+    <LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>

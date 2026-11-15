@@ -3435,12 +3435,12 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19Pylon</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>RocketPod19</SubtypeId>
-      <CountWeight>2</CountWeight>
+      <CountWeight>1</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -3930,7 +3930,7 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>LXN_b8m1_pod</SubtypeId>
-      <CountWeight>3</CountWeight>
+      <CountWeight>2</CountWeight>
     </BlockTypes>
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
@@ -3940,6 +3940,26 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>Retractable_ATGM</SubtypeId>
+      <CountWeight>5</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_Zuni_Launcher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_SingleMount</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_DualMount</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_Mount</SubtypeId>
       <CountWeight>5</CountWeight>
     </BlockTypes>
   </BlockGroup>
@@ -5961,6 +5981,26 @@
       <SubtypeId>LXN_9M723_Launcher_1</SubtypeId>
       <CountWeight>11</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_Zuni_Launcher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_SingleMount</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_DualMount</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_Mount</SubtypeId>
+      <CountWeight>5</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>GSG_Forbidden</Name>
@@ -6767,6 +6807,26 @@
       <SubtypeId>LXN_9M723_Launcher_1</SubtypeId>
       <CountWeight>11</CountWeight>
     </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_Zuni_Launcher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_SingleMount</SubtypeId>
+      <CountWeight>2</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_DualMount</SubtypeId>
+      <CountWeight>3</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_Mount</SubtypeId>
+      <CountWeight>5</CountWeight>
+    </BlockTypes>
   </BlockGroup>
   <BlockGroup>
     <Name>GSG_LXN_B8M1</Name>
@@ -7053,6 +7113,35 @@
     <BlockTypes>
       <TypeId>ConveyorSorter</TypeId>
       <SubtypeId>KGS_ArenaAPS_3</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSG_CAP_Zuni</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_Zuni_Launcher</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSG_CAP_AGM_65_SD</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_SingleMount</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_DualMount</SubtypeId>
+      <CountWeight>1</CountWeight>
+    </BlockTypes>
+  </BlockGroup>
+  <BlockGroup>
+    <Name>GSG_CAP_AGM_65_T</Name>
+    <BlockTypes>
+      <TypeId>ConveyorSorter</TypeId>
+      <SubtypeId>CAP_AGM65_Mount</SubtypeId>
       <CountWeight>1</CountWeight>
     </BlockTypes>
   </BlockGroup>

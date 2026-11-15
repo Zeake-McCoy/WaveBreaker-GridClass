@@ -662,4 +662,37 @@
     <IgnoredByNpc>false</IgnoredByNpc>
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP Zuni</Name>
+    <BlockGroups>GSG_CAP_Zuni</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <LimitVisibility>NearLimit</LimitVisibility>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP AGM-65 SD</Name>
+    <BlockGroups>GSG_CAP_AGM_65_SD</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <LimitVisibility>NearLimit</LimitVisibility>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>HF-CAP AGM-65 T</Name>
+    <BlockGroups>GSG_CAP_AGM_65_T</BlockGroups>
+    <MaxCount>0</MaxCount>
+    <LimitVisibility>NearLimit</LimitVisibility>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
 </ShipCore>

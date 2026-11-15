@@ -480,28 +480,6 @@
     <PunishmentType>ShutOff</PunishmentType>
   </BlockLimits>
   <BlockLimits>
-    <Name>LAV-LNX AGM-114</Name>
-    <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
-    <MaxCount>6</MaxCount>
-    <LimitVisibility>NearLimit</LimitVisibility>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <IgnoredByNpc>false</IgnoredByNpc>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
-    <Name>LAV-LNX AGM-114 C</Name>
-    <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
-    <MaxCount>2</MaxCount>
-    <LimitVisibility>NearLimit</LimitVisibility>
-    <CrossConnectorPunishment>false</CrossConnectorPunishment>
-    <PunishByNoFlyZone>false</PunishByNoFlyZone>
-    <IsCriticalLimit>false</IsCriticalLimit>
-    <IgnoredByNpc>false</IgnoredByNpc>
-    <PunishmentType>ShutOff</PunishmentType>
-  </BlockLimits>
-  <BlockLimits>
     <Name>LAV-LNX B8M1</Name>
     <BlockGroups>GSG_LXN_B8M1</BlockGroups>
     <MaxCount>4</MaxCount>
@@ -585,6 +563,10 @@
     <BlockGroups>GSG_CAP_250lb</BlockGroups>
     <BlockGroups>GSG_VTOL_Thrust</BlockGroups>
     <BlockGroups>GSG_Helo_Thrust</BlockGroups>
+    <BlockGroups>GSG_CAP_AGM_65_SD</BlockGroups>
+    <BlockGroups>GSG_CAP_AGM_65_T</BlockGroups>
+    <BlockGroups>GSG_LNX_AGM_114_C</BlockGroups>
+    <BlockGroups>GSG_LNX_AGM_114</BlockGroups>
     <MaxCount>0.1</MaxCount>
     <LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>true</CrossConnectorPunishment>
@@ -597,6 +579,17 @@
     <Name>LAV APS</Name>
     <BlockGroups>GSG_APS_Launchers</BlockGroups>
     <MaxCount>6</MaxCount>
+    <CrossConnectorPunishment>false</CrossConnectorPunishment>
+    <PunishByNoFlyZone>false</PunishByNoFlyZone>
+    <IsCriticalLimit>false</IsCriticalLimit>
+    <IgnoredByNpc>false</IgnoredByNpc>
+    <PunishmentType>ShutOff</PunishmentType>
+  </BlockLimits>
+  <BlockLimits>
+    <Name>LAV-CAP Zuni</Name>
+    <BlockGroups>GSG_CAP_Zuni</BlockGroups>
+    <MaxCount>4</MaxCount>
+    <LimitVisibility>NearLimit</LimitVisibility>
     <CrossConnectorPunishment>false</CrossConnectorPunishment>
     <PunishByNoFlyZone>false</PunishByNoFlyZone>
     <IsCriticalLimit>false</IsCriticalLimit>
